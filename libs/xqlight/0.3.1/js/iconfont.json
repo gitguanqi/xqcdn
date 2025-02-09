@@ -1,0 +1,65 @@
+{
+  "id": "3684399",
+  "name": "plugin",
+  "font_family": "plugin",
+  "css_prefix_text": "plugin-",
+  "description": "NPM插件",
+  "glyphs": [
+    {
+      "icon_id": "6151299",
+      "name": "search-minus",
+      "font_class": "search-minus",
+      "unicode": "e82c",
+      "unicode_decimal": 59436
+    },
+    {
+      "icon_id": "6151300",
+      "name": "search-plus",
+      "font_class": "search-plus",
+      "unicode": "e82d",
+      "unicode_decimal": 59437
+    },
+    {
+      "icon_id": "1058093",
+      "name": "error",
+      "font_class": "times",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "4767016",
+      "name": "fullscreen-exit",
+      "font_class": "fullscreen-exit",
+      "unicode": "e7ec",
+      "unicode_decimal": 59372
+    },
+    {
+      "icon_id": "15838464",
+      "name": "download",
+      "font_class": "download",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "15838561",
+      "name": "arrow-left-bold",
+      "font_class": "arrow-left",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "15838566",
+      "name": "arrow-right-bold",
+      "font_class": "arrow-right",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "19273778",
+      "name": "full_screen_full",
+      "font_class": "fullscreen",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    }
+  ]
+}

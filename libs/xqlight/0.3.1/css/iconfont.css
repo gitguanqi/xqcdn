@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "plugin"; /* Project id 3684399 */
+  src: url('../fonts/iconfont.eot?t=1664700514597'); /* IE9 */
+  src: url('../fonts/iconfont.eot?t=1664700514597#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/iconfont.woff2?t=1664700514597') format('woff2'),
+       url('../fonts/iconfont.woff?t=1664700514597') format('woff'),
+       url('../fonts/iconfont.ttf?t=1664700514597') format('truetype'),
+       url('../fonts/iconfont.svg?t=1664700514597#plugin') format('svg');
+}
+
+.plugin {
+  font-family: "plugin" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.plugin-search-minus:before {
+  content: "\e82c";
+}
+
+.plugin-search-plus:before {
+  content: "\e82d";
+}
+
+.plugin-times:before {
+  content: "\e65c";
+}
+
+.plugin-fullscreen-exit:before {
+  content: "\e7ec";
+}
+
+.plugin-download:before {
+  content: "\e66c";
+}
+
+.plugin-arrow-left:before {
+  content: "\e685";
+}
+
+.plugin-arrow-right:before {
+  content: "\e687";
+}
+
+.plugin-fullscreen:before {
+  content: "\e641";
+}
+

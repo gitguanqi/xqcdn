@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+.xqshare-box ul,
+.xqshare-box li {
+    margin: 0;
+    padding: 0;
+}
+
+.xqshare-box input {
+    border: none;
+}
+
+.xqshare-box .xqshare-inner {
+    height: auto
+}
+
+.xqshare-box .xqshare-inner ul {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 50px;
+}
+
+.xqshare-box .xqshare-inner ul li {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.xqshare-box .xqshare-inner ul li img {
+    margin: auto;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.xqshare-box .xqshare-inner ul li span {
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* pop mode */
+.pop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, .5);
+    overflow: hidden;
+    z-index: 999;
+}
+
+.pop.active {
+    display: flex;
+}
+
+.pop .xqshare-inner {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    width: 90%;
+    min-width: 300px;
+    max-width: 360px;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.pop .xqshare-inner .xqshare-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    height: 20px;
+    color: #333;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.pop .xqshare-inner .xqshare-title strong {
+    font-size: 16px;
+    cursor: pointer
+}
+
+.pop .xqshare-inner .xqshare-tip {
+    display: none;
+}
+
+.pop .xqshare-inner .xqshare-urls {
+    display: block;
+    margin-top: 20px;
+}
+
+.pop .xqshare-inner .xqshare-urls p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 15px;
+    width: 90%;
+    font-size: 14px;
+    line-height: 2;
+    text-align: center;
+}
+
+.pop .xqshare-inner .xqshare-urls p span {
+    display: inline-block;
+    width: 60px
+}
+
+.pop .xqshare-inner .xqshare-urls p input {
+    flex: 1;
+    background-color: #eee;
+}
+
+.pop .xqshare-inner .xqshare-urls p small {
+    display: inline-block;
+    padding: 0 5px;
+    width: 30px;
+    color: #fff;
+    background: #e03e3e;
+    font-size: 12px;
+    line-height: 2.5;
+    cursor: pointer;
+}
+
+
+/* default mode */
+.default {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.default .xqshare-inner {
+    display: flex;
+    align-items: center;
+}
+.default .xqshare-inner .xqshare-tip,
+.slide .xqshare-inner .xqshare-tip {
+    display: inline-block;
+    width: 50px;
+    font-size: 14px;
+}
+.default .xqshare-inner .xqshare-title,
+.slide .xqshare-inner .xqshare-title {
+    display: none;
+}
+
+.default .xqshare-inner ul {
+    align-items: center;
+    flex: 1;
+    margin-bottom: 0;
+    max-width: 350px;
+    height: 25px;
+}
+.default .xqshare-inner ul li {
+    flex: none;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5px;
+    height: auto;
+}
+.default .xqshare-inner ul li span {
+    margin-left: 5px;
+    margin-top: 0;
+}
+.default .xqshare-inner .xqshare-urls,
+.slide .xqshare-inner .xqshare-urls {
+    display: none;
+}
+
+/* slide model */
+.slide {
+    position: fixed;
+    top: 50%;
+    right: -92px;
+    margin-top: -162px;
+    height: 300px;
+    transition: all .5s;
+}
+
+.slide.active {
+    right: 0;
+}
+
+.slide .xqshare-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.slide .xqshare-inner .xqshare-tip {
+    box-sizing: border-box;
+    padding: 20px 15px;
+    width: 40px;
+    height: 100px;
+    text-align: center;
+    background-color: #d32d2d;
+    color: #fff;
+    border-radius: 10px 0 0 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.slide .xqshare-inner .xqshare-ls {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 10px 30px;
+    width: auto;
+    height: 100%;
+    background: #fff;
+    border: 2px solid #d32d2d;
+    border-radius: 10px 0 0 10px;
+}
+
+.slide .xqshare-inner ul li img {
+    margin: 0;
+}
+
+.slide .xqshare-inner ul li span {
+    margin-top: 0;
+}

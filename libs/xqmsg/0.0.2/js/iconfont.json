@@ -1,0 +1,37 @@
+{
+  "id": "3684586",
+  "name": "xqmsg",
+  "font_family": "xqmsg",
+  "css_prefix_text": "xqmsg-",
+  "description": "消息提示",
+  "glyphs": [
+    {
+      "icon_id": "929883",
+      "name": "times-circle",
+      "font_class": "times-circle",
+      "unicode": "e856",
+      "unicode_decimal": 59478
+    },
+    {
+      "icon_id": "1898716",
+      "name": "exclamation-circle",
+      "font_class": "exclamation-circle",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "7851919",
+      "name": "check-circle",
+      "font_class": "check-circle",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "22756842",
+      "name": "info-circle",
+      "font_class": "info-circle",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    }
+  ]
+}

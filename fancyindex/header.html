@@ -1,0 +1,44 @@
+<!--# block name="default_index" -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Public file directory.">
+  <meta name="author" content="Maxim Llorephie <me@llorephie.org">
+  <link rel="icon" href="/favicon.ico">
+  <title>XQCDN - 简易静态资源库</title>
+  <link rel="stylesheet" href="/fancyindex/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/fancyindex/css/main.css">
+  <script src="/libs/xqgjs/1.1.1/mourn/mourn.min.js" id="xqmourn"></script>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="/">XQCDN</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="/">主页</a></li>
+          <li class="nav-item"><a class="nav-link" href="mailto:contact@guanqi.xyz">联系我们</a></li>
+          <li class="nav-item"><a class="nav-link" href="http://github.com/gitguanqi/xqcdn/" target="_blank">Github</a></li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <div class="form-group">
+            <input id="search" type="text" class="form-control mr-sm-2" placeholder="搜索静态库...">
+          </div>
+        </form>
+      </div>
+    </nav>
+    <nav aria-label="breadcrumb" class="mt-5">
+      <ol id="breadcrumbs" class="breadcrumb">
+      </ol>
+    </nav>
+    <!--# endblock -->
+    <!--# include virtual="$request_uri/.directory_index.html" stub="default_index" -->
+    <h1 id="nginx-fancyindex-directory" class="d-none">
