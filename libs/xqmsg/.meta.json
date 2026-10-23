@@ -1,0 +1,212 @@
+{
+  "library": "xqmsg",
+  "source": "npm",
+  "versions": {
+    "0.0.1": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqmsg/-/xqmsg-0.0.1.tgz",
+      "integrity": "sha512-c/MqjuYpKa3ALEe8IAP7+K/frvGS2BoFl5C2rkKVALN4+Qw2d0rihOfmo4zx5Et5Po8xjWAfAulTJD01Huls4w==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:43.530Z",
+      "files": {
+        "css/xqmsg.css": {
+          "sha256": "b0157229ba095b96e61f43fc0b068620f6482401cf49e6b71999c8a0c577b573",
+          "size": 4636
+        },
+        "css/xqmsg.min.css": {
+          "sha256": "822e901d504a0028399d7f33bc1cc3b19814ad0f6c14aea1e99a64234ed32e9c",
+          "size": 2854
+        },
+        "fonts/iconfont.eot": {
+          "sha256": "1789daba4c17ae75bac8cde42c4c3fbd7df853ae1100c885f34e3e7121aa3e79",
+          "size": 2468
+        },
+        "fonts/iconfont.svg": {
+          "sha256": "89d9f8b8d5efc04560476019d9b7de20c536f331d6c60d77c8282985f0f0a3c3",
+          "size": 4082
+        },
+        "fonts/iconfont.ttf": {
+          "sha256": "dc7a27f5a19511ab8f664c41a4d38c558a5057ccfe02e9f743e660ee2233e160",
+          "size": 2312
+        },
+        "fonts/iconfont.woff": {
+          "sha256": "d7ac650d0db32082e5d5607c43431e6384b6740ec38164e460314d833cb2b3f5",
+          "size": 1464
+        },
+        "fonts/iconfont.woff2": {
+          "sha256": "835e5655eefd1a2c017a606479cce71637d51e4aae15b514672e275709b40c46",
+          "size": 1076
+        },
+        "js/iconfont.js": {
+          "sha256": "81afa3bbcfdeeb08f57608c455d842b5dda6ad8c9088d1ee2648aa5a23a94d6a",
+          "size": 4888
+        },
+        "js/iconfont.json": {
+          "sha256": "862dbe56f344fd078bdff20a612fc293b8fa60bcc4635c07f176a345970d389e",
+          "size": 848
+        },
+        "js/xqmsg-esm.js": {
+          "sha256": "341cbdf3bbe0cfeed84166782881889ff334f854f78a9d86b91bf0cc8aecbe6c",
+          "size": 3441
+        },
+        "js/xqmsg-esm.min.js": {
+          "sha256": "bcf9f96405bc7a02bad0ea3bd07ed1a66822a1c2fc4f808eb2b048972ce15820",
+          "size": 2220
+        },
+        "js/xqmsg.js": {
+          "sha256": "aa687129d06fd6cebf991402361c762d26d4246c486294b0e07e734256f62af7",
+          "size": 4383
+        },
+        "js/xqmsg.min.js": {
+          "sha256": "36917fa26a1ca4e38f3867758b354e08a9e6c6eb82fe8ce3aeaa8b7f77db12eb",
+          "size": 2444
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    },
+    "0.0.2": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqmsg/-/xqmsg-0.0.2.tgz",
+      "integrity": "sha512-aHqXJ9YgdNJWyQHmtcf/r//uPT4K87W9uJaC8tTaYp/etihaaYxy8Bsl6Dnau8SvlDXsvTqK7fM/px99J8N5QA==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:43.869Z",
+      "files": {
+        "css/xqmsg.css": {
+          "sha256": "b0157229ba095b96e61f43fc0b068620f6482401cf49e6b71999c8a0c577b573",
+          "size": 4636
+        },
+        "css/xqmsg.min.css": {
+          "sha256": "822e901d504a0028399d7f33bc1cc3b19814ad0f6c14aea1e99a64234ed32e9c",
+          "size": 2854
+        },
+        "fonts/iconfont.eot": {
+          "sha256": "1789daba4c17ae75bac8cde42c4c3fbd7df853ae1100c885f34e3e7121aa3e79",
+          "size": 2468
+        },
+        "fonts/iconfont.svg": {
+          "sha256": "89d9f8b8d5efc04560476019d9b7de20c536f331d6c60d77c8282985f0f0a3c3",
+          "size": 4082
+        },
+        "fonts/iconfont.ttf": {
+          "sha256": "dc7a27f5a19511ab8f664c41a4d38c558a5057ccfe02e9f743e660ee2233e160",
+          "size": 2312
+        },
+        "fonts/iconfont.woff": {
+          "sha256": "d7ac650d0db32082e5d5607c43431e6384b6740ec38164e460314d833cb2b3f5",
+          "size": 1464
+        },
+        "fonts/iconfont.woff2": {
+          "sha256": "835e5655eefd1a2c017a606479cce71637d51e4aae15b514672e275709b40c46",
+          "size": 1076
+        },
+        "js/iconfont.js": {
+          "sha256": "81afa3bbcfdeeb08f57608c455d842b5dda6ad8c9088d1ee2648aa5a23a94d6a",
+          "size": 4888
+        },
+        "js/iconfont.json": {
+          "sha256": "862dbe56f344fd078bdff20a612fc293b8fa60bcc4635c07f176a345970d389e",
+          "size": 848
+        },
+        "js/xqmsg-esm.js": {
+          "sha256": "341cbdf3bbe0cfeed84166782881889ff334f854f78a9d86b91bf0cc8aecbe6c",
+          "size": 3441
+        },
+        "js/xqmsg-esm.min.js": {
+          "sha256": "bcf9f96405bc7a02bad0ea3bd07ed1a66822a1c2fc4f808eb2b048972ce15820",
+          "size": 2220
+        },
+        "js/xqmsg.js": {
+          "sha256": "aa687129d06fd6cebf991402361c762d26d4246c486294b0e07e734256f62af7",
+          "size": 4383
+        },
+        "js/xqmsg.min.js": {
+          "sha256": "36917fa26a1ca4e38f3867758b354e08a9e6c6eb82fe8ce3aeaa8b7f77db12eb",
+          "size": 2444
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    },
+    "0.2.0": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqmsg/-/xqmsg-0.2.0.tgz",
+      "integrity": "sha512-Y/jneI1n9vne9l9pDP9gE+wJ7vrhmaGTfmuqqOAdFHXAqUo/pWs88rjcNMpbkKDCNl9WAbrq2FQ3s2ACWwgjLw==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T08:41:56.636Z",
+      "files": {
+        "css/xqmsg.css": {
+          "sha256": "efb15c05f7ebb33c5d8704adc82ec1e996fc16a7b3ab75edcdc210e9ab165bb5",
+          "size": 5384
+        },
+        "css/xqmsg.min.css": {
+          "sha256": "1de353095a66f127103be2264c6c542a02293bf3eaf80c8f121df75c2f0caad2",
+          "size": 3044
+        },
+        "fonts/iconfont.eot": {
+          "sha256": "1789daba4c17ae75bac8cde42c4c3fbd7df853ae1100c885f34e3e7121aa3e79",
+          "size": 2467
+        },
+        "fonts/iconfont.svg": {
+          "sha256": "89d9f8b8d5efc04560476019d9b7de20c536f331d6c60d77c8282985f0f0a3c3",
+          "size": 4055
+        },
+        "fonts/iconfont.ttf": {
+          "sha256": "dc7a27f5a19511ab8f664c41a4d38c558a5057ccfe02e9f743e660ee2233e160",
+          "size": 2311
+        },
+        "fonts/iconfont.woff": {
+          "sha256": "d7ac650d0db32082e5d5607c43431e6384b6740ec38164e460314d833cb2b3f5",
+          "size": 1464
+        },
+        "fonts/iconfont.woff2": {
+          "sha256": "835e5655eefd1a2c017a606479cce71637d51e4aae15b514672e275709b40c46",
+          "size": 1076
+        },
+        "js/xqmsg-esm.js": {
+          "sha256": "5d71b89a63c06d4bb81ad3f8c05a4e015cd3f92dc04cc673a74644936e42bc72",
+          "size": 7755
+        },
+        "js/xqmsg-esm.min.js": {
+          "sha256": "d437ebb43beeb1277125e77b284780d925e7c7196042f713fa9c964aba91ca62",
+          "size": 2637
+        },
+        "js/xqmsg.js": {
+          "sha256": "ffdd7b77905cdc524e1b35c139df555c6eca69bd1ff3815a189819f85fadd087",
+          "size": 5476
+        },
+        "js/xqmsg.min.js": {
+          "sha256": "118839a9bc04be3b0cd092f38909fecba929263b8ca72d64eb7370efd40aca93",
+          "size": 2885
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    }
+  },
+  "legacyRootPaths": [
+    "css/xqmsg.css",
+    "css/xqmsg.min.css",
+    "fonts/iconfont.eot",
+    "fonts/iconfont.svg",
+    "fonts/iconfont.ttf",
+    "fonts/iconfont.woff",
+    "fonts/iconfont.woff2",
+    "js/iconfont.js",
+    "js/iconfont.json",
+    "js/xqmsg-esm.js",
+    "js/xqmsg-esm.min.js",
+    "js/xqmsg.js",
+    "js/xqmsg.min.js"
+  ],
+  "pkg": "xqmsg"
+}

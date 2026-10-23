@@ -1,0 +1,20 @@
+{
+  "name": "xqcdn",
+  "version": "1.0.0",
+  "private": true,
+  "description": "XQCDN —— 版本化前端静态资源库，nginx fancyindex 主题 + npm 自动同步",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "sync": "node scripts/sync.mjs --apply",
+    "sync:check": "node scripts/sync.mjs --check",
+    "sync:audit": "node scripts/sync.mjs --audit",
+    "index": "node scripts/index.mjs",
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build.mjs",
+    "build:pages": "node scripts/build.mjs --base /xqcdn/",
+    "check": "node scripts/sync.mjs --check && node scripts/index.mjs && node scripts/validate.mjs"
+  }
+}

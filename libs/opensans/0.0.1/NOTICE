@@ -1,0 +1,19 @@
+Open Sans, Version 1.10
+
+Digitized data copyright (c) 2010-2011, Google Corporation.
+Open Sans is a trademark of Google and may be registered in certain jurisdictions.
+Designed by Steve Matteson (Ascender Corp., http://www.ascendercorp.com/).
+
+Licensed under the Apache License, Version 2.0. The full license text is in the
+LICENSE file next to this NOTICE; a copy is also available at
+http://www.apache.org/licenses/LICENSE-2.0
+
+The font binaries under fonts/ are redistributed as provided by Google/Ascender.
+Their embedded name table states:
+  Version 1.10
+  Licensed under the Apache License, Version 2.0
+
+The @font-face wrappers css/opensans.css and css/opensans.min.css are rewritten
+by this repository (font-family names opensans*, opensansBold, plus an SVG font
+source) and are not part of the upstream distribution. They are covered by this
+repository's own MIT license, not by Apache-2.0.

@@ -1,0 +1,37 @@
+{
+  "library": "redux",
+  "source": "npm",
+  "versions": {
+    "4.1.2": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/redux/-/redux-4.1.2.tgz",
+      "integrity": "sha512-SH8PglcebESbd/shgf6mii6EIoRM0zrQyjcuQ+ojmfxjTtE0z9Y8pa62iA/OJ58qjP6j27uyW4kUF4jl/jd6sw==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:34.480Z",
+      "files": {
+        "redux.js": {
+          "sha256": "221faeb00296adbe826858fb394d38cf51997f3089905266cf2e9aca15898522",
+          "size": 27305
+        },
+        "redux.min.js": {
+          "sha256": "d27a5cb004b1b4cc675acf6e479b4e7ea4cf8c18285990e7175cf8eb4dfdb85b",
+          "size": 4301
+        },
+        "LICENSE": {
+          "sha256": "f2da73c752c6b87624755edacf927cbd915fa76555d383e74494bad4a5155ab3",
+          "size": 1086
+        }
+      }
+    }
+  },
+  "pkg": "redux",
+  "legacyRootFiles": [
+    "redux.js",
+    "redux.min.js"
+  ],
+  "legacyRootPaths": [
+    "redux.js",
+    "redux.min.js"
+  ]
+}

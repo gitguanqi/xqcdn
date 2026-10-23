@@ -1,0 +1,121 @@
+# =====================================================================
+# xqcdn -- 参考 nginx 配置
+#
+# 覆盖两种部署形态，并按需切换：
+#   A. 目录列表挂在站点根        https://example.com/libs/...
+#   B. 目录列表挂在二级目录      https://example.com/cqcdn/libs/...
+#   两者可以同时开启（同一份文件、同一个 document root）。
+#
+# 需要模块：ngx_http_fancyindex_module（Ubuntu: nginx-extras / Arch: nginx-mainline-mod-fancyindex）
+# 需要开启：ssi on（主题的每目录模板机制依赖它）
+# =====================================================================
+
+# 仓库根目录，按实际路径修改
+# root /data/www;
+
+# ---------------------------------------------------------------------
+# 1) 主题资源：始终走站点根，与目录列表挂在哪一级无关
+# ---------------------------------------------------------------------
+# 主题里写的是 /fancyindex/css/main.css 这样的站点绝对路径。
+# 只要下面这个 location 存在，挂在 "/" 或 "/cqcdn/" 都能正确加载。
+# 若把主题放在别的目录名，记得同步改 header.html / footer.html 里的路径。
+
+# ---------------------------------------------------------------------
+# 2) 缓存策略：版本化路径可以永久缓存，浮动路径必须短缓存
+# ---------------------------------------------------------------------
+# 版本化：/libs/jquery/3.6.0/jquery.min.js   -> immutable
+# 浮动：  /libs/jquery/latest.json、/libs/index.json -> 5 分钟
+
+server {
+    listen      80;
+    server_name example.com;
+
+    root        /data/www;
+    index       index.html;
+    charset     utf-8;
+
+    error_page  404 /404.html;
+    location = /404.html {
+        internal;
+    }
+
+    # ---- 主题资源（A、B 两种挂载都依赖它）----
+    location /fancyindex/ {
+        alias /data/www/fancyindex/;
+        expires 7d;
+        add_header Cache-Control "public, max-age=604800";
+    }
+
+    location = /favicon.ico {
+        alias /data/www/favicon.ico;
+        expires 30d;
+        access_log off;
+    }
+
+    # ---- 版本化资源：内容永不改变，放心长缓存 ----
+    location ~ ^/(?:[^/]+/)*libs/[^/]+/[^/]+/ {
+        add_header Cache-Control "public, max-age=31536000, immutable";
+        add_header Access-Control-Allow-Origin "*";
+        gzip_static on;
+        gzip on;
+        gzip_types text/css application/javascript application/json image/svg+xml;
+    }
+
+    # ---- 清单文件：会随发布变化，短缓存 ----
+    location ~ ^/(?:[^/]+/)*libs/(index\.json|[^/]+/(latest\.json|README\.md))$ {
+        add_header Cache-Control "public, max-age=300";
+        add_header Access-Control-Allow-Origin "*";
+    }
+
+    # ---- 旧的扁平 URL：/libs/{库}/{文件} -> /libs/{库}/{最新版本}/{文件} ----
+    # deploy/latest/*.conf 由 `node scripts/index.mjs` 生成，勿手改。
+    # 这些 location 是正则匹配，写在 server 级别即可覆盖 "/" 与 "/cqcdn/" 两种挂载。
+    include /etc/nginx/xqcdn/latest/*.conf;
+
+    # ---- A. 站点根挂载 ----
+    location / {
+        include /etc/nginx/xqcdn/fancyindex-app.conf;
+    }
+
+    # ---- B. 二级目录挂载（同一份文件，可选）----
+    location /cqcdn/ {
+        alias /data/www/;
+        include /etc/nginx/xqcdn/fancyindex-app.conf;
+    }
+}
+
+# ---------------------------------------------------------------------
+# 3) 只挂在二级目录、且使用独立 document root 时
+# ---------------------------------------------------------------------
+# 此时站点根没有 /fancyindex/，必须显式补一条 alias，否则页面没有样式：
+#
+# server {
+#     listen 80;
+#     server_name cdn.example.com;
+#
+#     location /cqcdn/ {
+#         alias /data/www/;
+#         include /etc/nginx/xqcdn/fancyindex-app.conf;
+#     }
+#
+#     location /fancyindex/ {
+#         alias /data/www/fancyindex/;
+#     }
+#
+#     location ~ ^/cqcdn/libs/(index\.json|[^/]+/latest\.json)$ {
+#         alias /data/www/libs/$1;
+#         add_header Cache-Control "public, max-age=300";
+#     }
+#
+#     location ~ ^/cqcdn/libs/[^/]+/[^/]+/ {
+#         alias /data/www/libs/$1;   # 注意：alias 与正则捕获的配合需按实际路径调整
+#         add_header Cache-Control "public, max-age=31536000, immutable";
+#     }
+# }
+
+# ---------------------------------------------------------------------
+# 4) 不想依赖 include 重写时的替代方案
+# ---------------------------------------------------------------------
+# 运行 `node scripts/build.mjs --materialize-latest` 可以把扁平 URL 对应的
+# 文件真实生成出来（体积会重新变大，但不再需要 deploy/latest/*.conf）。
+# GitHub Pages 没有 rewrite 能力，构建产物就是走这条路线。

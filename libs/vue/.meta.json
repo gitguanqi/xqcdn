@@ -1,0 +1,37 @@
+{
+  "library": "vue",
+  "source": "npm",
+  "versions": {
+    "2.6.14": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/vue/-/vue-2.6.14.tgz",
+      "integrity": "sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:36.066Z",
+      "files": {
+        "vue.js": {
+          "sha256": "835c2f03ec87975b150be7ae7d3b20f487fb65e572313054fa1d2d92ced93731",
+          "size": 356021
+        },
+        "vue.min.js": {
+          "sha256": "9174c425c445377df4562ad9165ea08fdf9433a808296d7de5f619791df10e17",
+          "size": 94156
+        },
+        "LICENSE": {
+          "sha256": "17fb24bc303763f3fe1911ee24e5225c7ad59f0e3a5d8123e9b730c100a306a6",
+          "size": 1091
+        }
+      }
+    }
+  },
+  "pkg": "vue",
+  "legacyRootFiles": [
+    "vue.js",
+    "vue.min.js"
+  ],
+  "legacyRootPaths": [
+    "vue.js",
+    "vue.min.js"
+  ]
+}

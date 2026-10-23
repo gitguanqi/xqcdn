@@ -1,0 +1,18 @@
+{
+  "library": "fireworks",
+  "source": "manual",
+  "versions": {
+    "0.0.1": {
+      "origin": "adopted",
+      "files": {
+        "js/fireworks.js": {
+          "sha256": "29b0ae10edaa1a23245f5d310eac98508f8de58ce5bd5ad286f2502e05224d31",
+          "size": 2085
+        }
+      }
+    }
+  },
+  "legacyRootPaths": [
+    "js/fireworks.js"
+  ]
+}

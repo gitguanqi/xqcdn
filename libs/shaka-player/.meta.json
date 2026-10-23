@@ -1,0 +1,28 @@
+{
+  "library": "shaka-player",
+  "source": "npm",
+  "versions": {
+    "3.2.0": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/shaka-player/-/shaka-player-3.2.0.tgz",
+      "integrity": "sha512-JwFYNB+jgXKIwukncYEnU3wqR/ScyxpPNkSVUgT4Qxt4uPOkEBwPuZr9cpeqBUMQi6lXpBVTztC76AooPOpZ5g==",
+      "license": "Apache-2.0",
+      "fetchedAt": "2026-10-23T07:14:35.266Z",
+      "files": {
+        "js/shaka-player.compiled.js": {
+          "sha256": "e214fbca0fe8ceaa996e922687da55f2409b25554a11a3bb1e89b948d386329e",
+          "size": 391161
+        },
+        "LICENSE": {
+          "sha256": "f1e9c0fdbee5f3a99152331418fd2ff44c08800486896667c1912ca5edf76f9e",
+          "size": 12515
+        }
+      }
+    }
+  },
+  "pkg": "shaka-player",
+  "legacyRootPaths": [
+    "js/shaka-player.compiled.js"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "library": "flv.js",
+  "source": "npm",
+  "versions": {
+    "1.5.0": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/flv.js/-/flv.js-1.5.0.tgz",
+      "integrity": "sha512-7tFwccqkFXpA7RIED0KvuNny2qVnpuGc5nTGsRpzrCT+qtwIaZyciK5UgyvgtlAMYaPFzYS0wdI92JiSBKOyXw==",
+      "license": "Apache-2.0",
+      "fetchedAt": "2026-10-23T07:14:25.366Z",
+      "files": {
+        "js/flv.min.js": {
+          "sha256": "0beb90b8f1e467daeaade056ac59ea90493783f521ec67f4cdd7b4856345682e",
+          "size": 173388
+        },
+        "LICENSE": {
+          "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+          "size": 11357
+        }
+      }
+    },
+    "1.6.1": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/flv.js/-/flv.js-1.6.1.tgz",
+      "integrity": "sha512-6/ffUPbFaYf7QsdcZC43PQmEsi9Fwlp89Oq0bz8gNlj0eSMUhyHFxESxuLNSFgIEle+ChxqoF7kL2pL7xdam2A==",
+      "license": "Apache-2.0",
+      "fetchedAt": "2026-10-23T07:14:25.782Z",
+      "files": {
+        "js/flv.js": {
+          "sha256": "062d78100d809426bc0bb77a490fad3ca9808c56387c4abce34190f98f690119",
+          "size": 448059
+        },
+        "js/flv.min.js": {
+          "sha256": "f746ee7b263e00020c8dd0c42b55814b606ce7b8175a9d7288b66b5110844919",
+          "size": 144572
+        },
+        "LICENSE": {
+          "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+          "size": 11357
+        }
+      }
+    }
+  },
+  "pkg": "flv.js",
+  "legacyRootPaths": [
+    "js/flv.js",
+    "js/flv.min.js"
+  ]
+}

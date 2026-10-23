@@ -1,0 +1,51 @@
+{
+  "library": "hls.js",
+  "source": "npm",
+  "versions": {
+    "1.0.4": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/hls.js/-/hls.js-1.0.4.tgz",
+      "integrity": "sha512-sTea9L0ORE9u5dThUjEhDP4t9YzakEYRyMHEYQctaLZf2X9ihjmUbqKneExQWHXZz2cYQs5ihaKUe8QnrQDp7Q==",
+      "license": "Apache-2.0",
+      "fetchedAt": "2026-10-23T07:14:29.771Z",
+      "files": {
+        "js/hls.min.js": {
+          "sha256": "1a4ef2df0c6706a09fb796c761ec3718d6049679926d4242aa69410eed4060b9",
+          "size": 311531
+        },
+        "LICENSE": {
+          "sha256": "ca8773cf798c7ed997d4dd7c8e23c348699f8d5b7462636694cc14de6cda12db",
+          "size": 1338
+        }
+      }
+    },
+    "1.0.8": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/hls.js/-/hls.js-1.0.8.tgz",
+      "integrity": "sha512-TGi8Gq6kK/bJWC6VFUphp8Hfiz0zLTnu0jv3/FABpa4QbJrNQ9HdP5LWnqPUYyWiGIBLOfeRlNuuys3nVzeU3g==",
+      "license": "Apache-2.0",
+      "fetchedAt": "2026-10-23T07:14:30.263Z",
+      "files": {
+        "js/hls.js": {
+          "sha256": "d5f364ec178cbdce10b8062deb56ea88a9c1567edd068f3d9fdf2012f9488e42",
+          "size": 996287
+        },
+        "js/hls.min.js": {
+          "sha256": "cf6d5005359c314e49e21dfc41c153035d27a66fdbb582bc86d4a6878e45a336",
+          "size": 313836
+        },
+        "LICENSE": {
+          "sha256": "ca8773cf798c7ed997d4dd7c8e23c348699f8d5b7462636694cc14de6cda12db",
+          "size": 1338
+        }
+      }
+    }
+  },
+  "pkg": "hls.js",
+  "legacyRootPaths": [
+    "js/hls.js",
+    "js/hls.min.js"
+  ]
+}

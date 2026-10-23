@@ -1,0 +1,112 @@
+{
+  "library": "xqmusic-player",
+  "source": "npm",
+  "versions": {
+    "0.0.1": {
+      "origin": "adopted",
+      "files": {
+        "css/xqmusic.css": {
+          "sha256": "b75e0302f801a3c0123c78bdd06adf25d6ad0ac2da47baec039d0d3e01c4ec53",
+          "size": 4819
+        },
+        "css/xqmusic.min.css": {
+          "sha256": "06148faeb2c149c8f4ca179e19340824aefd8784686586b0be9c9400850f1cd7",
+          "size": 3338
+        },
+        "js/xqmusic.js": {
+          "sha256": "749bdca2b068f3a9678fd6c0dd8b99dd6d9ddd35f7976dbe180057306154d67e",
+          "size": 15168
+        },
+        "js/xqmusic.min.js": {
+          "sha256": "22f7454eb7b62d88b7dd9a8e601defb68b25022db1c8db3419a0da750f1e2bcf",
+          "size": 10152
+        }
+      }
+    },
+    "1.0.5": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqmusic-player/-/xqmusic-player-1.0.5.tgz",
+      "integrity": "sha512-kKMYF3xGb6QuJxAf0UuLuMv0fjA9aJm4yeEu82XE/8kh56v/fxoB0ASNwAV9uRHwWWikEqAd+qt0VY+bBOXyYg==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:44.236Z",
+      "files": {
+        "css/xqmusic.css": {
+          "sha256": "b75e0302f801a3c0123c78bdd06adf25d6ad0ac2da47baec039d0d3e01c4ec53",
+          "size": 4819
+        },
+        "css/xqmusic.min.css": {
+          "sha256": "06148faeb2c149c8f4ca179e19340824aefd8784686586b0be9c9400850f1cd7",
+          "size": 3338
+        },
+        "js/xqmusic.js": {
+          "sha256": "749bdca2b068f3a9678fd6c0dd8b99dd6d9ddd35f7976dbe180057306154d67e",
+          "size": 15168
+        },
+        "js/xqmusic.min.js": {
+          "sha256": "22f7454eb7b62d88b7dd9a8e601defb68b25022db1c8db3419a0da750f1e2bcf",
+          "size": 10152
+        },
+        "vue/xqmusic.js": {
+          "sha256": "46ad89ac2ced94a9cb311368ed596c979c876fd9dcfe16b9c24b8f3d85a3e111",
+          "size": 183
+        },
+        "vue/xqmusic.vue": {
+          "sha256": "9c41df47db1210ed5e31a62d8e8e3a53e368a6c2f1371a6c221e7113ec192414",
+          "size": 17442
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    },
+    "1.4.1": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqmusic-player/-/xqmusic-player-1.4.1.tgz",
+      "integrity": "sha512-aYOWac6fT0WnGZ88pCxYlkc8Gx2eInXmRYMrUvHiT6CFe8ud9J/JOY7tacTWEioXcFff46l979K0jXcWx5FWSQ==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T08:30:38.942Z",
+      "files": {
+        "css/xqmusic.css": {
+          "sha256": "887d714d527293ba4096518fb5a2f65b3e86833f3ab53945dba90efd868a38cd",
+          "size": 5627
+        },
+        "css/xqmusic.min.css": {
+          "sha256": "ab803dd0a4ced89c1cb24fcd9128a0289a154615f9f92f5cb57fbdc0d1805ded",
+          "size": 3555
+        },
+        "js/xqmusic.js": {
+          "sha256": "477eba9403419179a9b8753e60566995cffc3f016c7f2ccd9b0242657262d4ed",
+          "size": 33793
+        },
+        "js/xqmusic.min.js": {
+          "sha256": "dc6b94ee62c107c083754427c3198de408c4a583329afec00a87d449161d1965",
+          "size": 15141
+        },
+        "vue/xqmusic.js": {
+          "sha256": "4a35924158efb67ed6b53a4ea85be845656808b694578991809191faec0f1ec8",
+          "size": 818
+        },
+        "vue/xqmusic.vue": {
+          "sha256": "75e96242ba70a34c01c2db180b17f98b16a3554326f05acd6836f8e4f45a44c7",
+          "size": 11628
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    }
+  },
+  "legacyRootPaths": [
+    "css/xqmusic.css",
+    "css/xqmusic.min.css",
+    "js/xqmusic.js",
+    "js/xqmusic.min.js",
+    "vue/xqmusic.js",
+    "vue/xqmusic.vue"
+  ],
+  "pkg": "xqmusic-player"
+}

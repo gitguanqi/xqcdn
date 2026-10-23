@@ -1,0 +1,273 @@
+@charset "utf-8";
+/*
+ * @Author: fegq
+ * @Date: 2022-10-02 12:03:23
+ * @LastEditors: fegq
+ * @LastEditTime: 2022-10-02 12:16:38
+ * @Description: This is a file comment!
+ * @Version: 0.1.0
+ */
+
+/*
+ * z-index 表（层级只由本文件决定，JS 不再计算递增序号）：
+ *   .xq-model-tip  111   文本气泡
+ *   .xq-pop        1000  顶部状态条
+ *   .xq-msg        9999  确认框
+ * 需要覆盖时，直接改写对应选择器的 z-index 即可。
+ *
+ * 兼容约定：.success/.error/.warning/.info 与 .tipTop/.tipMid/.tipBot 是公开的主题覆盖点，
+ * 其声明不可修改、不可删除。新增命中规则请用 `.xq-pop:where(.success)` 这种零增量特异性写法，
+ * 让使用者后加载的同名类仍能覆盖。
+ */
+
+/* 提示框 */
+.tipTop {
+  top: 5%;
+}
+
+.tipMid {
+  top: 45%;
+}
+
+.tipBot {
+  bottom: 15%;
+}
+
+.xq-model {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  /* 整屏容器只负责定位，不能吞掉页面点击；气泡本体单独恢复可点击。 */
+  pointer-events: none;
+}
+
+.xq-model-tip {
+  /* 宿主页面常见 `* { box-sizing: border-box }` 复位会把固定高与 padding 合并，
+     文字会被挤出背景；本库组件一律显式回到 content-box。 */
+  box-sizing: content-box;
+  position: fixed;
+  padding: 0 10px;
+  width: auto;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  background-color: rgba(0,0,0, .9);
+  border: 1px solid #333;
+  border-radius: 4px;
+  opacity: 0.7;
+  transition: all 0.3s;
+  z-index: 111;
+  pointer-events: auto;
+}
+
+/* 弹出框 */
+.xq-msg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0, .5);
+  z-index: 9999;
+}
+
+.xq-msg-inner {
+  box-sizing: content-box;
+  padding: 10px 30px;
+  width: 350px;
+  /* 350 + 左右 padding 共 410px，窄屏下必须收窄，否则 390px 视口横向溢出。 */
+  max-width: calc(100vw - 84px);
+  height: auto;
+  background: #fff;
+  border-radius: 5px;
+  animation: showMsgBox .1s ease;
+  transition: all .5s;
+}
+
+.xq-msg-title {
+  line-height: 50px;
+  font-size: 18px;
+  color: #333;
+  text-align: left;
+}
+
+.xq-msg-content {
+  padding: 10px 0;
+  line-height: 35px;
+  font-size: 16px;
+  color: #666;
+}
+
+.xq-msg-set {
+  line-height: 50px;
+  text-align: right;
+}
+
+.xq-msg-btn {
+  /* 不重置 UA 默认 padding（Chrome 为 1px 6px）时，border-box 宿主里的内容区
+     会被压到 26px，line-height: 30px 的文字整体沉到按钮底部。 */
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0 5px;
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+}
+
+.xq-msg-btn.cancel {
+  background: #f8f8f8;
+  color: #333;
+  border: 1px solid #e8e8e8;
+}
+
+.xq-msg-btn.cancel:hover {
+  background: #fff;
+}
+
+.xq-msg-btn.confirm {
+  background: #1b7322;
+  color: #fff;
+  border: 1px solid #1b7322;
+}
+
+.xq-msg-btn.confirm:hover {
+  background: #1b7322;
+}
+
+@keyframes showMsgBox {
+  0% {
+    transform: translateY(6px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* pop 提示 */
+.xq-pop {
+  box-sizing: content-box;
+  position: fixed;
+  top: -2.8125rem;
+  left: 50%;
+  margin: 0 auto 0 -100px;
+  padding: .625rem .9375rem;
+  min-width: 200px;
+  width: auto;
+  height: 1.5625rem;
+  line-height: 1.5625rem;
+  border-radius: .5rem;
+  /* fill-mode 必须写在 shorthand 之后：动画结束后保持终态，
+     否则元素会弹回 top:-45px 的屏外位置，气泡只可见 1.5 秒。 */
+  animation: popAnimate 1.5s ease-in-out;
+  animation-fill-mode: forwards;
+  font-size: .875rem;
+  z-index: 1000;
+}
+
+.xq-pop-icon {
+  margin-right: .625rem;
+  font-size: .875rem;
+}
+
+@keyframes popAnimate {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(3.75rem);
+  }
+
+  100% {
+    transform: translateY(3.75rem);
+  }
+}
+
+/* msg */
+.success {
+  background-color: #bde4c0;
+  color: #1b7322;
+}
+
+.error {
+  background-color: rgb(236, 221, 221);
+  color: #a91e12;
+}
+
+.warning {
+  background-color: rgb(236, 220, 186);
+  color: #9b6412;
+}
+
+.info {
+  background-color: rgb(241, 236, 236);
+  color: #242222;
+}
+
+.success-text {
+  color: #1b7322;
+}
+
+.error-text {
+  color: #a91e12;
+}
+
+.warning-text {
+  color: #9b6412;
+}
+
+.info-text {
+  color: #242222;
+}
+
+@font-face {
+  font-family: "xqmsg"; /* Project id 3684586 */
+  src: url('../fonts/iconfont.eot?t=1664716080047'); /* IE9 */
+  src: url('../fonts/iconfont.eot?t=1664716080047#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/iconfont.woff2?t=1664716080047') format('woff2'),
+       url('../fonts/iconfont.woff?t=1664716080047') format('woff'),
+       url('../fonts/iconfont.ttf?t=1664716080047') format('truetype'),
+       url('../fonts/iconfont.svg?t=1664716080047#xqmsg') format('svg');
+}
+
+.xqmsg {
+  font-family: "xqmsg" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.xqmsg-times-circle:before {
+  content: "\e856";
+}
+
+.xqmsg-exclamation-circle:before {
+  content: "\e67f";
+}
+
+.xqmsg-check-circle:before {
+  content: "\e613";
+}
+
+.xqmsg-info-circle:before {
+  content: "\e67e";
+}

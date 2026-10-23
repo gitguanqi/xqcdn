@@ -1,0 +1,743 @@
+{
+  "library": "codemirror",
+  "source": "npm",
+  "versions": {
+    "5.63.3": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/codemirror/-/codemirror-5.63.3.tgz",
+      "integrity": "sha512-1C+LELr+5grgJYqwZKqxrcbPsHFHapVaVAloBsFBASbpLnQqLw1U8yXJ3gT5D+rhxIiSpo+kTqN+hQ+9ialIXw==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:20.972Z",
+      "files": {
+        "css/3024-day.css": {
+          "sha256": "7c9126a1d8a38be70a6d96872f8af03215203f3c6595975314cc4f75f792b8f8",
+          "size": 2028
+        },
+        "css/3024-night.css": {
+          "sha256": "93ada2f28acc83a589c2d65147497ef5732237b2a9e6dabb3d69d486e1d3a447",
+          "size": 2115
+        },
+        "css/abbott.css": {
+          "sha256": "9cc2f55d3cc77af968e7c72a9981c3fdb99705bc129ddd260fa8976a19f5dc76",
+          "size": 7970
+        },
+        "css/abcdef.css": {
+          "sha256": "19f003c8687837b195a768d39a015fae149485ef354726161b511defaa020f99",
+          "size": 2001
+        },
+        "css/ambiance-mobile.css": {
+          "sha256": "356cf9d539a70462808d76851e24bb0049676621d00b6d851c2b1ee2b0f6ac57",
+          "size": 108
+        },
+        "css/ambiance.css": {
+          "sha256": "499ce8dd8badcb5f6c622820cea32fe368497388da7c5d458699942f07b0d555",
+          "size": 26567
+        },
+        "css/ayu-dark.css": {
+          "sha256": "1502279da3360c5fe84c3ddc43fd77bfa7b747e8269b485ea9ec8e77d8213c20",
+          "size": 2465
+        },
+        "css/ayu-mirage.css": {
+          "sha256": "5b3941bfc8f5b12d44d91a43526bb21ef43a55cd7dad6acb3785be6f06f85439",
+          "size": 2583
+        },
+        "css/base16-dark.css": {
+          "sha256": "b1e39f7c7a07951b7f2cd07fd5d11c794a3066568deca7fd01cda194a3bf2ae1",
+          "size": 2332
+        },
+        "css/base16-light.css": {
+          "sha256": "8231d684da4a0351e1921b325af06041b79e2e4e9f0aa1d053f15d2148e3eff6",
+          "size": 2162
+        },
+        "css/bespin.css": {
+          "sha256": "d43da55a7859eabd94a7735eff8205c136812e2bdb037f85ab026320fd9b7b43",
+          "size": 1447
+        },
+        "css/blackboard.css": {
+          "sha256": "54f0811f00d130b3c3283cf679e7fbdcb8f93a6da88ae4011739220a816ce451",
+          "size": 1963
+        },
+        "css/cobalt.css": {
+          "sha256": "3acd2a2cd9aefaeca3b41a451e26408400e0d958b8e845ad4bcd5edf5ff901e0",
+          "size": 1751
+        },
+        "css/codemirror.css": {
+          "sha256": "bad5bb2c3f740d95bcb6c511a4fabb71a6d41a485ae017fefac2b87bb342d3ef",
+          "size": 9058
+        },
+        "css/colorforth.css": {
+          "sha256": "47f95a4cc84b64cedb03dcaf5337427cee85dd4495822acb30f7e1bab83bd687",
+          "size": 1710
+        },
+        "css/darcula.css": {
+          "sha256": "fc3056faeebd99116991a794b87fee2299662eb480bff47dae107d3fe6005625",
+          "size": 2739
+        },
+        "css/dialog.css": {
+          "sha256": "5df690d771f12118348562dd2a90060433ae2edeccd0908abcaa4480b1e3e468",
+          "size": 539
+        },
+        "css/dracula.css": {
+          "sha256": "02fdf6049608ddd8d0d7cf6403b6e5b251330740dfc393774f68bb64727b3c6e",
+          "size": 2082
+        },
+        "css/duotone-dark.css": {
+          "sha256": "438636d2fa5b25adfe3b9144481a029e6f4bc27f5a6f8c2e2c394dd5cfe1ffb4",
+          "size": 2649
+        },
+        "css/duotone-light.css": {
+          "sha256": "510d10e3a3bd1f695c9eb034a8186834f9b20986fd8c41bc1484a58c9f3ae3c9",
+          "size": 2755
+        },
+        "css/eclipse.css": {
+          "sha256": "5a1cc914b42631e60dcf7a7efd412a189733107ae06508986b0cd7efa8239eea",
+          "size": 1210
+        },
+        "css/elegant.css": {
+          "sha256": "02df81678be8cf0a780e430395b0f64eb778feac2216a3b1ecab52848abc8fe6",
+          "size": 794
+        },
+        "css/erlang-dark.css": {
+          "sha256": "f3286c8dda18ca92aded2aa39ad75ff5167c4c07caddd191f1ba8a3251ff7d48",
+          "size": 2320
+        },
+        "css/foldgutter.css": {
+          "sha256": "576efcd340b770b60d77d8c29e9df36bf58576391beab51b439114e4ed01ac56",
+          "size": 455
+        },
+        "css/fullscreen.css": {
+          "sha256": "4a9b9a3588038c131d7b28eb8edb02f94e5fa520e97ed3cdbfba0ef0742f1bbc",
+          "size": 122
+        },
+        "css/gruvbox-dark.css": {
+          "sha256": "1c00b4e05d1ef31edb08e9e12e85e583a10c6d57f03b0dabcd9b585447fdfa76",
+          "size": 1957
+        },
+        "css/hopscotch.css": {
+          "sha256": "2074da3b102459c64bb9d760c790d5dfbc4a1805a026419fe9494918adca5d54",
+          "size": 1503
+        },
+        "css/icecoder.css": {
+          "sha256": "ae8270b75ecb44407b1cab60c4ef335f961462477aa90cbe0b4a9a4cf06dff8e",
+          "size": 2558
+        },
+        "css/idea.css": {
+          "sha256": "c52c1d627b1ed6ad74293c28ae35553f9de96f2fff926f7e4018618247cb3c98",
+          "size": 1713
+        },
+        "css/isotope.css": {
+          "sha256": "05a29f6e56dbdbaf74c75c585ad66ba6f4313dafc06e8f041b343fb851421ab1",
+          "size": 1476
+        },
+        "css/juejin.css": {
+          "sha256": "a6a735a137ef2eb55ea1b1647e9c66c9c50e6bf33bec293a36fd319701e3020a",
+          "size": 547
+        },
+        "css/lesser-dark.css": {
+          "sha256": "b772ec1c4b63a8f31af9bc9ee4361a02b5b660cf238ac0a05694aed8da8330a0",
+          "size": 2684
+        },
+        "css/lint.css": {
+          "sha256": "ed8c0595e7b99169479537ffe43ecaf2f6b5148c91b9046c2f15eb78a23db1ac",
+          "size": 3114
+        },
+        "css/liquibyte.css": {
+          "sha256": "b799a2bc34fd750b6c8b10a3e0c40fea2ee03504799d13bb7545d11ed1f5b355",
+          "size": 4086
+        },
+        "css/lucario.css": {
+          "sha256": "a3dcbebff7ba256321b92ea4b034fc15cb8fe081010fbc6760bd59a0dff8d06f",
+          "size": 1951
+        },
+        "css/matchesonscrollbar.css": {
+          "sha256": "ee4dfbe9b6d1177a1ed95f2f6c94465471657d65b67e67194de51db06dc775fb",
+          "size": 196
+        },
+        "css/material-darker.css": {
+          "sha256": "5835aabae48149dbf6d47cf61160155f030e33882b4a80c35f9a3d60ed068680",
+          "size": 2741
+        },
+        "css/material-ocean.css": {
+          "sha256": "730d860562b4687aa07d5b0aa589127d6ae329dfdaab129db21862eac9570e7b",
+          "size": 2908
+        },
+        "css/material-palenight.css": {
+          "sha256": "22b58f46026b37ff16de1d37f9a3feb6d5af6a350adb5cc931f29a81fea1bdc7",
+          "size": 3064
+        },
+        "css/material.css": {
+          "sha256": "ce5226e4ba714fbe471f886a93453fde50896095424f97cd472a473d82a9f629",
+          "size": 2674
+        },
+        "css/mbo.css": {
+          "sha256": "23f2216dd2d4ffad8a6cec20dde749f90daf87b45b98f35e19816e54552831c3",
+          "size": 2149
+        },
+        "css/mdn-like.css": {
+          "sha256": "0fe4efda34252164bbf50f2b44cf51e985af27928150310dcd1022df3bee64fd",
+          "size": 5242
+        },
+        "css/merge.css": {
+          "sha256": "059381d10112184efb5a90067c396fb24e257a97f0f1190de740a4eaebbfe2a3",
+          "size": 3542
+        },
+        "css/midnight.css": {
+          "sha256": "0802a6173fac71fae408d2a6189dff08e014482a2e13fa452750cec9155e9968",
+          "size": 1895
+        },
+        "css/monokai.css": {
+          "sha256": "2463dc6fd92019a0c7ca2aaa01d03116b280fa7c6ae01bf21df7c107d9b683e8",
+          "size": 2220
+        },
+        "css/moxer.css": {
+          "sha256": "f88c5ab1daba0ba8526ddd02fc10aee8fa746e4b2c7f01b91229e38a33d3602a",
+          "size": 2511
+        },
+        "css/neat.css": {
+          "sha256": "58c2c2e5bc69c2f2e2a2e619a3799a0bd70a8754c137104daab4a39e53f42503",
+          "size": 700
+        },
+        "css/neo.css": {
+          "sha256": "a919e6daa7d3fd0e76fbb0c2dab8268f6f998d381bf6cd76802eadb8b6f4b6fd",
+          "size": 990
+        },
+        "css/night.css": {
+          "sha256": "0c5dde41710597bebc4e4213244b888be77ee451c7e394d8a3a2ea9a88703ee5",
+          "size": 1773
+        },
+        "css/nord.css": {
+          "sha256": "a238fa5f171a8b612170eb67cfdd0f1c4c731ac5e10d10ea6fdf1642dd1ee1b1",
+          "size": 2130
+        },
+        "css/oceanic-next.css": {
+          "sha256": "a3089450d9d877873ede20d582461f237f4cf5998034584d00ae1623b81efe03",
+          "size": 2486
+        },
+        "css/panda-syntax.css": {
+          "sha256": "c6d5827216777e2c3014c07110a7082444379b115260c6d4e0244cfa7eddf820",
+          "size": 1889
+        },
+        "css/paraiso-dark.css": {
+          "sha256": "fc551f1a32ca11d4023af6dc87ee3785fbb5fe5044cdac12057f0af9c1731d97",
+          "size": 2116
+        },
+        "css/paraiso-light.css": {
+          "sha256": "25ff9301f48317d13586f74c95eb8e665fb0e8e1364b41b6219d218a96d7f5a8",
+          "size": 2116
+        },
+        "css/pastel-on-dark.css": {
+          "sha256": "d13d34489985a2a203d321f15afb8f6b681b74e16b81e8c80c8b8ad9df56159e",
+          "size": 2537
+        },
+        "css/railscasts.css": {
+          "sha256": "e9ba2e428ab0547969c02c2e76fbdcc7ea296165620c652b220fa7427989ba48",
+          "size": 1548
+        },
+        "css/rubyblue.css": {
+          "sha256": "dd8d9e324b7e04d114c83ceb8301f892e99dce2e9e17ed6a19bb4c1622be384c",
+          "size": 1826
+        },
+        "css/seti.css": {
+          "sha256": "7af4f98f42f6bcf74a74f606ecd6af6bdc6c5549be258d7726e9a89367b5d12d",
+          "size": 2053
+        },
+        "css/shadowfox.css": {
+          "sha256": "58d588462fc40bbf090491907ffe6694b09406c76f88b7bb08e7acc67f497904",
+          "size": 2492
+        },
+        "css/show-hint.css": {
+          "sha256": "f4f8c8d48c155dcbf8e04dfb29b0d500974460d08204adfe0dda3be7bb3a2fc8",
+          "size": 659
+        },
+        "css/simplescrollbars.css": {
+          "sha256": "e2693b54abcd2168d89c0fab131c6d2cdb2319a3cf239aa5d814408261714341",
+          "size": 1413
+        },
+        "css/solarized.css": {
+          "sha256": "b3510a0c63bc4df681756fed202b82438c4e59828d59c8730adae73832953e04",
+          "size": 5502
+        },
+        "css/ssms.css": {
+          "sha256": "f96e548ae553d03312feafbf4c4aabef3b026cf87f0346ae754e5ea1f97d7e13",
+          "size": 767
+        },
+        "css/tern.css": {
+          "sha256": "107542ab314a1db5eb9ee84f7f2543f9fcf7e03e472a35edef2c5fd84fa308f7",
+          "size": 1959
+        },
+        "css/the-matrix.css": {
+          "sha256": "ff123c011dca5c5c4b1ae7650f98afbf0e4eeb49f5a02c44e848a802ac5fd07b",
+          "size": 1970
+        },
+        "css/tomorrow-night-bright.css": {
+          "sha256": "45ebddfc249b14c21d4e67f4671812ac874c59f11fb4ec27f20c3ce50e7b7103",
+          "size": 1804
+        },
+        "css/tomorrow-night-eighties.css": {
+          "sha256": "6b015d31eaaaa08bd35d85582ceabd11bc2b6f708c1a052c0f7a9450ce2366b1",
+          "size": 2477
+        },
+        "css/ttcn.css": {
+          "sha256": "9ed02395f2a6de9f96ce814b67ae73c4facaad6c0c48f7cfe659bcd3dffc5310",
+          "size": 2504
+        },
+        "css/twilight.css": {
+          "sha256": "96d029308363b671bc25f30fd439d1704ce4505b8c36297e3ca411a0045df23b",
+          "size": 2196
+        },
+        "css/vibrant-ink.css": {
+          "sha256": "61ea92dad1d7104298dbe749d8a02fa97ea8bdc1616e66e5cf700b8ec0862c9d",
+          "size": 2176
+        },
+        "css/xq-dark.css": {
+          "sha256": "cac8e85d76159c45b663f229cc07057e289bcd9eda42f7c7e9c8ad395d7e8c74",
+          "size": 3086
+        },
+        "css/xq-light.css": {
+          "sha256": "296975411e50d1a448544dd8d09503e01ea1e3cb91c68f507182c2038b302d39",
+          "size": 2298
+        },
+        "css/yeti.css": {
+          "sha256": "f058bfa68018f67b8d165ab420447c9c99ef589be08dd0fe429a4adb7aad1f07",
+          "size": 1928
+        },
+        "css/yonce.css": {
+          "sha256": "3027100dd387290cc4f9fccf0203fa5fa035dc021aa66182aeb755ac05bce1e4",
+          "size": 3134
+        },
+        "css/zenburn.css": {
+          "sha256": "9e4d941a7dc502eebdba104daa8a1177195543b8ae0a048fbdeba1dcf6d7e097",
+          "size": 2038
+        },
+        "js/active-line.js": {
+          "sha256": "8a8862483cbb09b0c8f11536dac87664d4e42106f8e088c21c70871cbe2866b0",
+          "size": 2579
+        },
+        "js/annotatescrollbar.js": {
+          "sha256": "040f23d75bba0217bfc77c0b8f11a473e7f04be056b6dbc708cb25b4ae8d868b",
+          "size": 4756
+        },
+        "js/anyword-hint.js": {
+          "sha256": "94254c21c485df76197b4ddb219b3687f0acd932168191af988b3c15360edded",
+          "size": 1722
+        },
+        "js/autorefresh.js": {
+          "sha256": "f3d427ec0a317997bb89614eb63782824eab87fdca56b6fa430393c554aa20d1",
+          "size": 1591
+        },
+        "js/brace-fold.js": {
+          "sha256": "a286b92bceeb3900f2fbb0f3ba78c0e64b5ecbe5236b896a074398650b6fba3a",
+          "size": 4201
+        },
+        "js/closebrackets.js": {
+          "sha256": "5ed9c96eb2d4a2157b89e7759d149ff88589b3180348c978354b65044739a2c2",
+          "size": 7322
+        },
+        "js/closetag.js": {
+          "sha256": "f84bd2c5ca446de93dd249002df303d42669276c6e274362935abca0ca195405",
+          "size": 8727
+        },
+        "js/codemirror.js": {
+          "sha256": "d9dd95bc6dab2da1f013328b299a4b6e458449002282e463b4af613d80ae5d19",
+          "size": 409681
+        },
+        "js/coffeescript-lint.js": {
+          "sha256": "31aed71a3915a5af21fcc5ccf58f4b8fd59125ed14bf15198b974c7f19180b77",
+          "size": 1513
+        },
+        "js/colorize.js": {
+          "sha256": "fde032f794e13c9b71f51da60637f71961aa1a214685a243844953c7980f3736",
+          "size": 1344
+        },
+        "js/comment-fold.js": {
+          "sha256": "bb1aea31fce9c299eb7575bb9deb92601ac5d1d4a4cc729edaec184089831e51",
+          "size": 2221
+        },
+        "js/comment.js": {
+          "sha256": "70a0f3c39b7aee5295b6564d87b0f888044b9959bbf808611a3ab35e2cda7afe",
+          "size": 9404
+        },
+        "js/continuecomment.js": {
+          "sha256": "c7f49227b8c7cee78e23b7dfcf034e8fd97cd6ea1f793ca22fa15d30d12acb6c",
+          "size": 4961
+        },
+        "js/continuelist.js": {
+          "sha256": "5f06b832b8f437e84074adca1181c01de93cfe5ada9d69a47cc5134a96fd73a7",
+          "size": 4048
+        },
+        "js/css-hint.js": {
+          "sha256": "9f9e81a6ab9b0fa23ecd40e97e1f6822b1be13224a80d5a0007e4baf5b4c0471",
+          "size": 2644
+        },
+        "js/css-lint.js": {
+          "sha256": "a00b152584cafcb418a2564ebf273e71b3dc251b0df62024968f9749070ca54c",
+          "size": 1350
+        },
+        "js/css.js": {
+          "sha256": "d2bf3342313d379b8965395fa6e9b74a9736dc26a40dbe041ab27d054dd18acb",
+          "size": 41596
+        },
+        "js/dialog.js": {
+          "sha256": "f823db8445973fc7be842dbe5278211e8971e7ab9ffd8ce9c403c68171fbe31d",
+          "size": 5413
+        },
+        "js/emacs.js": {
+          "sha256": "ed4a0377d76cd9bc6bc6e4cba3491cdfa906aa86380c74313b97395f15a13ef3",
+          "size": 16879
+        },
+        "js/foldcode.js": {
+          "sha256": "937ecf19f5a38f349a57f3afeb3c607ee6318005ece1ca3e0b36c728492778e7",
+          "size": 5142
+        },
+        "js/foldgutter.js": {
+          "sha256": "523a9b2814dc2706a78b77d79dbdc1e945a0b85f22118028b8cb139f8db948a5",
+          "size": 5531
+        },
+        "js/fullscreen.js": {
+          "sha256": "1e1286d3a21bfb167a458be605aa7cb34a2cf8211758f02b3827ade1568c13a4",
+          "size": 1536
+        },
+        "js/hardwrap.js": {
+          "sha256": "dbbc3f5085609ed71e626f33f7569d941a28958aba15a85d70755a669092d728",
+          "size": 6267
+        },
+        "js/html-hint.js": {
+          "sha256": "398c40038250e1ada2749cfcbd3305085486ad72012b1ae8233ff292d11f8bdf",
+          "size": 11807
+        },
+        "js/html-lint.js": {
+          "sha256": "226ec03a44b4293264dafef6cf9ec97dfe6cbf8f3b64e67b051fe35887066ee5",
+          "size": 2048
+        },
+        "js/htmlmixed.js": {
+          "sha256": "926ee07e08e1b9a1174922e246556915d1396b837411263db7f9b1320d6b3886",
+          "size": 5837
+        },
+        "js/indent-fold.js": {
+          "sha256": "a7a517a89ff76a4784e9fcf70bb70a6b641e7abbf4384f2f7884a4d9c9fd6baa",
+          "size": 1722
+        },
+        "js/javascript-hint.js": {
+          "sha256": "6e41ce1cc7511e3001020ebfd56be280f05656b2823b513ea5b27e45c4338c47",
+          "size": 7015
+        },
+        "js/javascript-lint.js": {
+          "sha256": "692d8d1e8f7895b4949d29d1dc2e69c9aa4530e5fb7235ddeb96edcd231cfa4a",
+          "size": 2224
+        },
+        "js/javascript.js": {
+          "sha256": "825f352653aebe4e521cee3934f140fef3a4632a4a2c90dac344294003918a6d",
+          "size": 39801
+        },
+        "js/json-lint.js": {
+          "sha256": "adc0ddc9048875be3a83e0e4484541e6a93f4cbda56a5cf8f057e9d6747ed257",
+          "size": 1373
+        },
+        "js/jump-to-line.js": {
+          "sha256": "33e7d3bc0073b51b949f270de57ba448db51a561c06add553420045b4928d5fb",
+          "size": 2194
+        },
+        "js/lint.js": {
+          "sha256": "438ff7789d8fbc82be74996ba247bbf92ec4864c690c2800943bdbd8f60d1382",
+          "size": 10276
+        },
+        "js/loadmode.js": {
+          "sha256": "de4df3ff945f3d2fef22721bb32bab26b10fd0c3717ea21c62f20089b28945dd",
+          "size": 2607
+        },
+        "js/mark-selection.js": {
+          "sha256": "36716aafc7b43f957b5a70cb519de15d747684d2939a291bc338b30025e5e827",
+          "size": 3966
+        },
+        "js/markdown-fold.js": {
+          "sha256": "e814660e5be6069ef2bc09a5179a0ac4236698e5084c938a1e73463f08ed913b",
+          "size": 1655
+        },
+        "js/markdown.js": {
+          "sha256": "3742c9a0a8dcf57d464064f6af8bd8ce4dbdda22e11a9f2ecb8604a91b2839aa",
+          "size": 32209
+        },
+        "js/match-highlighter.js": {
+          "sha256": "950528922090a3e6ee887d471b5a7e36185fefe74c84510eb1815c70ed3e4b8e",
+          "size": 6381
+        },
+        "js/matchbrackets.js": {
+          "sha256": "46835206de28f6699b86ecc8bfa5c9cc06ad892084640beeed553d2953389b5c",
+          "size": 6976
+        },
+        "js/matchesonscrollbar.js": {
+          "sha256": "91d0afb5668d52fad5a769f6d2640a2d361e664cede6a96a50fedd2094330f45",
+          "size": 3953
+        },
+        "js/matchtags.js": {
+          "sha256": "a020308fa3f5fc1cc04c4b87310c4b39638d5e440787814bcfc2457081fffa14",
+          "size": 2422
+        },
+        "js/merge.js": {
+          "sha256": "bd97c8a8ad7efbd93f7a0e9379d695f9a0a09b7991487016190cbf61f601b2a2",
+          "size": 39052
+        },
+        "js/multiplex.js": {
+          "sha256": "90d9acb16f17504b3b71b31927cfbf11e8f148df3818dd5b3b1a6d25fa8f738f",
+          "size": 5325
+        },
+        "js/multiplex_test.js": {
+          "sha256": "098823c0533c4748e65858600504e03d2830377c6b2b94005be58b51f1e2a0f6",
+          "size": 1414
+        },
+        "js/overlay.js": {
+          "sha256": "fec76d55fcdea3839bc18a989233dbe6f0f9501753d1133909b3a9f27fee6e76",
+          "size": 3331
+        },
+        "js/panel.js": {
+          "sha256": "0781cc2b089ec8612882a913ee51f4eb954915c4be1f660a195cd9a0e92d56ee",
+          "size": 4792
+        },
+        "js/placeholder.js": {
+          "sha256": "925917181493c441a74f55f9d2b42816b6ae77a8c705247352c88b5245bc7571",
+          "size": 2907
+        },
+        "js/rulers.js": {
+          "sha256": "012b2f857ef9a877edeaebbcb4e73f7e88f8dc4c763e8c72e6719375632ad2f3",
+          "size": 1967
+        },
+        "js/runmode-standalone.js": {
+          "sha256": "2fa6008604d0c75f1ae42265f5c2c273359af89c833ba7c2dae9093d8b9ebcdf",
+          "size": 12385
+        },
+        "js/runmode.js": {
+          "sha256": "c0556f51ed094a5bc648cd9bf238f69af38fbf1cefad45e08f6fedf0ef5594e6",
+          "size": 2849
+        },
+        "js/runmode.node.js": {
+          "sha256": "e1bfe9947fcef8b6665cf0d47ea8d81494cebce447a0e80fc6d1157f25e5147b",
+          "size": 11825
+        },
+        "js/scrollpastend.js": {
+          "sha256": "7265a1d482d9ae201355e1506071fa2d30f6a3c69b75fc44403f7c9a6280e4be",
+          "size": 1630
+        },
+        "js/search.js": {
+          "sha256": "fe5828fb358e2090758aeb55aa5a9686f6cc7ca60d49ae55914c4bf76fc43a93",
+          "size": 12004
+        },
+        "js/searchcursor.js": {
+          "sha256": "2670ded9ab08f0ce21da82690fcd614f763d5a8337c4c905cbd4f028aa7f005a",
+          "size": 12537
+        },
+        "js/selection-pointer.js": {
+          "sha256": "25060c3feea4cacfa2011359a6c421eefdcee568f26f747dbd98703d3b694622",
+          "size": 3391
+        },
+        "js/show-hint.js": {
+          "sha256": "ca0d04494d83946491152231154d84b2b2e737fb415ef2d810b7bcebdef3c96d",
+          "size": 20508
+        },
+        "js/simple.js": {
+          "sha256": "40803a8b827133c215bffe3550f6297b30aa69e4b2f0c6802884d32770bb9f62",
+          "size": 8290
+        },
+        "js/simplescrollbars.js": {
+          "sha256": "ffba38fcd4f8eaf98ad01abcab41f02f353ca4ec41931eddbfacb9352b456672",
+          "size": 5615
+        },
+        "js/sql-hint.js": {
+          "sha256": "7f12f26dfd2fbca8eebdb6c07141ec69ba444f0c08ebeda8ad64e172a8a4392a",
+          "size": 9908
+        },
+        "js/sublime.js": {
+          "sha256": "006c271d21c938a4c48c328761da19569adda99b3a5a645fb58f47924cb4525a",
+          "size": 27412
+        },
+        "js/tern.js": {
+          "sha256": "bb690874b56764c6c65b13e35d78a5d97cfee5d3e5814622449bb5d3cc5498aa",
+          "size": 26969
+        },
+        "js/trailingspace.js": {
+          "sha256": "e60f65f382a69231621feaf982e666742ff43dd0146c9a4194d000fe6824d25e",
+          "size": 1031
+        },
+        "js/vbscript.js": {
+          "sha256": "0aea44f3fd5e0c6376ff2bb4a421b59d70e0b5c56cef81802183791bfeb54ae0",
+          "size": 14146
+        },
+        "js/vim.js": {
+          "sha256": "e90cdfbea6d77dd4eac5444a5bad8daea18b2eddd1690bac45864b152f555d38",
+          "size": 231202
+        },
+        "js/worker.js": {
+          "sha256": "7f349eea103fba6a6c68bd530b645d2d2e9a4025cbc33ecf562944543f437f1d",
+          "size": 1253
+        },
+        "js/xml-fold.js": {
+          "sha256": "eaaaf36bdf0132366a70f1ac87bc69c1e58d2f9d9657b2a6a02cfa354900d6aa",
+          "size": 6884
+        },
+        "js/xml-hint.js": {
+          "sha256": "e8f0ac22f82ef49ad0ab3469202f4be33b7d0db8e6bdf1f7e53962b5546a4ec7",
+          "size": 5835
+        },
+        "js/xml.js": {
+          "sha256": "be0932928bfb05085d4e6362250523f05a13492091e9d7b299309a97a3212dd3",
+          "size": 13768
+        },
+        "js/yaml-lint.js": {
+          "sha256": "ccaecd6d3893ba926025010c9ae862ca7cde824b058b2c055036152e117efa97",
+          "size": 1296
+        },
+        "LICENSE": {
+          "sha256": "a3f2fe2ac6b471aa80c737c5d283dd049bdc903a73835ee6d4d2cac02fdd53bf",
+          "size": 1107
+        }
+      }
+    }
+  },
+  "pkg": "codemirror",
+  "legacyRootPaths": [
+    "css/3024-day.css",
+    "css/3024-night.css",
+    "css/abbott.css",
+    "css/abcdef.css",
+    "css/ambiance-mobile.css",
+    "css/ambiance.css",
+    "css/ayu-dark.css",
+    "css/ayu-mirage.css",
+    "css/base16-dark.css",
+    "css/base16-light.css",
+    "css/bespin.css",
+    "css/blackboard.css",
+    "css/cobalt.css",
+    "css/codemirror.css",
+    "css/colorforth.css",
+    "css/darcula.css",
+    "css/dialog.css",
+    "css/dracula.css",
+    "css/duotone-dark.css",
+    "css/duotone-light.css",
+    "css/eclipse.css",
+    "css/elegant.css",
+    "css/erlang-dark.css",
+    "css/foldgutter.css",
+    "css/fullscreen.css",
+    "css/gruvbox-dark.css",
+    "css/hopscotch.css",
+    "css/icecoder.css",
+    "css/idea.css",
+    "css/isotope.css",
+    "css/juejin.css",
+    "css/lesser-dark.css",
+    "css/lint.css",
+    "css/liquibyte.css",
+    "css/lucario.css",
+    "css/matchesonscrollbar.css",
+    "css/material-darker.css",
+    "css/material-ocean.css",
+    "css/material-palenight.css",
+    "css/material.css",
+    "css/mbo.css",
+    "css/mdn-like.css",
+    "css/merge.css",
+    "css/midnight.css",
+    "css/monokai.css",
+    "css/moxer.css",
+    "css/neat.css",
+    "css/neo.css",
+    "css/night.css",
+    "css/nord.css",
+    "css/oceanic-next.css",
+    "css/panda-syntax.css",
+    "css/paraiso-dark.css",
+    "css/paraiso-light.css",
+    "css/pastel-on-dark.css",
+    "css/railscasts.css",
+    "css/rubyblue.css",
+    "css/seti.css",
+    "css/shadowfox.css",
+    "css/show-hint.css",
+    "css/simplescrollbars.css",
+    "css/solarized.css",
+    "css/ssms.css",
+    "css/tern.css",
+    "css/the-matrix.css",
+    "css/tomorrow-night-bright.css",
+    "css/tomorrow-night-eighties.css",
+    "css/ttcn.css",
+    "css/twilight.css",
+    "css/vibrant-ink.css",
+    "css/xq-dark.css",
+    "css/xq-light.css",
+    "css/yeti.css",
+    "css/yonce.css",
+    "css/zenburn.css",
+    "js/active-line.js",
+    "js/annotatescrollbar.js",
+    "js/anyword-hint.js",
+    "js/autorefresh.js",
+    "js/brace-fold.js",
+    "js/closebrackets.js",
+    "js/closetag.js",
+    "js/codemirror.js",
+    "js/coffeescript-lint.js",
+    "js/colorize.js",
+    "js/comment-fold.js",
+    "js/comment.js",
+    "js/continuecomment.js",
+    "js/continuelist.js",
+    "js/css-hint.js",
+    "js/css-lint.js",
+    "js/css.js",
+    "js/dialog.js",
+    "js/emacs.js",
+    "js/foldcode.js",
+    "js/foldgutter.js",
+    "js/fullscreen.js",
+    "js/hardwrap.js",
+    "js/html-hint.js",
+    "js/html-lint.js",
+    "js/htmlmixed.js",
+    "js/indent-fold.js",
+    "js/javascript-hint.js",
+    "js/javascript-lint.js",
+    "js/javascript.js",
+    "js/json-lint.js",
+    "js/jump-to-line.js",
+    "js/lint.js",
+    "js/loadmode.js",
+    "js/mark-selection.js",
+    "js/markdown-fold.js",
+    "js/markdown.js",
+    "js/match-highlighter.js",
+    "js/matchbrackets.js",
+    "js/matchesonscrollbar.js",
+    "js/matchtags.js",
+    "js/merge.js",
+    "js/multiplex.js",
+    "js/multiplex_test.js",
+    "js/overlay.js",
+    "js/panel.js",
+    "js/placeholder.js",
+    "js/rulers.js",
+    "js/runmode-standalone.js",
+    "js/runmode.js",
+    "js/runmode.node.js",
+    "js/scrollpastend.js",
+    "js/search.js",
+    "js/searchcursor.js",
+    "js/selection-pointer.js",
+    "js/show-hint.js",
+    "js/simple.js",
+    "js/simplescrollbars.js",
+    "js/sql-hint.js",
+    "js/sublime.js",
+    "js/tern.js",
+    "js/trailingspace.js",
+    "js/vbscript.js",
+    "js/vim.js",
+    "js/worker.js",
+    "js/xml-fold.js",
+    "js/xml-hint.js",
+    "js/xml.js",
+    "js/yaml-lint.js"
+  ]
+}

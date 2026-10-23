@@ -1,0 +1,79 @@
+{
+  "library": "xquuid",
+  "source": "npm",
+  "versions": {
+    "0.0.6": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xquuid/-/xquuid-0.0.6.tgz",
+      "integrity": "sha512-O223DcP3A+fQnfNyA3orV5PEQsbIxtI+ISroQlgF1qPbKpia7mKbW04FZvEkncKUsiqgwtUHrYlSW42gbEDenQ==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:46.519Z",
+      "files": {
+        "xquuid-esm.js": {
+          "sha256": "05680b01fc15cddb5323e8ed1585c9948d2168ea65c84fab6d85a75d355b83cd",
+          "size": 7092
+        },
+        "xquuid-esm.min.js": {
+          "sha256": "ef17c5115aad263a808f4123c97b1e2069c5827b8ca6e0a0aab9a48eeba58465",
+          "size": 2703
+        },
+        "xquuid.js": {
+          "sha256": "99dedae77d0abdc622b721a22b7f2d8e5a3fdd6abb9fe9033eaae2fd739bcd1d",
+          "size": 8323
+        },
+        "xquuid.min.js": {
+          "sha256": "df1fada17d1d6d9c84319cac40030ade82ff6bd6ecc02dad2a47b24fd0815061",
+          "size": 2925
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    },
+    "0.1.1": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xquuid/-/xquuid-0.1.1.tgz",
+      "integrity": "sha512-9RlTVkmvrLsIwLrUbgJkGBNNijIbRrGOZA9GSx5Bm+YddOyRoFg+b0P0fqq1S4+wATrzD8xDDDoUYpyODFAFfw==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T08:30:41.146Z",
+      "files": {
+        "xquuid-esm.js": {
+          "sha256": "a9d61c4ba14920fb5c1c4a010879197579136403aeadb02579fb9ca418d5e918",
+          "size": 16630
+        },
+        "xquuid-esm.min.js": {
+          "sha256": "6088f1706d0e984affacb668f4409065797324ed7beb8e2a6cee5355c0800c2c",
+          "size": 6194
+        },
+        "xquuid.js": {
+          "sha256": "91913dcc77c48d5dfedca1e99182dbeab4ef0b92892165111034221db970954a",
+          "size": 16506
+        },
+        "xquuid.min.js": {
+          "sha256": "44e5037bd5c174b925ea958075bb6c1f2188ad7e8f827d26b0a3371a42f59971",
+          "size": 6363
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    }
+  },
+  "legacyRootFiles": [
+    "xquuid-esm.js",
+    "xquuid-esm.min.js",
+    "xquuid.js",
+    "xquuid.min.js"
+  ],
+  "legacyRootPaths": [
+    "xquuid-esm.js",
+    "xquuid-esm.min.js",
+    "xquuid.js",
+    "xquuid.min.js"
+  ],
+  "pkg": "xquuid"
+}

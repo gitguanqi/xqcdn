@@ -1,0 +1,39 @@
+{
+  "library": "xqsql",
+  "source": "manual",
+  "versions": {
+    "1.0.2": {
+      "origin": "adopted",
+      "files": {
+        "xqsql-esm.js": {
+          "sha256": "52401c4147fff6e6088f23dc6221d2872683f25005575b0e245a82750673094d",
+          "size": 6519
+        },
+        "xqsql-esm.min.js": {
+          "sha256": "21b709e1d14fc9750e0e50decf9cc5482c8711281a784d614eb9c63dec4960c3",
+          "size": 2154
+        },
+        "xqsql.js": {
+          "sha256": "be32ed4d5ef86e60875899d5a0d578d9214f1c5181b3d640b8b3fe1dc196510a",
+          "size": 7001
+        },
+        "xqsql.min.js": {
+          "sha256": "19007084abd6495f7d90b1895ce490f556e4bb6b039c6218943188f714816b03",
+          "size": 2369
+        }
+      }
+    }
+  },
+  "legacyRootFiles": [
+    "xqsql-esm.js",
+    "xqsql-esm.min.js",
+    "xqsql.js",
+    "xqsql.min.js"
+  ],
+  "legacyRootPaths": [
+    "xqsql-esm.js",
+    "xqsql-esm.min.js",
+    "xqsql.js",
+    "xqsql.min.js"
+  ]
+}

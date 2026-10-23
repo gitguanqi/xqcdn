@@ -1,0 +1,59 @@
+{
+  "library": "axios",
+  "source": "npm",
+  "versions": {
+    "0.19.2": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/axios/-/axios-0.19.2.tgz",
+      "integrity": "sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:18.359Z",
+      "files": {
+        "axios.js": {
+          "sha256": "d0a70c9a1f752650f6f767d63adf28993e2ad0dde60540167148837183fc1a0f",
+          "size": 47887
+        },
+        "axios.min.js": {
+          "sha256": "8ed8fb11c3461b30aec9552cd141994d18e6fed179496b8d1c061ec1268fe889",
+          "size": 13959
+        },
+        "LICENSE": {
+          "sha256": "2b9b7b65d90de57cb7be31a9b996a2526a63dda8359a864278e5568b2b598937",
+          "size": 1066
+        }
+      }
+    },
+    "1.20.0": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/axios/-/axios-1.20.0.tgz",
+      "integrity": "sha512-r8aOh8j9cGKpgQAqpzrUHnSIc6a59Y3Xf/cv8sy1DrHCkZHzQGEuoq1tARk6qSyDdtQGSDgpb9kFlruzPvrgwg==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:16:51.181Z",
+      "files": {
+        "axios.js": {
+          "sha256": "225162f7503fc512109759a876eccfb5e7e3bb077cea1f0c970c251460133f93",
+          "size": 206918
+        },
+        "axios.min.js": {
+          "sha256": "ccf4ff6ec971762140de58826f0d25f75729457400a7f665b51ce67fb7eee283",
+          "size": 68172
+        },
+        "LICENSE": {
+          "sha256": "82761059eaedacb3356803aea8a170d8298609f91b14fc32ee1bfb40d690183c",
+          "size": 1084
+        }
+      }
+    }
+  },
+  "pkg": "axios",
+  "legacyRootFiles": [
+    "axios.js",
+    "axios.min.js"
+  ],
+  "legacyRootPaths": [
+    "axios.js",
+    "axios.min.js"
+  ]
+}

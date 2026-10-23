@@ -1,0 +1,68 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # 复用订阅源上的 tarball，省掉每次跑 CI 的重复下载
+      - name: 缓存 npm tarball
+        uses: actions/cache@v4
+        with:
+          path: .cache/tarballs
+          key: tarballs-${{ hashFiles('libs.manifest.json') }}
+          restore-keys: |
+            tarballs-
+
+      - name: 校验 libs 与 npm 源一致（幂等）
+        run: node scripts/sync.mjs --check
+
+      - name: 校验清单漂移（--audit）
+        run: node scripts/sync.mjs --audit
+        timeout-minutes: 10
+
+      - name: 重新生成派生文件
+        run: node scripts/index.mjs
+
+      - name: 派生文件必须已提交
+        run: |
+          if ! git diff --quiet -- libs deploy THIRD-PARTY-NOTICES.md soft/SHA256SUMS; then
+            echo "::error::libs/index.json、README、SHA256SUMS 或 deploy/latest/*.conf 与磁盘不一致，请本地运行 node scripts/index.mjs 后提交"
+            git diff --stat -- libs deploy THIRD-PARTY-NOTICES.md soft/SHA256SUMS
+            exit 1
+          fi
+
+      - name: 静态检查（引用 / 空文件 / 许可证 / 版本号）
+        run: node scripts/validate.mjs
+
+      - name: 构建 GitHub Pages 产物（冒烟）
+        run: node scripts/build.mjs --out "$RUNNER_TEMP/dist" --base /xqcdn/
+
+      - name: 产物自检
+        run: |
+          set -e
+          test -f "$RUNNER_TEMP/dist/.nojekyll"
+          test -f "$RUNNER_TEMP/dist/index.html"
+          test -f "$RUNNER_TEMP/dist/libs/index.html"
+          test -f "$RUNNER_TEMP/dist/libs/jquery/index.html"
+          test -f "$RUNNER_TEMP/dist/libs/jquery/3.6.0/jquery.min.js"
+          # 扁平 URL 必须真实存在（Pages 没有 rewrite）
+          test -f "$RUNNER_TEMP/dist/libs/jquery/jquery.min.js"
+          # 子目录 base 必须生效
+          grep -q 'href="/xqcdn/fancyindex/css/main.css"' "$RUNNER_TEMP/dist/libs/index.html"

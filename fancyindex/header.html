@@ -1,41 +1,42 @@
 <!--# block name="default_index" -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Public file directory.">
-  <meta name="author" content="Maxim Llorephie <me@llorephie.org">
+  <meta name="description" content="XQCDN 静态资源库：前端常用 JS/CSS 库的版本化 CDN 路径。">
+  <meta name="author" content="gitguanqi">
   <link rel="icon" href="/favicon.ico">
-  <title>XQCDN - 简易静态资源库</title>
+  <title>XQCDN - 静态资源库</title>
   <link rel="stylesheet" href="/fancyindex/css/bootstrap.min.css">
   <link rel="stylesheet" href="/fancyindex/css/main.css">
-  <script src="/libs/xqgjs/1.1.1/mourn/mourn.min.js" id="xqmourn"></script>
 </head>
 
 <body>
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="/">XQCDN</a>
+      <a class="navbar-brand" id="nav-home" href="/">XQCDN</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
-        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        aria-controls="navbarContent" aria-expanded="false" aria-label="切换导航">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item"><a class="nav-link" href="/">主页</a></li>
-          <li class="nav-item"><a class="nav-link" href="mailto:contact@guanqi.xyz">联系我们</a></li>
-          <li class="nav-item"><a class="nav-link" href="http://github.com/gitguanqi/xqcdn/" target="_blank">Github</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://github.com/gitguanqi/xqcdn/" target="_blank"
+              rel="noopener noreferrer">GitHub</a></li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
+        <form class="form-inline my-2 my-lg-0" role="search">
           <div class="form-group">
-            <input id="search" type="text" class="form-control mr-sm-2" placeholder="搜索静态库...">
+            <label class="sr-only" for="search">搜索静态库</label>
+            <input id="search" type="search" class="form-control mr-sm-2" placeholder="搜索静态库..." autocomplete="off"
+              aria-label="搜索静态库">
           </div>
+          <span id="search-status" class="small text-muted" role="status" aria-live="polite"></span>
         </form>
       </div>
     </nav>
-    <nav aria-label="breadcrumb" class="mt-5">
+    <nav aria-label="面包屑" class="mt-5">
       <ol id="breadcrumbs" class="breadcrumb">
       </ol>
     </nav>

@@ -1,0 +1,33 @@
+{
+  "library": "xqonline",
+  "source": "manual",
+  "versions": {
+    "0.0.1": {
+      "origin": "adopted",
+      "files": {
+        "css/online.css": {
+          "sha256": "2029f34a7629e542547f3296a9b86065943fb25751437bf45ea689f611b51b7e",
+          "size": 733
+        },
+        "css/online.min.css": {
+          "sha256": "fc45666ece2c8cfde75a999b24072885feec581a2df0c31f4869d6f5bfc5f8ee",
+          "size": 340
+        },
+        "js/online.js": {
+          "sha256": "b46887dd2f22d224a304c0f4f4d41a29a103c218ff69d2c9c800b6e8826addb3",
+          "size": 973
+        },
+        "js/online.min.js": {
+          "sha256": "5b35e4fb345316d9f548aa0311fc125ca3fdd033de07c2b6523066d91919062f",
+          "size": 514
+        }
+      }
+    }
+  },
+  "legacyRootPaths": [
+    "css/online.css",
+    "css/online.min.css",
+    "js/online.js",
+    "js/online.min.js"
+  ]
+}

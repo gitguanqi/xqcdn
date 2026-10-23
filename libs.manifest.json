@@ -1,0 +1,3689 @@
+{
+  "defaults": {
+    "registry": "https://registry.npmjs.org",
+    "withLicense": true,
+    "compare": "eol-insensitive"
+  },
+  "packages": [
+    {
+      "name": "axios",
+      "version": "0.19.2",
+      "source": "npm",
+      "pkg": "axios",
+      "files": [
+        {
+          "to": "axios.js"
+        },
+        {
+          "to": "axios.min.js"
+        }
+      ]
+    },
+    {
+      "name": "axios",
+      "version": "1.20.0",
+      "source": "npm",
+      "pkg": "axios",
+      "files": [
+        {
+          "to": "axios.js"
+        },
+        {
+          "to": "axios.min.js"
+        }
+      ],
+      "postProcess": [
+        "strip-sourcemap"
+      ]
+    },
+    {
+      "name": "bootstrap",
+      "version": "3.4.1",
+      "source": "npm",
+      "pkg": "bootstrap",
+      "files": [
+        {
+          "to": "css/bootstrap.css"
+        },
+        {
+          "to": "css/bootstrap.min.css"
+        },
+        {
+          "to": "fonts/glyphicons-halflings-regular.eot"
+        },
+        {
+          "to": "fonts/glyphicons-halflings-regular.svg"
+        },
+        {
+          "to": "fonts/glyphicons-halflings-regular.ttf"
+        },
+        {
+          "to": "fonts/glyphicons-halflings-regular.woff"
+        },
+        {
+          "to": "fonts/glyphicons-halflings-regular.woff2"
+        },
+        {
+          "to": "js/bootstrap.js"
+        },
+        {
+          "to": "js/bootstrap.min.js"
+        }
+      ]
+    },
+    {
+      "name": "bootstrap",
+      "version": "4.6.0",
+      "source": "npm",
+      "pkg": "bootstrap",
+      "files": [
+        {
+          "to": "css/bootstrap.css"
+        },
+        {
+          "to": "css/bootstrap.min.css"
+        },
+        {
+          "to": "js/bootstrap.js"
+        },
+        {
+          "to": "js/bootstrap.min.js"
+        }
+      ]
+    },
+    {
+      "name": "bootstrap",
+      "version": "5.0.2",
+      "source": "npm",
+      "pkg": "bootstrap",
+      "files": [
+        {
+          "to": "css/bootstrap.css"
+        },
+        {
+          "to": "css/bootstrap.min.css"
+        },
+        {
+          "to": "js/bootstrap.js"
+        },
+        {
+          "to": "js/bootstrap.min.js"
+        }
+      ]
+    },
+    {
+      "name": "bootstrap",
+      "version": "5.3.8",
+      "source": "npm",
+      "pkg": "bootstrap",
+      "files": [
+        {
+          "to": "css/bootstrap.css"
+        },
+        {
+          "to": "css/bootstrap.min.css"
+        },
+        {
+          "to": "js/bootstrap.js"
+        },
+        {
+          "to": "js/bootstrap.min.js"
+        },
+        {
+          "to": "js/bootstrap.bundle.js"
+        },
+        {
+          "to": "js/bootstrap.bundle.min.js"
+        }
+      ],
+      "note": "5.3.8 起顺带收录 bundle 版（内含 Popper）；dist/js/bootstrap.js 单独用不含 Popper",
+      "postProcess": [
+        "strip-sourcemap"
+      ]
+    },
+    {
+      "name": "codemirror",
+      "version": "5.63.3",
+      "source": "npm",
+      "pkg": "codemirror",
+      "files": [
+        {
+          "to": "css/3024-day.css"
+        },
+        {
+          "to": "css/3024-night.css"
+        },
+        {
+          "to": "css/abbott.css"
+        },
+        {
+          "to": "css/abcdef.css"
+        },
+        {
+          "to": "css/ambiance-mobile.css"
+        },
+        {
+          "to": "css/ambiance.css"
+        },
+        {
+          "to": "css/ayu-dark.css"
+        },
+        {
+          "to": "css/ayu-mirage.css"
+        },
+        {
+          "to": "css/base16-dark.css"
+        },
+        {
+          "to": "css/base16-light.css"
+        },
+        {
+          "to": "css/bespin.css"
+        },
+        {
+          "to": "css/blackboard.css"
+        },
+        {
+          "to": "css/cobalt.css"
+        },
+        {
+          "to": "css/codemirror.css"
+        },
+        {
+          "to": "css/colorforth.css"
+        },
+        {
+          "to": "css/darcula.css"
+        },
+        {
+          "to": "css/dialog.css"
+        },
+        {
+          "to": "css/dracula.css"
+        },
+        {
+          "to": "css/duotone-dark.css"
+        },
+        {
+          "to": "css/duotone-light.css"
+        },
+        {
+          "to": "css/eclipse.css"
+        },
+        {
+          "to": "css/elegant.css"
+        },
+        {
+          "to": "css/erlang-dark.css"
+        },
+        {
+          "to": "css/foldgutter.css"
+        },
+        {
+          "to": "css/fullscreen.css"
+        },
+        {
+          "to": "css/gruvbox-dark.css"
+        },
+        {
+          "to": "css/hopscotch.css"
+        },
+        {
+          "to": "css/icecoder.css"
+        },
+        {
+          "to": "css/idea.css"
+        },
+        {
+          "to": "css/isotope.css"
+        },
+        {
+          "to": "css/juejin.css"
+        },
+        {
+          "to": "css/lesser-dark.css"
+        },
+        {
+          "to": "css/lint.css"
+        },
+        {
+          "to": "css/liquibyte.css"
+        },
+        {
+          "to": "css/lucario.css"
+        },
+        {
+          "to": "css/matchesonscrollbar.css"
+        },
+        {
+          "to": "css/material-darker.css"
+        },
+        {
+          "to": "css/material-ocean.css"
+        },
+        {
+          "to": "css/material-palenight.css"
+        },
+        {
+          "to": "css/material.css"
+        },
+        {
+          "to": "css/mbo.css"
+        },
+        {
+          "to": "css/mdn-like.css"
+        },
+        {
+          "to": "css/merge.css"
+        },
+        {
+          "to": "css/midnight.css"
+        },
+        {
+          "to": "css/monokai.css"
+        },
+        {
+          "to": "css/moxer.css"
+        },
+        {
+          "to": "css/neat.css"
+        },
+        {
+          "to": "css/neo.css"
+        },
+        {
+          "to": "css/night.css"
+        },
+        {
+          "to": "css/nord.css"
+        },
+        {
+          "to": "css/oceanic-next.css"
+        },
+        {
+          "to": "css/panda-syntax.css"
+        },
+        {
+          "to": "css/paraiso-dark.css"
+        },
+        {
+          "to": "css/paraiso-light.css"
+        },
+        {
+          "to": "css/pastel-on-dark.css"
+        },
+        {
+          "to": "css/railscasts.css"
+        },
+        {
+          "to": "css/rubyblue.css"
+        },
+        {
+          "to": "css/seti.css"
+        },
+        {
+          "to": "css/shadowfox.css"
+        },
+        {
+          "to": "css/show-hint.css"
+        },
+        {
+          "to": "css/simplescrollbars.css"
+        },
+        {
+          "to": "css/solarized.css"
+        },
+        {
+          "to": "css/ssms.css"
+        },
+        {
+          "to": "css/tern.css"
+        },
+        {
+          "to": "css/the-matrix.css"
+        },
+        {
+          "to": "css/tomorrow-night-bright.css"
+        },
+        {
+          "to": "css/tomorrow-night-eighties.css"
+        },
+        {
+          "to": "css/ttcn.css"
+        },
+        {
+          "to": "css/twilight.css"
+        },
+        {
+          "to": "css/vibrant-ink.css"
+        },
+        {
+          "to": "css/xq-dark.css"
+        },
+        {
+          "to": "css/xq-light.css"
+        },
+        {
+          "to": "css/yeti.css"
+        },
+        {
+          "to": "css/yonce.css"
+        },
+        {
+          "to": "css/zenburn.css"
+        },
+        {
+          "to": "js/active-line.js"
+        },
+        {
+          "to": "js/annotatescrollbar.js"
+        },
+        {
+          "to": "js/anyword-hint.js"
+        },
+        {
+          "to": "js/autorefresh.js"
+        },
+        {
+          "to": "js/brace-fold.js"
+        },
+        {
+          "to": "js/closebrackets.js"
+        },
+        {
+          "to": "js/closetag.js"
+        },
+        {
+          "to": "js/codemirror.js"
+        },
+        {
+          "to": "js/coffeescript-lint.js"
+        },
+        {
+          "to": "js/colorize.js"
+        },
+        {
+          "to": "js/comment-fold.js"
+        },
+        {
+          "to": "js/comment.js"
+        },
+        {
+          "to": "js/continuecomment.js"
+        },
+        {
+          "to": "js/continuelist.js"
+        },
+        {
+          "to": "js/css-hint.js"
+        },
+        {
+          "to": "js/css-lint.js"
+        },
+        {
+          "to": "js/css.js"
+        },
+        {
+          "to": "js/dialog.js"
+        },
+        {
+          "to": "js/emacs.js"
+        },
+        {
+          "to": "js/foldcode.js"
+        },
+        {
+          "to": "js/foldgutter.js"
+        },
+        {
+          "to": "js/fullscreen.js"
+        },
+        {
+          "to": "js/hardwrap.js"
+        },
+        {
+          "to": "js/html-hint.js"
+        },
+        {
+          "to": "js/html-lint.js"
+        },
+        {
+          "to": "js/htmlmixed.js"
+        },
+        {
+          "to": "js/indent-fold.js"
+        },
+        {
+          "to": "js/javascript-hint.js"
+        },
+        {
+          "to": "js/javascript-lint.js"
+        },
+        {
+          "to": "js/javascript.js"
+        },
+        {
+          "to": "js/json-lint.js"
+        },
+        {
+          "to": "js/jump-to-line.js"
+        },
+        {
+          "to": "js/lint.js"
+        },
+        {
+          "to": "js/loadmode.js"
+        },
+        {
+          "to": "js/mark-selection.js"
+        },
+        {
+          "to": "js/markdown-fold.js"
+        },
+        {
+          "to": "js/markdown.js"
+        },
+        {
+          "to": "js/match-highlighter.js"
+        },
+        {
+          "to": "js/matchbrackets.js"
+        },
+        {
+          "to": "js/matchesonscrollbar.js"
+        },
+        {
+          "to": "js/matchtags.js"
+        },
+        {
+          "to": "js/merge.js"
+        },
+        {
+          "to": "js/multiplex.js"
+        },
+        {
+          "to": "js/multiplex_test.js"
+        },
+        {
+          "to": "js/overlay.js"
+        },
+        {
+          "to": "js/panel.js"
+        },
+        {
+          "to": "js/placeholder.js"
+        },
+        {
+          "to": "js/rulers.js"
+        },
+        {
+          "to": "js/runmode-standalone.js"
+        },
+        {
+          "to": "js/runmode.js"
+        },
+        {
+          "to": "js/runmode.node.js"
+        },
+        {
+          "to": "js/scrollpastend.js"
+        },
+        {
+          "to": "js/search.js"
+        },
+        {
+          "to": "js/searchcursor.js"
+        },
+        {
+          "to": "js/selection-pointer.js"
+        },
+        {
+          "to": "js/show-hint.js"
+        },
+        {
+          "to": "js/simple.js"
+        },
+        {
+          "to": "js/simplescrollbars.js"
+        },
+        {
+          "to": "js/sql-hint.js"
+        },
+        {
+          "to": "js/sublime.js"
+        },
+        {
+          "to": "js/tern.js"
+        },
+        {
+          "to": "js/trailingspace.js"
+        },
+        {
+          "to": "js/vbscript.js"
+        },
+        {
+          "to": "js/vim.js"
+        },
+        {
+          "to": "js/worker.js"
+        },
+        {
+          "to": "js/xml-fold.js"
+        },
+        {
+          "to": "js/xml-hint.js"
+        },
+        {
+          "to": "js/xml.js"
+        },
+        {
+          "to": "js/yaml-lint.js"
+        }
+      ]
+    },
+    {
+      "name": "dashjs",
+      "version": "3.2.2",
+      "source": "npm",
+      "pkg": "dashjs",
+      "files": [
+        {
+          "to": "js/dash.all.min.js"
+        }
+      ]
+    },
+    {
+      "name": "dplayer",
+      "version": "1.26.0",
+      "source": "npm",
+      "pkg": "dplayer",
+      "files": [
+        {
+          "to": "js/DPlayer.min.js"
+        }
+      ]
+    },
+    {
+      "name": "echarts",
+      "version": "5.1.2",
+      "source": "npm",
+      "pkg": "echarts",
+      "files": [
+        {
+          "to": "echarts.js"
+        },
+        {
+          "to": "echarts.min.js"
+        }
+      ]
+    },
+    {
+      "name": "fingerprintjs",
+      "version": "3.3.0",
+      "source": "npm",
+      "pkg": "@fingerprintjs/fingerprintjs",
+      "files": [
+        {
+          "to": "fp.js"
+        },
+        {
+          "to": "fp.min.js"
+        }
+      ]
+    },
+    {
+      "name": "fireworks",
+      "version": "0.0.1",
+      "source": "manual",
+      "files": [
+        {
+          "to": "js/fireworks.js"
+        }
+      ],
+      "note": "来源不明、无许可头，仅作历史副本保留；新版请用 fireworks-js",
+      "upstream": "none"
+    },
+    {
+      "name": "flv.js",
+      "version": "1.5.0",
+      "source": "npm",
+      "pkg": "flv.js",
+      "files": [
+        {
+          "to": "js/flv.min.js"
+        }
+      ]
+    },
+    {
+      "name": "flv.js",
+      "version": "1.6.1",
+      "source": "npm",
+      "pkg": "flv.js",
+      "files": [
+        {
+          "to": "js/flv.js"
+        },
+        {
+          "to": "js/flv.min.js"
+        }
+      ]
+    },
+    {
+      "name": "font-awesome",
+      "version": "5.15.3",
+      "source": "npm",
+      "pkg": "@fortawesome/fontawesome-free",
+      "files": [
+        {
+          "to": "css/all.css"
+        },
+        {
+          "to": "css/all.min.css"
+        },
+        {
+          "to": "fonts/fa-brands-400.eot"
+        },
+        {
+          "to": "fonts/fa-brands-400.ttf"
+        },
+        {
+          "to": "fonts/fa-brands-400.woff"
+        },
+        {
+          "to": "fonts/fa-brands-400.woff2"
+        },
+        {
+          "to": "fonts/fa-regular-400.eot"
+        },
+        {
+          "to": "fonts/fa-regular-400.ttf"
+        },
+        {
+          "to": "fonts/fa-regular-400.woff"
+        },
+        {
+          "to": "fonts/fa-regular-400.woff2"
+        },
+        {
+          "to": "fonts/fa-solid-900.eot"
+        },
+        {
+          "to": "fonts/fa-solid-900.ttf"
+        },
+        {
+          "to": "fonts/fa-solid-900.woff"
+        },
+        {
+          "to": "fonts/fa-solid-900.woff2"
+        }
+      ],
+      "rewritePaths": {
+        "../webfonts/": "../fonts/"
+      },
+      "stripSvgFont": true
+    },
+    {
+      "name": "highlight",
+      "version": "11.0.1",
+      "source": "npm",
+      "pkg": "@highlightjs/cdn-assets",
+      "files": [
+        {
+          "to": "css/a11y-dark.min.css"
+        },
+        {
+          "to": "css/a11y-light.min.css"
+        },
+        {
+          "to": "css/agate.min.css"
+        },
+        {
+          "to": "css/an-old-hope.min.css"
+        },
+        {
+          "to": "css/androidstudio.min.css"
+        },
+        {
+          "to": "css/arduino-light.min.css"
+        },
+        {
+          "to": "css/arta.min.css"
+        },
+        {
+          "to": "css/ascetic.min.css"
+        },
+        {
+          "to": "css/atom-one-dark-reasonable.min.css"
+        },
+        {
+          "to": "css/atom-one-dark.min.css"
+        },
+        {
+          "to": "css/atom-one-light.min.css"
+        },
+        {
+          "to": "css/base16/3024.min.css"
+        },
+        {
+          "to": "css/base16/apathy.min.css"
+        },
+        {
+          "to": "css/base16/apprentice.min.css"
+        },
+        {
+          "to": "css/base16/ashes.min.css"
+        },
+        {
+          "to": "css/base16/atelier-cave-light.min.css"
+        },
+        {
+          "to": "css/base16/atelier-cave.min.css"
+        },
+        {
+          "to": "css/base16/atelier-dune-light.min.css"
+        },
+        {
+          "to": "css/base16/atelier-dune.min.css"
+        },
+        {
+          "to": "css/base16/atelier-estuary-light.min.css"
+        },
+        {
+          "to": "css/base16/atelier-estuary.min.css"
+        },
+        {
+          "to": "css/base16/atelier-forest-light.min.css"
+        },
+        {
+          "to": "css/base16/atelier-forest.min.css"
+        },
+        {
+          "to": "css/base16/atelier-heath-light.min.css"
+        },
+        {
+          "to": "css/base16/atelier-heath.min.css"
+        },
+        {
+          "to": "css/base16/atelier-lakeside-light.min.css"
+        },
+        {
+          "to": "css/base16/atelier-lakeside.min.css"
+        },
+        {
+          "to": "css/base16/atelier-plateau-light.min.css"
+        },
+        {
+          "to": "css/base16/atelier-plateau.min.css"
+        },
+        {
+          "to": "css/base16/atelier-savanna-light.min.css"
+        },
+        {
+          "to": "css/base16/atelier-savanna.min.css"
+        },
+        {
+          "to": "css/base16/atelier-seaside-light.min.css"
+        },
+        {
+          "to": "css/base16/atelier-seaside.min.css"
+        },
+        {
+          "to": "css/base16/atelier-sulphurpool-light.min.css"
+        },
+        {
+          "to": "css/base16/atelier-sulphurpool.min.css"
+        },
+        {
+          "to": "css/base16/atlas.min.css"
+        },
+        {
+          "to": "css/base16/bespin.min.css"
+        },
+        {
+          "to": "css/base16/black-metal-bathory.min.css"
+        },
+        {
+          "to": "css/base16/black-metal-burzum.min.css"
+        },
+        {
+          "to": "css/base16/black-metal-dark-funeral.min.css"
+        },
+        {
+          "to": "css/base16/black-metal-gorgoroth.min.css"
+        },
+        {
+          "to": "css/base16/black-metal-immortal.min.css"
+        },
+        {
+          "to": "css/base16/black-metal-khold.min.css"
+        },
+        {
+          "to": "css/base16/black-metal-marduk.min.css"
+        },
+        {
+          "to": "css/base16/black-metal-mayhem.min.css"
+        },
+        {
+          "to": "css/base16/black-metal-nile.min.css"
+        },
+        {
+          "to": "css/base16/black-metal-venom.min.css"
+        },
+        {
+          "to": "css/base16/black-metal.min.css"
+        },
+        {
+          "to": "css/base16/brewer.min.css"
+        },
+        {
+          "to": "css/base16/bright.min.css"
+        },
+        {
+          "to": "css/base16/brogrammer.min.css"
+        },
+        {
+          "to": "css/base16/brush-trees-dark.min.css"
+        },
+        {
+          "to": "css/base16/brush-trees.min.css"
+        },
+        {
+          "to": "css/base16/chalk.min.css"
+        },
+        {
+          "to": "css/base16/circus.min.css"
+        },
+        {
+          "to": "css/base16/classic-dark.min.css"
+        },
+        {
+          "to": "css/base16/classic-light.min.css"
+        },
+        {
+          "to": "css/base16/codeschool.min.css"
+        },
+        {
+          "to": "css/base16/colors.min.css"
+        },
+        {
+          "to": "css/base16/cupcake.min.css"
+        },
+        {
+          "to": "css/base16/cupertino.min.css"
+        },
+        {
+          "to": "css/base16/danqing.min.css"
+        },
+        {
+          "to": "css/base16/darcula.min.css"
+        },
+        {
+          "to": "css/base16/dark-violet.min.css"
+        },
+        {
+          "to": "css/base16/darkmoss.min.css"
+        },
+        {
+          "to": "css/base16/darktooth.min.css"
+        },
+        {
+          "to": "css/base16/decaf.min.css"
+        },
+        {
+          "to": "css/base16/default-dark.min.css"
+        },
+        {
+          "to": "css/base16/default-light.min.css"
+        },
+        {
+          "to": "css/base16/dirtysea.min.css"
+        },
+        {
+          "to": "css/base16/dracula.min.css"
+        },
+        {
+          "to": "css/base16/edge-dark.min.css"
+        },
+        {
+          "to": "css/base16/edge-light.min.css"
+        },
+        {
+          "to": "css/base16/eighties.min.css"
+        },
+        {
+          "to": "css/base16/embers.min.css"
+        },
+        {
+          "to": "css/base16/equilibrium-dark.min.css"
+        },
+        {
+          "to": "css/base16/equilibrium-gray-dark.min.css"
+        },
+        {
+          "to": "css/base16/equilibrium-gray-light.min.css"
+        },
+        {
+          "to": "css/base16/equilibrium-light.min.css"
+        },
+        {
+          "to": "css/base16/espresso.min.css"
+        },
+        {
+          "to": "css/base16/eva-dim.min.css"
+        },
+        {
+          "to": "css/base16/eva.min.css"
+        },
+        {
+          "to": "css/base16/flat.min.css"
+        },
+        {
+          "to": "css/base16/framer.min.css"
+        },
+        {
+          "to": "css/base16/fruit-soda.min.css"
+        },
+        {
+          "to": "css/base16/gigavolt.min.css"
+        },
+        {
+          "to": "css/base16/github.min.css"
+        },
+        {
+          "to": "css/base16/google-dark.min.css"
+        },
+        {
+          "to": "css/base16/google-light.min.css"
+        },
+        {
+          "to": "css/base16/grayscale-dark.min.css"
+        },
+        {
+          "to": "css/base16/grayscale-light.min.css"
+        },
+        {
+          "to": "css/base16/green-screen.min.css"
+        },
+        {
+          "to": "css/base16/gruvbox-dark-hard.min.css"
+        },
+        {
+          "to": "css/base16/gruvbox-dark-medium.min.css"
+        },
+        {
+          "to": "css/base16/gruvbox-dark-pale.min.css"
+        },
+        {
+          "to": "css/base16/gruvbox-dark-soft.min.css"
+        },
+        {
+          "to": "css/base16/gruvbox-light-hard.min.css"
+        },
+        {
+          "to": "css/base16/gruvbox-light-medium.min.css"
+        },
+        {
+          "to": "css/base16/gruvbox-light-soft.min.css"
+        },
+        {
+          "to": "css/base16/hardcore.min.css"
+        },
+        {
+          "to": "css/base16/harmonic16-dark.min.css"
+        },
+        {
+          "to": "css/base16/harmonic16-light.min.css"
+        },
+        {
+          "to": "css/base16/heetch-dark.min.css"
+        },
+        {
+          "to": "css/base16/heetch-light.min.css"
+        },
+        {
+          "to": "css/base16/helios.min.css"
+        },
+        {
+          "to": "css/base16/hopscotch.min.css"
+        },
+        {
+          "to": "css/base16/horizon-dark.min.css"
+        },
+        {
+          "to": "css/base16/horizon-light.min.css"
+        },
+        {
+          "to": "css/base16/humanoid-dark.min.css"
+        },
+        {
+          "to": "css/base16/humanoid-light.min.css"
+        },
+        {
+          "to": "css/base16/ia-dark.min.css"
+        },
+        {
+          "to": "css/base16/ia-light.min.css"
+        },
+        {
+          "to": "css/base16/icy-dark.min.css"
+        },
+        {
+          "to": "css/base16/ir-black.min.css"
+        },
+        {
+          "to": "css/base16/isotope.min.css"
+        },
+        {
+          "to": "css/base16/kimber.min.css"
+        },
+        {
+          "to": "css/base16/london-tube.min.css"
+        },
+        {
+          "to": "css/base16/macintosh.min.css"
+        },
+        {
+          "to": "css/base16/marrakesh.min.css"
+        },
+        {
+          "to": "css/base16/materia.min.css"
+        },
+        {
+          "to": "css/base16/material-darker.min.css"
+        },
+        {
+          "to": "css/base16/material-lighter.min.css"
+        },
+        {
+          "to": "css/base16/material-palenight.min.css"
+        },
+        {
+          "to": "css/base16/material-vivid.min.css"
+        },
+        {
+          "to": "css/base16/material.min.css"
+        },
+        {
+          "to": "css/base16/mellow-purple.min.css"
+        },
+        {
+          "to": "css/base16/mexico-light.min.css"
+        },
+        {
+          "to": "css/base16/mocha.min.css"
+        },
+        {
+          "to": "css/base16/monokai.min.css"
+        },
+        {
+          "to": "css/base16/nebula.min.css"
+        },
+        {
+          "to": "css/base16/nord.min.css"
+        },
+        {
+          "to": "css/base16/nova.min.css"
+        },
+        {
+          "to": "css/base16/ocean.min.css"
+        },
+        {
+          "to": "css/base16/oceanicnext.min.css"
+        },
+        {
+          "to": "css/base16/one-light.min.css"
+        },
+        {
+          "to": "css/base16/onedark.min.css"
+        },
+        {
+          "to": "css/base16/outrun-dark.min.css"
+        },
+        {
+          "to": "css/base16/papercolor-dark.min.css"
+        },
+        {
+          "to": "css/base16/papercolor-light.min.css"
+        },
+        {
+          "to": "css/base16/paraiso.min.css"
+        },
+        {
+          "to": "css/base16/pasque.min.css"
+        },
+        {
+          "to": "css/base16/phd.min.css"
+        },
+        {
+          "to": "css/base16/pico.min.css"
+        },
+        {
+          "to": "css/base16/pop.min.css"
+        },
+        {
+          "to": "css/base16/porple.min.css"
+        },
+        {
+          "to": "css/base16/qualia.min.css"
+        },
+        {
+          "to": "css/base16/railscasts.min.css"
+        },
+        {
+          "to": "css/base16/rebecca.min.css"
+        },
+        {
+          "to": "css/base16/ros-pine-dawn.min.css"
+        },
+        {
+          "to": "css/base16/ros-pine-moon.min.css"
+        },
+        {
+          "to": "css/base16/ros-pine.min.css"
+        },
+        {
+          "to": "css/base16/sagelight.min.css"
+        },
+        {
+          "to": "css/base16/sandcastle.min.css"
+        },
+        {
+          "to": "css/base16/seti-ui.min.css"
+        },
+        {
+          "to": "css/base16/shapeshifter.min.css"
+        },
+        {
+          "to": "css/base16/silk-dark.min.css"
+        },
+        {
+          "to": "css/base16/silk-light.min.css"
+        },
+        {
+          "to": "css/base16/snazzy.min.css"
+        },
+        {
+          "to": "css/base16/solar-flare-light.min.css"
+        },
+        {
+          "to": "css/base16/solar-flare.min.css"
+        },
+        {
+          "to": "css/base16/solarized-dark.min.css"
+        },
+        {
+          "to": "css/base16/solarized-light.min.css"
+        },
+        {
+          "to": "css/base16/spacemacs.min.css"
+        },
+        {
+          "to": "css/base16/summercamp.min.css"
+        },
+        {
+          "to": "css/base16/summerfruit-dark.min.css"
+        },
+        {
+          "to": "css/base16/summerfruit-light.min.css"
+        },
+        {
+          "to": "css/base16/synth-midnight-terminal-dark.min.css"
+        },
+        {
+          "to": "css/base16/synth-midnight-terminal-light.min.css"
+        },
+        {
+          "to": "css/base16/tango.min.css"
+        },
+        {
+          "to": "css/base16/tender.min.css"
+        },
+        {
+          "to": "css/base16/tomorrow-night.min.css"
+        },
+        {
+          "to": "css/base16/tomorrow.min.css"
+        },
+        {
+          "to": "css/base16/twilight.min.css"
+        },
+        {
+          "to": "css/base16/unikitty-dark.min.css"
+        },
+        {
+          "to": "css/base16/unikitty-light.min.css"
+        },
+        {
+          "to": "css/base16/vulcan.min.css"
+        },
+        {
+          "to": "css/base16/windows-10-light.min.css"
+        },
+        {
+          "to": "css/base16/windows-10.min.css"
+        },
+        {
+          "to": "css/base16/windows-95-light.min.css"
+        },
+        {
+          "to": "css/base16/windows-95.min.css"
+        },
+        {
+          "to": "css/base16/windows-high-contrast-light.min.css"
+        },
+        {
+          "to": "css/base16/windows-high-contrast.min.css"
+        },
+        {
+          "to": "css/base16/windows-nt-light.min.css"
+        },
+        {
+          "to": "css/base16/windows-nt.min.css"
+        },
+        {
+          "to": "css/base16/woodland.min.css"
+        },
+        {
+          "to": "css/base16/xcode-dusk.min.css"
+        },
+        {
+          "to": "css/base16/zenburn.min.css"
+        },
+        {
+          "to": "css/brown-paper.min.css"
+        },
+        {
+          "to": "css/brown-papersq.png"
+        },
+        {
+          "to": "css/codepen-embed.min.css"
+        },
+        {
+          "to": "css/color-brewer.min.css"
+        },
+        {
+          "to": "css/dark.min.css"
+        },
+        {
+          "to": "css/default.min.css"
+        },
+        {
+          "to": "css/devibeans.min.css"
+        },
+        {
+          "to": "css/docco.min.css"
+        },
+        {
+          "to": "css/far.min.css"
+        },
+        {
+          "to": "css/foundation.min.css"
+        },
+        {
+          "to": "css/github-dark-dimmed.min.css"
+        },
+        {
+          "to": "css/github-dark.min.css"
+        },
+        {
+          "to": "css/github.min.css"
+        },
+        {
+          "to": "css/gml.min.css"
+        },
+        {
+          "to": "css/googlecode.min.css"
+        },
+        {
+          "to": "css/gradient-dark.min.css"
+        },
+        {
+          "to": "css/gradient-light.min.css"
+        },
+        {
+          "to": "css/grayscale.min.css"
+        },
+        {
+          "to": "css/highlight-default.min.css",
+          "optional": true
+        },
+        {
+          "to": "css/hybrid.min.css"
+        },
+        {
+          "to": "css/idea.min.css"
+        },
+        {
+          "to": "css/ir-black.min.css"
+        },
+        {
+          "to": "css/isbl-editor-dark.min.css"
+        },
+        {
+          "to": "css/isbl-editor-light.min.css"
+        },
+        {
+          "to": "css/kimbie-dark.min.css"
+        },
+        {
+          "to": "css/kimbie-light.min.css"
+        },
+        {
+          "to": "css/lightfair.min.css"
+        },
+        {
+          "to": "css/lioshi.min.css"
+        },
+        {
+          "to": "css/magula.min.css"
+        },
+        {
+          "to": "css/mono-blue.min.css"
+        },
+        {
+          "to": "css/monokai-sublime.min.css"
+        },
+        {
+          "to": "css/monokai.min.css"
+        },
+        {
+          "to": "css/night-owl.min.css"
+        },
+        {
+          "to": "css/nnfx-dark.min.css"
+        },
+        {
+          "to": "css/nnfx-light.min.css"
+        },
+        {
+          "to": "css/nord.min.css"
+        },
+        {
+          "to": "css/obsidian.min.css"
+        },
+        {
+          "to": "css/paraiso-dark.min.css"
+        },
+        {
+          "to": "css/paraiso-light.min.css"
+        },
+        {
+          "to": "css/pojoaque.jpg"
+        },
+        {
+          "to": "css/pojoaque.min.css"
+        },
+        {
+          "to": "css/purebasic.min.css"
+        },
+        {
+          "to": "css/qtcreator-dark.min.css"
+        },
+        {
+          "to": "css/qtcreator-light.min.css"
+        },
+        {
+          "to": "css/rainbow.min.css"
+        },
+        {
+          "to": "css/routeros.min.css"
+        },
+        {
+          "to": "css/school-book.min.css"
+        },
+        {
+          "to": "css/shades-of-purple.min.css"
+        },
+        {
+          "to": "css/srcery.min.css"
+        },
+        {
+          "to": "css/stackoverflow-dark.min.css"
+        },
+        {
+          "to": "css/stackoverflow-light.min.css"
+        },
+        {
+          "to": "css/sunburst.min.css"
+        },
+        {
+          "to": "css/tomorrow-night-blue.min.css"
+        },
+        {
+          "to": "css/tomorrow-night-bright.min.css"
+        },
+        {
+          "to": "css/vs.min.css"
+        },
+        {
+          "to": "css/vs2015.min.css"
+        },
+        {
+          "to": "css/xcode.min.css"
+        },
+        {
+          "to": "css/xt256.min.css"
+        },
+        {
+          "to": "js/highlight.js"
+        },
+        {
+          "to": "js/highlight.min.js"
+        },
+        {
+          "to": "lang/1c.min.js"
+        },
+        {
+          "to": "lang/abnf.min.js"
+        },
+        {
+          "to": "lang/accesslog.min.js"
+        },
+        {
+          "to": "lang/actionscript.min.js"
+        },
+        {
+          "to": "lang/ada.min.js"
+        },
+        {
+          "to": "lang/angelscript.min.js"
+        },
+        {
+          "to": "lang/apache.min.js"
+        },
+        {
+          "to": "lang/applescript.min.js"
+        },
+        {
+          "to": "lang/arcade.min.js"
+        },
+        {
+          "to": "lang/arduino.min.js"
+        },
+        {
+          "to": "lang/armasm.min.js"
+        },
+        {
+          "to": "lang/asciidoc.min.js"
+        },
+        {
+          "to": "lang/aspectj.min.js"
+        },
+        {
+          "to": "lang/autohotkey.min.js"
+        },
+        {
+          "to": "lang/autoit.min.js"
+        },
+        {
+          "to": "lang/avrasm.min.js"
+        },
+        {
+          "to": "lang/awk.min.js"
+        },
+        {
+          "to": "lang/axapta.min.js"
+        },
+        {
+          "to": "lang/bash.min.js"
+        },
+        {
+          "to": "lang/basic.min.js"
+        },
+        {
+          "to": "lang/bnf.min.js"
+        },
+        {
+          "to": "lang/brainfuck.min.js"
+        },
+        {
+          "to": "lang/c.min.js"
+        },
+        {
+          "to": "lang/cal.min.js"
+        },
+        {
+          "to": "lang/capnproto.min.js"
+        },
+        {
+          "to": "lang/ceylon.min.js"
+        },
+        {
+          "to": "lang/clean.min.js"
+        },
+        {
+          "to": "lang/clojure-repl.min.js"
+        },
+        {
+          "to": "lang/clojure.min.js"
+        },
+        {
+          "to": "lang/cmake.min.js"
+        },
+        {
+          "to": "lang/coffeescript.min.js"
+        },
+        {
+          "to": "lang/coq.min.js"
+        },
+        {
+          "to": "lang/cos.min.js"
+        },
+        {
+          "to": "lang/cpp.min.js"
+        },
+        {
+          "to": "lang/crmsh.min.js"
+        },
+        {
+          "to": "lang/crystal.min.js"
+        },
+        {
+          "to": "lang/csharp.min.js"
+        },
+        {
+          "to": "lang/csp.min.js"
+        },
+        {
+          "to": "lang/css.min.js"
+        },
+        {
+          "to": "lang/d.min.js"
+        },
+        {
+          "to": "lang/dart.min.js"
+        },
+        {
+          "to": "lang/delphi.min.js"
+        },
+        {
+          "to": "lang/diff.min.js"
+        },
+        {
+          "to": "lang/django.min.js"
+        },
+        {
+          "to": "lang/dns.min.js"
+        },
+        {
+          "to": "lang/dockerfile.min.js"
+        },
+        {
+          "to": "lang/dos.min.js"
+        },
+        {
+          "to": "lang/dsconfig.min.js"
+        },
+        {
+          "to": "lang/dts.min.js"
+        },
+        {
+          "to": "lang/dust.min.js"
+        },
+        {
+          "to": "lang/ebnf.min.js"
+        },
+        {
+          "to": "lang/elixir.min.js"
+        },
+        {
+          "to": "lang/elm.min.js"
+        },
+        {
+          "to": "lang/erb.min.js"
+        },
+        {
+          "to": "lang/erlang-repl.min.js"
+        },
+        {
+          "to": "lang/erlang.min.js"
+        },
+        {
+          "to": "lang/excel.min.js"
+        },
+        {
+          "to": "lang/fix.min.js"
+        },
+        {
+          "to": "lang/flix.min.js"
+        },
+        {
+          "to": "lang/fortran.min.js"
+        },
+        {
+          "to": "lang/fsharp.min.js"
+        },
+        {
+          "to": "lang/gams.min.js"
+        },
+        {
+          "to": "lang/gauss.min.js"
+        },
+        {
+          "to": "lang/gcode.min.js"
+        },
+        {
+          "to": "lang/gherkin.min.js"
+        },
+        {
+          "to": "lang/glsl.min.js"
+        },
+        {
+          "to": "lang/gml.min.js"
+        },
+        {
+          "to": "lang/go.min.js"
+        },
+        {
+          "to": "lang/golo.min.js"
+        },
+        {
+          "to": "lang/gradle.min.js"
+        },
+        {
+          "to": "lang/groovy.min.js"
+        },
+        {
+          "to": "lang/haml.min.js"
+        },
+        {
+          "to": "lang/handlebars.min.js"
+        },
+        {
+          "to": "lang/haskell.min.js"
+        },
+        {
+          "to": "lang/haxe.min.js"
+        },
+        {
+          "to": "lang/hsp.min.js"
+        },
+        {
+          "to": "lang/http.min.js"
+        },
+        {
+          "to": "lang/hy.min.js"
+        },
+        {
+          "to": "lang/inform7.min.js"
+        },
+        {
+          "to": "lang/ini.min.js"
+        },
+        {
+          "to": "lang/irpf90.min.js"
+        },
+        {
+          "to": "lang/isbl.min.js"
+        },
+        {
+          "to": "lang/java.min.js"
+        },
+        {
+          "to": "lang/javascript.min.js"
+        },
+        {
+          "to": "lang/jboss-cli.min.js"
+        },
+        {
+          "to": "lang/json.min.js"
+        },
+        {
+          "to": "lang/julia-repl.min.js"
+        },
+        {
+          "to": "lang/julia.min.js"
+        },
+        {
+          "to": "lang/kotlin.min.js"
+        },
+        {
+          "to": "lang/lasso.min.js"
+        },
+        {
+          "to": "lang/latex.min.js"
+        },
+        {
+          "to": "lang/ldif.min.js"
+        },
+        {
+          "to": "lang/leaf.min.js"
+        },
+        {
+          "to": "lang/less.min.js"
+        },
+        {
+          "to": "lang/lisp.min.js"
+        },
+        {
+          "to": "lang/livecodeserver.min.js"
+        },
+        {
+          "to": "lang/livescript.min.js"
+        },
+        {
+          "to": "lang/llvm.min.js"
+        },
+        {
+          "to": "lang/lsl.min.js"
+        },
+        {
+          "to": "lang/lua.min.js"
+        },
+        {
+          "to": "lang/makefile.min.js"
+        },
+        {
+          "to": "lang/markdown.min.js"
+        },
+        {
+          "to": "lang/mathematica.min.js"
+        },
+        {
+          "to": "lang/matlab.min.js"
+        },
+        {
+          "to": "lang/maxima.min.js"
+        },
+        {
+          "to": "lang/mel.min.js"
+        },
+        {
+          "to": "lang/mercury.min.js"
+        },
+        {
+          "to": "lang/mipsasm.min.js"
+        },
+        {
+          "to": "lang/mizar.min.js"
+        },
+        {
+          "to": "lang/mojolicious.min.js"
+        },
+        {
+          "to": "lang/monkey.min.js"
+        },
+        {
+          "to": "lang/moonscript.min.js"
+        },
+        {
+          "to": "lang/n1ql.min.js"
+        },
+        {
+          "to": "lang/nestedtext.min.js"
+        },
+        {
+          "to": "lang/nginx.min.js"
+        },
+        {
+          "to": "lang/nim.min.js"
+        },
+        {
+          "to": "lang/nix.min.js"
+        },
+        {
+          "to": "lang/node-repl.min.js"
+        },
+        {
+          "to": "lang/nsis.min.js"
+        },
+        {
+          "to": "lang/objectivec.min.js"
+        },
+        {
+          "to": "lang/ocaml.min.js"
+        },
+        {
+          "to": "lang/openscad.min.js"
+        },
+        {
+          "to": "lang/oxygene.min.js"
+        },
+        {
+          "to": "lang/parser3.min.js"
+        },
+        {
+          "to": "lang/perl.min.js"
+        },
+        {
+          "to": "lang/pf.min.js"
+        },
+        {
+          "to": "lang/pgsql.min.js"
+        },
+        {
+          "to": "lang/php-template.min.js"
+        },
+        {
+          "to": "lang/php.min.js"
+        },
+        {
+          "to": "lang/plaintext.min.js"
+        },
+        {
+          "to": "lang/pony.min.js"
+        },
+        {
+          "to": "lang/powershell.min.js"
+        },
+        {
+          "to": "lang/processing.min.js"
+        },
+        {
+          "to": "lang/profile.min.js"
+        },
+        {
+          "to": "lang/prolog.min.js"
+        },
+        {
+          "to": "lang/properties.min.js"
+        },
+        {
+          "to": "lang/protobuf.min.js"
+        },
+        {
+          "to": "lang/puppet.min.js"
+        },
+        {
+          "to": "lang/purebasic.min.js"
+        },
+        {
+          "to": "lang/python-repl.min.js"
+        },
+        {
+          "to": "lang/python.min.js"
+        },
+        {
+          "to": "lang/q.min.js"
+        },
+        {
+          "to": "lang/qml.min.js"
+        },
+        {
+          "to": "lang/r.min.js"
+        },
+        {
+          "to": "lang/reasonml.min.js"
+        },
+        {
+          "to": "lang/rib.min.js"
+        },
+        {
+          "to": "lang/roboconf.min.js"
+        },
+        {
+          "to": "lang/routeros.min.js"
+        },
+        {
+          "to": "lang/rsl.min.js"
+        },
+        {
+          "to": "lang/ruby.min.js"
+        },
+        {
+          "to": "lang/ruleslanguage.min.js"
+        },
+        {
+          "to": "lang/rust.min.js"
+        },
+        {
+          "to": "lang/sas.min.js"
+        },
+        {
+          "to": "lang/scala.min.js"
+        },
+        {
+          "to": "lang/scheme.min.js"
+        },
+        {
+          "to": "lang/scilab.min.js"
+        },
+        {
+          "to": "lang/scss.min.js"
+        },
+        {
+          "to": "lang/shell.min.js"
+        },
+        {
+          "to": "lang/smali.min.js"
+        },
+        {
+          "to": "lang/smalltalk.min.js"
+        },
+        {
+          "to": "lang/sml.min.js"
+        },
+        {
+          "to": "lang/sqf.min.js"
+        },
+        {
+          "to": "lang/sql.min.js"
+        },
+        {
+          "to": "lang/stan.min.js"
+        },
+        {
+          "to": "lang/stata.min.js"
+        },
+        {
+          "to": "lang/step21.min.js"
+        },
+        {
+          "to": "lang/stylus.min.js"
+        },
+        {
+          "to": "lang/subunit.min.js"
+        },
+        {
+          "to": "lang/swift.min.js"
+        },
+        {
+          "to": "lang/taggerscript.min.js"
+        },
+        {
+          "to": "lang/tap.min.js"
+        },
+        {
+          "to": "lang/tcl.min.js"
+        },
+        {
+          "to": "lang/thrift.min.js"
+        },
+        {
+          "to": "lang/tp.min.js"
+        },
+        {
+          "to": "lang/twig.min.js"
+        },
+        {
+          "to": "lang/typescript.min.js"
+        },
+        {
+          "to": "lang/vala.min.js"
+        },
+        {
+          "to": "lang/vbnet.min.js"
+        },
+        {
+          "to": "lang/vbscript-html.min.js"
+        },
+        {
+          "to": "lang/vbscript.min.js"
+        },
+        {
+          "to": "lang/verilog.min.js"
+        },
+        {
+          "to": "lang/vhdl.min.js"
+        },
+        {
+          "to": "lang/vim.min.js"
+        },
+        {
+          "to": "lang/wasm.min.js"
+        },
+        {
+          "to": "lang/wren.min.js"
+        },
+        {
+          "to": "lang/x86asm.min.js"
+        },
+        {
+          "to": "lang/xl.min.js"
+        },
+        {
+          "to": "lang/xml.min.js"
+        },
+        {
+          "to": "lang/xquery.min.js"
+        },
+        {
+          "to": "lang/yaml.min.js"
+        },
+        {
+          "to": "lang/zephir.min.js"
+        }
+      ]
+    },
+    {
+      "name": "hls.js",
+      "version": "1.0.4",
+      "source": "npm",
+      "pkg": "hls.js",
+      "files": [
+        {
+          "to": "js/hls.min.js"
+        }
+      ]
+    },
+    {
+      "name": "hls.js",
+      "version": "1.0.8",
+      "source": "npm",
+      "pkg": "hls.js",
+      "files": [
+        {
+          "to": "js/hls.js"
+        },
+        {
+          "to": "js/hls.min.js"
+        }
+      ]
+    },
+    {
+      "name": "html5shiv",
+      "version": "3.7.3",
+      "source": "npm",
+      "pkg": "html5shiv",
+      "files": [
+        {
+          "to": "html5shiv.js"
+        },
+        {
+          "to": "html5shiv.min.js"
+        }
+      ]
+    },
+    {
+      "name": "jquery",
+      "version": "1.10.0",
+      "source": "url",
+      "files": [
+        {
+          "to": "jquery.js",
+          "url": "https://code.jquery.com/jquery-1.10.0.js",
+          "integrity": "sha512-SVmzN8tLW2gcok9RNTpzdDB4Y295KaIVNT3TRNqc4bitaxg91DkNJQ381DjiPavonxMnkrr7VRvGf8lDjp0L7Q=="
+        },
+        {
+          "to": "jquery.min.js",
+          "url": "https://code.jquery.com/jquery-1.10.0.min.js",
+          "integrity": "sha512-hlwstlkIAF4MppsmWTuFv1VK1xGS0bRFZKxRMrVZagR4r8jhOGbIdqHoKpEuwGugLzP7oAXJzJo3Ai9UZFn2tA=="
+        }
+      ],
+      "note": "npm 无 1.10.x；改从 code.jquery.com 官方 CDN 同步，首次拉取自动回填 sha512",
+      "license": "MIT"
+    },
+    {
+      "name": "jquery",
+      "version": "1.11.3",
+      "source": "npm",
+      "pkg": "jquery",
+      "files": [
+        {
+          "to": "jquery.js"
+        },
+        {
+          "to": "jquery.min.js"
+        }
+      ]
+    },
+    {
+      "name": "jquery",
+      "version": "1.12.4",
+      "source": "npm",
+      "pkg": "jquery",
+      "files": [
+        {
+          "to": "jquery.js"
+        },
+        {
+          "to": "jquery.min.js"
+        }
+      ]
+    },
+    {
+      "name": "jquery",
+      "version": "2.2.4",
+      "source": "npm",
+      "pkg": "jquery",
+      "files": [
+        {
+          "to": "jquery.js"
+        },
+        {
+          "to": "jquery.min.js"
+        }
+      ]
+    },
+    {
+      "name": "jquery",
+      "version": "3.6.0",
+      "source": "npm",
+      "pkg": "jquery",
+      "files": [
+        {
+          "to": "jquery.js"
+        },
+        {
+          "to": "jquery.min.js"
+        }
+      ]
+    },
+    {
+      "name": "jquery-qrcode",
+      "version": "1.0",
+      "source": "manual",
+      "files": [
+        {
+          "to": "js/jquery.qrcode.min.js"
+        }
+      ],
+      "note": "文件内未声明许可，按上游 lrsjng/jquery-qrcode 的 MIT 对待；目录名非 semver，npm 仅有 1.0.0 且内容不同",
+      "upstream": "none"
+    },
+    {
+      "name": "jquery-running",
+      "version": "1.0.0",
+      "source": "manual",
+      "files": [
+        {
+          "to": "css/jquery.running.css"
+        },
+        {
+          "to": "js/jquery.running.min.js"
+        }
+      ],
+      "license": "MIT",
+      "copyright": "Copyright (c) 2007-2015 Qietu inc",
+      "upstream": "none",
+      "note": "qietu 私有分发（文件头声明 MIT），无公开上游"
+    },
+    {
+      "name": "jsrsasign",
+      "version": "10.4.1",
+      "source": "npm",
+      "pkg": "jsrsasign",
+      "files": [
+        {
+          "to": "jsrsasign-all-min.js"
+        },
+        {
+          "to": "jsrsasign-jwths-min.js"
+        },
+        {
+          "to": "jsrsasign-rsa-min.js"
+        }
+      ]
+    },
+    {
+      "name": "jsrsasign",
+      "version": "10.5.27",
+      "source": "npm",
+      "pkg": "jsrsasign",
+      "files": [
+        {
+          "to": "crypto-1.1.min.js",
+          "optional": true
+        },
+        {
+          "to": "cryptojs-core.min.js",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "name": "lodash.js",
+      "version": "4.17.21",
+      "source": "npm",
+      "pkg": "lodash",
+      "files": [
+        {
+          "to": "lodash.js"
+        },
+        {
+          "to": "lodash.min.js"
+        }
+      ]
+    },
+    {
+      "name": "markdown-it",
+      "version": "12.2.0",
+      "source": "npm",
+      "pkg": "markdown-it",
+      "files": [
+        {
+          "to": "css/github-markdown.css",
+          "optional": true
+        },
+        {
+          "to": "js/markdown-it.min.js"
+        }
+      ]
+    },
+    {
+      "name": "moment.js",
+      "version": "2.29.1",
+      "source": "npm",
+      "pkg": "moment",
+      "files": [
+        {
+          "to": "moment.js"
+        },
+        {
+          "to": "moment.min.js"
+        }
+      ]
+    },
+    {
+      "name": "mux.js",
+      "version": "5.11.0",
+      "source": "npm",
+      "pkg": "mux.js",
+      "files": [
+        {
+          "to": "js/mux.min.js"
+        }
+      ]
+    },
+    {
+      "name": "opensans",
+      "version": "0.0.1",
+      "source": "manual",
+      "files": [
+        {
+          "to": "css/opensans.css"
+        },
+        {
+          "to": "css/opensans.min.css"
+        },
+        {
+          "to": "fonts/OpenSans-Bold.eot"
+        },
+        {
+          "to": "fonts/OpenSans-Bold.otf"
+        },
+        {
+          "to": "fonts/OpenSans-Bold.svg"
+        },
+        {
+          "to": "fonts/OpenSans-Bold.ttf"
+        },
+        {
+          "to": "fonts/OpenSans-Bold.woff"
+        },
+        {
+          "to": "fonts/OpenSans-Bold.woff2"
+        },
+        {
+          "to": "fonts/OpenSans-BoldItalic.ttf"
+        },
+        {
+          "to": "fonts/OpenSans-ExtraBold.ttf"
+        },
+        {
+          "to": "fonts/OpenSans-ExtraBoldItalic.ttf"
+        },
+        {
+          "to": "fonts/OpenSans-Italic.ttf"
+        },
+        {
+          "to": "fonts/OpenSans-Light.ttf"
+        },
+        {
+          "to": "fonts/OpenSans-LightItalic.ttf"
+        },
+        {
+          "to": "fonts/OpenSans-Regular.ttf"
+        },
+        {
+          "to": "fonts/OpenSans-Semibold.ttf"
+        },
+        {
+          "to": "fonts/OpenSans-SemiboldItalic.ttf"
+        }
+      ],
+      "note": "字体为 Open Sans 1.10（Apache-2.0，版权归 Google，Ascender 设计）；npm 无 opensans 包，最接近的 open-sans-fontface@1.4.0 虽同为 1.10 但 16 个文件中 13 个哈希不同、且没有本套 CSS，故不作自动同步源",
+      "license": "Apache-2.0",
+      "copyright": "Digitized data copyright (c) 2010-2011, Google Corporation. Open Sans is a trademark of Google.",
+      "upstream": "none"
+    },
+    {
+      "name": "redux",
+      "version": "4.1.2",
+      "source": "npm",
+      "pkg": "redux",
+      "files": [
+        {
+          "to": "redux.js"
+        },
+        {
+          "to": "redux.min.js"
+        }
+      ]
+    },
+    {
+      "name": "respond",
+      "version": "1.4.2",
+      "source": "npm",
+      "pkg": "respond.js",
+      "files": [
+        {
+          "to": "js/respond.min.js"
+        }
+      ]
+    },
+    {
+      "name": "shaka-player",
+      "version": "3.2.0",
+      "source": "npm",
+      "pkg": "shaka-player",
+      "files": [
+        {
+          "to": "js/shaka-player.compiled.js"
+        }
+      ]
+    },
+    {
+      "name": "socket.io",
+      "version": "4.1.3",
+      "source": "npm",
+      "pkg": "socket.io-client",
+      "files": [
+        {
+          "to": "socket.io.js"
+        },
+        {
+          "to": "socket.io.min.js"
+        }
+      ]
+    },
+    {
+      "name": "vue",
+      "version": "2.6.14",
+      "source": "npm",
+      "pkg": "vue",
+      "files": [
+        {
+          "to": "vue.js"
+        },
+        {
+          "to": "vue.min.js"
+        }
+      ]
+    },
+    {
+      "name": "vue-router",
+      "version": "3.0.2",
+      "source": "npm",
+      "pkg": "vue-router",
+      "files": [
+        {
+          "to": "vue-router.js"
+        },
+        {
+          "to": "vue-router.min.js"
+        }
+      ]
+    },
+    {
+      "name": "vuex",
+      "version": "3.0.1",
+      "source": "npm",
+      "pkg": "vuex",
+      "files": [
+        {
+          "to": "vuex.js"
+        },
+        {
+          "to": "vuex.min.js"
+        }
+      ]
+    },
+    {
+      "name": "webtorrent",
+      "version": "1.0.1",
+      "source": "npm",
+      "pkg": "webtorrent",
+      "files": [
+        {
+          "to": "js/webtorrent.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xlsxjs",
+      "version": "0.0.1",
+      "source": "manual",
+      "files": [
+        {
+          "to": "xlsx.js"
+        },
+        {
+          "to": "xlsx.min.js"
+        }
+      ],
+      "note": "SheetJS 早期全量构建，npm xlsx 无 0.0.1；同目录 0.17.4 带 Apache-2.0 LICENSE",
+      "license": "Apache-2.0",
+      "upstream": "none"
+    },
+    {
+      "name": "xlsxjs",
+      "version": "0.17.4",
+      "source": "npm",
+      "pkg": "xlsx",
+      "files": [
+        {
+          "to": "js/xlsx.full.min.js"
+        },
+        {
+          "to": "js/xlsx.js"
+        },
+        {
+          "to": "js/xlsx.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xqclip",
+      "version": "0.0.1",
+      "source": "npm",
+      "pkg": "xqclip",
+      "files": [
+        {
+          "to": "css/clip.css"
+        },
+        {
+          "to": "css/clip.min.css"
+        },
+        {
+          "to": "js/clip.js",
+          "from": "lib/js/xqclip.js"
+        },
+        {
+          "to": "js/clip.min.js",
+          "from": "lib/js/xqclip.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xqclip",
+      "version": "0.0.3",
+      "source": "npm",
+      "pkg": "xqclip",
+      "files": [
+        {
+          "to": "css/xqclip.css",
+          "from": "lib/css/clip.css"
+        },
+        {
+          "to": "css/xqclip.min.css",
+          "from": "lib/css/clip.min.css"
+        },
+        {
+          "to": "js/xqclip-esm.js"
+        },
+        {
+          "to": "js/xqclip-esm.min.js"
+        },
+        {
+          "to": "js/xqclip.js",
+          "from": "lib/js/xqclip.js"
+        },
+        {
+          "to": "js/xqclip.min.js",
+          "from": "lib/js/xqclip.min.js"
+        },
+        {
+          "to": "vue/xqclip.js",
+          "from": "lib/vue/xqclip.js"
+        },
+        {
+          "to": "vue/xqclip.vue"
+        }
+      ]
+    },
+    {
+      "name": "xqclip",
+      "version": "0.1.3",
+      "source": "npm",
+      "pkg": "xqclip",
+      "files": [
+        { "to": "css/xqclip.css", "from": "lib/css/xqclip.css" },
+        { "to": "css/xqclip.min.css", "from": "lib/css/xqclip.min.css" },
+        { "to": "js/xqclip.js", "from": "lib/js/xqclip.js" },
+        { "to": "js/xqclip.min.js", "from": "lib/js/xqclip.min.js" },
+        { "to": "js/xqclip-esm.js", "from": "lib/js/xqclip-esm.js" },
+        { "to": "js/xqclip-esm.min.js", "from": "lib/js/xqclip-esm.min.js" },
+        { "to": "vue/xqclip.js", "from": "lib/vue/xqclip.js" },
+        { "to": "vue/xqclip.vue", "from": "lib/vue/xqclip.vue" }
+      ]
+    },
+    {
+      "name": "xqeditor",
+      "version": "0.0.1",
+      "source": "npm",
+      "pkg": "xqeditor",
+      "files": [
+        {
+          "to": "css/xqeditor.css"
+        },
+        {
+          "to": "css/xqeditor.min.css"
+        },
+        {
+          "to": "js/xqeditor-esm.js"
+        },
+        {
+          "to": "js/xqeditor-esm.min.js"
+        },
+        {
+          "to": "js/xqeditor.js"
+        },
+        {
+          "to": "js/xqeditor.min.js"
+        },
+        {
+          "to": "vue/index.js"
+        },
+        {
+          "to": "vue/index.vue"
+        }
+      ]
+    },
+    {
+      "name": "xqeditor",
+      "version": "0.1.3",
+      "source": "npm",
+      "pkg": "xqeditor",
+      "files": [
+        {
+          "to": "css/xqeditor.css"
+        },
+        {
+          "to": "css/xqeditor.min.css"
+        },
+        {
+          "to": "js/xqeditor-esm.js"
+        },
+        {
+          "to": "js/xqeditor-esm.min.js"
+        },
+        {
+          "to": "js/xqeditor.js"
+        },
+        {
+          "to": "js/xqeditor.min.js"
+        },
+        {
+          "to": "vue/index.js"
+        },
+        {
+          "to": "vue/index.vue"
+        }
+      ]
+    },
+    {
+      "name": "xqgjs",
+      "version": "1.0.3",
+      "source": "npm",
+      "pkg": "xqgjs",
+      "files": [
+        {
+          "to": "js/xqgjs-esm.js"
+        },
+        {
+          "to": "js/xqgjs-esm.min.js"
+        },
+        {
+          "to": "js/xqgjs.js"
+        },
+        {
+          "to": "js/xqgjs.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xqgjs",
+      "version": "1.0.4",
+      "source": "npm",
+      "pkg": "xqgjs",
+      "files": [
+        {
+          "to": "loading/css/loading.css"
+        },
+        {
+          "to": "loading/css/loading.min.css"
+        },
+        {
+          "to": "loading/js/loading.js"
+        },
+        {
+          "to": "loading/js/loading.min.js"
+        },
+        {
+          "to": "mourn/mourn.js"
+        },
+        {
+          "to": "mourn/mourn.min.js"
+        },
+        {
+          "to": "xqgjs-esm.js"
+        },
+        {
+          "to": "xqgjs-esm.min.js"
+        },
+        {
+          "to": "xqgjs.js"
+        },
+        {
+          "to": "xqgjs.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xqgjs",
+      "version": "1.0.5",
+      "source": "npm",
+      "pkg": "xqgjs",
+      "files": [
+        {
+          "to": "loading/css/loading.css"
+        },
+        {
+          "to": "loading/css/loading.min.css"
+        },
+        {
+          "to": "loading/js/loading.js"
+        },
+        {
+          "to": "loading/js/loading.min.js"
+        },
+        {
+          "to": "mourn/mourn.js"
+        },
+        {
+          "to": "mourn/mourn.min.js"
+        },
+        {
+          "to": "xqgjs-esm.js"
+        },
+        {
+          "to": "xqgjs-esm.min.js"
+        },
+        {
+          "to": "xqgjs.js"
+        },
+        {
+          "to": "xqgjs.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xqgjs",
+      "version": "1.1.1",
+      "source": "npm",
+      "pkg": "xqgjs",
+      "files": [
+        {
+          "to": "loading/css/loading.css"
+        },
+        {
+          "to": "loading/css/loading.min.css"
+        },
+        {
+          "to": "loading/js/loading.js"
+        },
+        {
+          "to": "loading/js/loading.min.js"
+        },
+        {
+          "to": "mourn/mourn.js"
+        },
+        {
+          "to": "mourn/mourn.min.js"
+        },
+        {
+          "to": "xqgjs-esm.js"
+        },
+        {
+          "to": "xqgjs-esm.min.js"
+        },
+        {
+          "to": "xqgjs.js"
+        },
+        {
+          "to": "xqgjs.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xqgjs",
+      "version": "2.1.0",
+      "source": "npm",
+      "pkg": "xqgjs",
+      "files": [
+        {
+          "to": "loading/css/loading.css"
+        },
+        {
+          "to": "loading/css/loading.min.css"
+        },
+        {
+          "to": "loading/js/loading.js"
+        },
+        {
+          "to": "loading/js/loading.min.js"
+        },
+        {
+          "to": "mourn/mourn.js"
+        },
+        {
+          "to": "mourn/mourn.min.js"
+        },
+        {
+          "to": "xqgjs-esm.js"
+        },
+        {
+          "to": "xqgjs-esm.min.js"
+        },
+        {
+          "to": "xqgjs.js"
+        },
+        {
+          "to": "xqgjs.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xqi18n",
+      "version": "0.0.3",
+      "source": "npm",
+      "pkg": "xqi18n",
+      "files": [
+        {
+          "to": "xqi18n-esm.js"
+        },
+        {
+          "to": "xqi18n-esm.min.js"
+        },
+        {
+          "to": "xqi18n.js"
+        },
+        {
+          "to": "xqi18n.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xqi18n",
+      "version": "0.2.0",
+      "source": "npm",
+      "pkg": "xqi18n",
+      "files": [
+        {
+          "to": "xqi18n-esm.js"
+        },
+        {
+          "to": "xqi18n-esm.min.js"
+        },
+        {
+          "to": "xqi18n.js"
+        },
+        {
+          "to": "xqi18n.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xqisIe",
+      "version": "0.0.1",
+      "source": "manual",
+      "files": [
+        {
+          "to": "isIe.js"
+        },
+        {
+          "to": "isIe.min.js"
+        }
+      ],
+      "note": "npm 未发布该版本，保持手工维护"
+    },
+    {
+      "name": "xqisIe",
+      "version": "0.0.6",
+      "source": "npm",
+      "pkg": "xqisie",
+      "files": [
+        {
+          "to": "xqisie-esm.js"
+        },
+        {
+          "to": "xqisie-esm.min.js"
+        },
+        {
+          "to": "xqisie.js"
+        },
+        {
+          "to": "xqisie.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xqisIe",
+      "version": "0.2.0",
+      "source": "npm",
+      "pkg": "xqisie",
+      "files": [
+        {
+          "to": "xqisie-esm.js"
+        },
+        {
+          "to": "xqisie-esm.min.js"
+        },
+        {
+          "to": "xqisie.js"
+        },
+        {
+          "to": "xqisie.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xqlib-cli",
+      "version": "1.1.3",
+      "source": "npm",
+      "pkg": "xqlib-cli",
+      "files": [
+        {
+          "to": "bin/xqlib-cli.js"
+        },
+        {
+          "to": "lib/build.js"
+        },
+        {
+          "to": "lib/check.js"
+        },
+        {
+          "to": "lib/db.js"
+        },
+        {
+          "to": "lib/init.js"
+        },
+        {
+          "to": "lib/mkdir.js"
+        }
+      ]
+    },
+    {
+      "name": "xqlib-cli",
+      "version": "1.2.0",
+      "source": "npm",
+      "pkg": "xqlib-cli",
+      "files": [
+        {
+          "to": "bin/xqlib-cli.js"
+        },
+        {
+          "to": "lib/build.js"
+        },
+        {
+          "to": "lib/check.js"
+        },
+        {
+          "to": "lib/db.js"
+        },
+        {
+          "to": "lib/init.js"
+        },
+        {
+          "to": "lib/mkdir.js"
+        }
+      ]
+    },
+    {
+      "name": "xqlight",
+      "version": "0.0.6",
+      "source": "manual",
+      "files": [
+        {
+          "to": "css/xqlight.css"
+        },
+        {
+          "to": "css/xqlight.min.css"
+        },
+        {
+          "to": "js/xqlight.js"
+        },
+        {
+          "to": "js/xqlight.min.js"
+        }
+      ],
+      "note": "npm 未发布该版本，保持手工维护"
+    },
+    {
+      "name": "xqlight",
+      "version": "0.0.7",
+      "source": "manual",
+      "files": [
+        {
+          "to": "css/xqlight.css"
+        },
+        {
+          "to": "css/xqlight.min.css"
+        },
+        {
+          "to": "js/xqlight.js"
+        },
+        {
+          "to": "js/xqlight.min.js"
+        }
+      ],
+      "note": "npm 未发布该版本，保持手工维护"
+    },
+    {
+      "name": "xqlight",
+      "version": "0.2.0",
+      "source": "npm",
+      "pkg": "xqlight",
+      "files": [
+        {
+          "to": "css/xqlight.css"
+        },
+        {
+          "to": "css/xqlight.min.css"
+        },
+        {
+          "to": "js/xqlight.js"
+        },
+        {
+          "to": "js/xqlight.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xqlight",
+      "version": "0.3.1",
+      "source": "npm",
+      "pkg": "xqlight",
+      "files": [
+        {
+          "to": "css/iconfont.css"
+        },
+        {
+          "to": "css/xqlight.css"
+        },
+        {
+          "to": "css/xqlight.min.css"
+        },
+        {
+          "to": "fonts/iconfont.eot"
+        },
+        {
+          "to": "fonts/iconfont.svg"
+        },
+        {
+          "to": "fonts/iconfont.ttf"
+        },
+        {
+          "to": "fonts/iconfont.woff"
+        },
+        {
+          "to": "fonts/iconfont.woff2"
+        },
+        {
+          "to": "js/iconfont.js"
+        },
+        {
+          "to": "js/iconfont.json"
+        },
+        {
+          "to": "js/xqlight.js"
+        },
+        {
+          "to": "js/xqlight.min.js"
+        },
+        {
+          "to": "vue/index.js"
+        },
+        {
+          "to": "vue/index.vue"
+        }
+      ]
+    },
+    {
+      "name": "xqlight",
+      "version": "0.3.4",
+      "source": "npm",
+      "pkg": "xqlight",
+      "files": [
+        {
+          "to": "css/xqlight.css"
+        },
+        {
+          "to": "css/xqlight.min.css"
+        },
+        {
+          "to": "fonts/iconfont.eot"
+        },
+        {
+          "to": "fonts/iconfont.svg"
+        },
+        {
+          "to": "fonts/iconfont.ttf"
+        },
+        {
+          "to": "fonts/iconfont.woff"
+        },
+        {
+          "to": "fonts/iconfont.woff2"
+        },
+        {
+          "to": "js/iconfont.js"
+        },
+        {
+          "to": "js/iconfont.json"
+        },
+        {
+          "to": "js/xqlight.js"
+        },
+        {
+          "to": "js/xqlight.min.js"
+        },
+        {
+          "to": "vue/index.js"
+        },
+        {
+          "to": "vue/index.vue"
+        }
+      ]
+    },
+    {
+      "name": "xqlight",
+      "version": "0.3.5",
+      "source": "npm",
+      "pkg": "xqlight",
+      "files": [
+        {
+          "to": "css/xqlight.css"
+        },
+        {
+          "to": "css/xqlight.min.css"
+        },
+        {
+          "to": "fonts/iconfont.eot"
+        },
+        {
+          "to": "fonts/iconfont.svg"
+        },
+        {
+          "to": "fonts/iconfont.ttf"
+        },
+        {
+          "to": "fonts/iconfont.woff"
+        },
+        {
+          "to": "fonts/iconfont.woff2"
+        },
+        {
+          "to": "js/iconfont.js"
+        },
+        {
+          "to": "js/iconfont.json"
+        },
+        {
+          "to": "js/xqlight.js"
+        },
+        {
+          "to": "js/xqlight.min.js"
+        },
+        {
+          "to": "vue/index.js"
+        },
+        {
+          "to": "vue/index.vue"
+        }
+      ]
+    },
+    {
+      "name": "xqlight",
+      "version": "0.3.6",
+      "source": "npm",
+      "pkg": "xqlight",
+      "files": [
+        {
+          "to": "css/xqlight.css"
+        },
+        {
+          "to": "css/xqlight.min.css"
+        },
+        {
+          "to": "fonts/iconfont.eot"
+        },
+        {
+          "to": "fonts/iconfont.svg"
+        },
+        {
+          "to": "fonts/iconfont.ttf"
+        },
+        {
+          "to": "fonts/iconfont.woff"
+        },
+        {
+          "to": "fonts/iconfont.woff2"
+        },
+        {
+          "to": "js/iconfont.js"
+        },
+        {
+          "to": "js/iconfont.json"
+        },
+        {
+          "to": "js/xqlight.js"
+        },
+        {
+          "to": "js/xqlight.min.js"
+        },
+        {
+          "to": "vue/index.js"
+        },
+        {
+          "to": "vue/index.vue"
+        }
+      ]
+    },
+    {
+      "name": "xqlight",
+      "version": "0.6.0",
+      "source": "npm",
+      "pkg": "xqlight",
+      "files": [
+        { "to": "css/xqlight.css", "from": "lib/css/xqlight.css" },
+        { "to": "css/xqlight.min.css", "from": "lib/css/xqlight.min.css" },
+        { "to": "fonts/iconfont.eot", "from": "lib/fonts/iconfont.eot" },
+        { "to": "fonts/iconfont.svg", "from": "lib/fonts/iconfont.svg" },
+        { "to": "fonts/iconfont.ttf", "from": "lib/fonts/iconfont.ttf" },
+        { "to": "fonts/iconfont.woff", "from": "lib/fonts/iconfont.woff" },
+        { "to": "fonts/iconfont.woff2", "from": "lib/fonts/iconfont.woff2" },
+        { "to": "js/xqlight.js", "from": "lib/js/xqlight.js" },
+        { "to": "js/xqlight.min.js", "from": "lib/js/xqlight.min.js" },
+        { "to": "vue/index.js", "from": "lib/vue/index.js" },
+        { "to": "vue/index.vue", "from": "lib/vue/index.vue" }
+      ]
+    },
+    {
+      "name": "xqmsg",
+      "version": "0.0.1",
+      "source": "npm",
+      "pkg": "xqmsg",
+      "files": [
+        {
+          "to": "css/xqmsg.css"
+        },
+        {
+          "to": "css/xqmsg.min.css"
+        },
+        {
+          "to": "fonts/iconfont.eot"
+        },
+        {
+          "to": "fonts/iconfont.svg"
+        },
+        {
+          "to": "fonts/iconfont.ttf"
+        },
+        {
+          "to": "fonts/iconfont.woff"
+        },
+        {
+          "to": "fonts/iconfont.woff2"
+        },
+        {
+          "to": "js/iconfont.js"
+        },
+        {
+          "to": "js/iconfont.json"
+        },
+        {
+          "to": "js/xqmsg-esm.js"
+        },
+        {
+          "to": "js/xqmsg-esm.min.js"
+        },
+        {
+          "to": "js/xqmsg.js"
+        },
+        {
+          "to": "js/xqmsg.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xqmsg",
+      "version": "0.0.2",
+      "source": "npm",
+      "pkg": "xqmsg",
+      "files": [
+        {
+          "to": "css/xqmsg.css"
+        },
+        {
+          "to": "css/xqmsg.min.css"
+        },
+        {
+          "to": "fonts/iconfont.eot"
+        },
+        {
+          "to": "fonts/iconfont.svg"
+        },
+        {
+          "to": "fonts/iconfont.ttf"
+        },
+        {
+          "to": "fonts/iconfont.woff"
+        },
+        {
+          "to": "fonts/iconfont.woff2"
+        },
+        {
+          "to": "js/iconfont.js"
+        },
+        {
+          "to": "js/iconfont.json"
+        },
+        {
+          "to": "js/xqmsg-esm.js"
+        },
+        {
+          "to": "js/xqmsg-esm.min.js"
+        },
+        {
+          "to": "js/xqmsg.js"
+        },
+        {
+          "to": "js/xqmsg.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xqmsg",
+      "version": "0.2.0",
+      "source": "npm",
+      "pkg": "xqmsg",
+      "files": [
+        { "to": "css/xqmsg.css", "from": "lib/css/xqmsg.css" },
+        { "to": "css/xqmsg.min.css", "from": "lib/css/xqmsg.min.css" },
+        { "to": "fonts/iconfont.eot", "from": "lib/fonts/iconfont.eot" },
+        { "to": "fonts/iconfont.svg", "from": "lib/fonts/iconfont.svg" },
+        { "to": "fonts/iconfont.ttf", "from": "lib/fonts/iconfont.ttf" },
+        { "to": "fonts/iconfont.woff", "from": "lib/fonts/iconfont.woff" },
+        { "to": "fonts/iconfont.woff2", "from": "lib/fonts/iconfont.woff2" },
+        { "to": "js/xqmsg-esm.js", "from": "lib/js/xqmsg-esm.js" },
+        { "to": "js/xqmsg-esm.min.js", "from": "lib/js/xqmsg-esm.min.js" },
+        { "to": "js/xqmsg.js", "from": "lib/js/xqmsg.js" },
+        { "to": "js/xqmsg.min.js", "from": "lib/js/xqmsg.min.js" }
+      ]
+    },
+    {
+      "name": "xqmusic-player",
+      "version": "0.0.1",
+      "source": "manual",
+      "files": [
+        {
+          "to": "css/xqmusic.css"
+        },
+        {
+          "to": "css/xqmusic.min.css"
+        },
+        {
+          "to": "js/xqmusic.js"
+        },
+        {
+          "to": "js/xqmusic.min.js"
+        }
+      ],
+      "note": "npm 未发布该版本，保持手工维护"
+    },
+    {
+      "name": "xqmusic-player",
+      "version": "1.0.5",
+      "source": "npm",
+      "pkg": "xqmusic-player",
+      "files": [
+        {
+          "to": "css/xqmusic.css"
+        },
+        {
+          "to": "css/xqmusic.min.css"
+        },
+        {
+          "to": "js/xqmusic.js",
+          "from": "lib/js/xqmusic.js"
+        },
+        {
+          "to": "js/xqmusic.min.js",
+          "from": "lib/js/xqmusic.min.js"
+        },
+        {
+          "to": "vue/xqmusic.js",
+          "from": "lib/vue/xqmusic.js"
+        },
+        {
+          "to": "vue/xqmusic.vue"
+        }
+      ]
+    },
+    {
+      "name": "xqmusic-player",
+      "version": "1.4.1",
+      "source": "npm",
+      "pkg": "xqmusic-player",
+      "files": [
+        {
+          "to": "css/xqmusic.css"
+        },
+        {
+          "to": "css/xqmusic.min.css"
+        },
+        {
+          "to": "js/xqmusic.js",
+          "from": "lib/js/xqmusic.js"
+        },
+        {
+          "to": "js/xqmusic.min.js",
+          "from": "lib/js/xqmusic.min.js"
+        },
+        {
+          "to": "vue/xqmusic.js",
+          "from": "lib/vue/xqmusic.js"
+        },
+        {
+          "to": "vue/xqmusic.vue"
+        }
+      ]
+    },
+    {
+      "name": "xqonline",
+      "version": "0.0.1",
+      "source": "manual",
+      "files": [
+        {
+          "to": "css/online.css"
+        },
+        {
+          "to": "css/online.min.css"
+        },
+        {
+          "to": "js/online.js"
+        },
+        {
+          "to": "js/online.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xqshare",
+      "version": "0.0.1",
+      "source": "npm",
+      "pkg": "xqshare",
+      "files": [
+        {
+          "to": "img/share_douban.png"
+        },
+        {
+          "to": "img/share_qq.png"
+        },
+        {
+          "to": "img/share_qzone.png"
+        },
+        {
+          "to": "img/share_tieba.png"
+        },
+        {
+          "to": "img/share_wechat.png"
+        },
+        {
+          "to": "img/share_weibo.png"
+        },
+        {
+          "to": "js/xqshare.js"
+        },
+        {
+          "to": "js/xqshare.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xqshare",
+      "version": "0.0.3",
+      "source": "npm",
+      "pkg": "xqshare",
+      "files": [
+        {
+          "to": "css/xqshare.css"
+        },
+        {
+          "to": "css/xqshare.min.css"
+        },
+        {
+          "to": "img/share_douban.png"
+        },
+        {
+          "to": "img/share_qq.png"
+        },
+        {
+          "to": "img/share_qzone.png"
+        },
+        {
+          "to": "img/share_tieba.png"
+        },
+        {
+          "to": "img/share_wechat.png"
+        },
+        {
+          "to": "img/share_weibo.png"
+        },
+        {
+          "to": "js/xqshare-esm.js"
+        },
+        {
+          "to": "js/xqshare-esm.min.js"
+        },
+        {
+          "to": "js/xqshare.js"
+        },
+        {
+          "to": "js/xqshare.min.js"
+        },
+        {
+          "to": "vue/index.js"
+        },
+        {
+          "to": "vue/index.vue"
+        }
+      ]
+    },
+    {
+      "name": "xqshare",
+      "version": "0.0.5",
+      "source": "npm",
+      "pkg": "xqshare",
+      "files": [
+        {
+          "to": "css/xqshare.css"
+        },
+        {
+          "to": "css/xqshare.min.css"
+        },
+        {
+          "to": "js/xqshare-esm.js"
+        },
+        {
+          "to": "js/xqshare-esm.min.js"
+        },
+        {
+          "to": "js/xqshare.js"
+        },
+        {
+          "to": "js/xqshare.min.js"
+        },
+        {
+          "to": "vue/index.js"
+        },
+        {
+          "to": "vue/index.vue"
+        }
+      ],
+      "rewritePaths": {
+        "https://unpkg.com/xqshare/lib/": "https://xqgj.cc/xqcdn/libs/xqshare/"
+      }
+    },
+    {
+      "name": "xqshare",
+      "version": "0.1.3",
+      "source": "npm",
+      "pkg": "xqshare",
+      "files": [
+        { "to": "css/xqshare.css", "from": "lib/css/xqshare.css" },
+        { "to": "css/xqshare.min.css", "from": "lib/css/xqshare.min.css" },
+        { "to": "img/share_douban.png", "from": "lib/img/share_douban.png" },
+        { "to": "img/share_qq.png", "from": "lib/img/share_qq.png" },
+        { "to": "img/share_qzone.png", "from": "lib/img/share_qzone.png" },
+        { "to": "img/share_tieba.png", "from": "lib/img/share_tieba.png" },
+        { "to": "img/share_wechat.png", "from": "lib/img/share_wechat.png" },
+        { "to": "img/share_weibo.png", "from": "lib/img/share_weibo.png" },
+        { "to": "js/xqshare-esm.js", "from": "lib/js/xqshare-esm.js" },
+        { "to": "js/xqshare-esm.min.js", "from": "lib/js/xqshare-esm.min.js" },
+        { "to": "js/xqshare.js", "from": "lib/js/xqshare.js" },
+        { "to": "js/xqshare.min.js", "from": "lib/js/xqshare.min.js" },
+        { "to": "vue/index.js", "from": "lib/vue/index.js" },
+        { "to": "vue/xqshare.vue", "from": "lib/vue/xqshare.vue" }
+      ],
+      "rewritePaths": {
+        "https://unpkg.com/xqshare/lib/": "https://xqgj.cc/xqcdn/libs/xqshare/"
+      }
+    },
+    {
+      "name": "xqsql",
+      "version": "1.0.2",
+      "source": "manual",
+      "files": [
+        {
+          "to": "xqsql-esm.js"
+        },
+        {
+          "to": "xqsql-esm.min.js"
+        },
+        {
+          "to": "xqsql.js"
+        },
+        {
+          "to": "xqsql.min.js"
+        }
+      ],
+      "note": "npm 未发布该版本，保持手工维护"
+    },
+    {
+      "name": "xqtime",
+      "version": "0.0.4",
+      "source": "npm",
+      "pkg": "xqtime",
+      "files": [
+        {
+          "to": "js/xqtime-es5.js"
+        },
+        {
+          "to": "js/xqtime-es5.min.js"
+        },
+        {
+          "to": "js/xqtime-es6.js"
+        },
+        {
+          "to": "js/xqtime-es6.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xqtime",
+      "version": "0.0.9",
+      "source": "npm",
+      "pkg": "xqtime",
+      "files": [
+        {
+          "to": "xqtime-esm.js"
+        },
+        {
+          "to": "xqtime-esm.min.js"
+        },
+        {
+          "to": "xqtime.js"
+        },
+        {
+          "to": "xqtime.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xqtime",
+      "version": "0.2.1",
+      "source": "npm",
+      "pkg": "xqtime",
+      "files": [
+        {
+          "to": "xqtime-esm.js"
+        },
+        {
+          "to": "xqtime-esm.min.js"
+        },
+        {
+          "to": "xqtime.js"
+        },
+        {
+          "to": "xqtime.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xquuid",
+      "version": "0.0.6",
+      "source": "npm",
+      "pkg": "xquuid",
+      "files": [
+        {
+          "to": "xquuid-esm.js"
+        },
+        {
+          "to": "xquuid-esm.min.js"
+        },
+        {
+          "to": "xquuid.js"
+        },
+        {
+          "to": "xquuid.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xquuid",
+      "version": "0.1.1",
+      "source": "npm",
+      "pkg": "xquuid",
+      "files": [
+        {
+          "to": "xquuid-esm.js"
+        },
+        {
+          "to": "xquuid-esm.min.js"
+        },
+        {
+          "to": "xquuid.js"
+        },
+        {
+          "to": "xquuid.min.js"
+        }
+      ]
+    },
+    {
+      "name": "xqvideo",
+      "version": "0.0.1",
+      "source": "manual",
+      "files": [
+        {
+          "to": "xqvideo.js"
+        },
+        {
+          "to": "xqvideo.min.js"
+        }
+      ]
+    }
+  ]
+}

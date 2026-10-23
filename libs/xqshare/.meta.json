@@ -1,0 +1,255 @@
+{
+  "library": "xqshare",
+  "source": "npm",
+  "versions": {
+    "0.0.1": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqshare/-/xqshare-0.0.1.tgz",
+      "integrity": "sha512-zmVdPMUGsbmYHIJqFs4ga6KZjOhgj29eoQhCAnT9rShaMvM2MMhG7TrazJ3Uq+lbV6dOO0K7pQafDRV4z4u1zw==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:44.575Z",
+      "files": {
+        "img/share_douban.png": {
+          "sha256": "a1e1f63f4bef14db882ba8c0a040c6574529748d39c422d1ce359df2312235a1",
+          "size": 8961
+        },
+        "img/share_qq.png": {
+          "sha256": "9ea33aeab0a431d630a3427b3689194151a3f97ac8125dc9076593791de43c75",
+          "size": 3181
+        },
+        "img/share_qzone.png": {
+          "sha256": "36b9ff140a4209302c236b498c23a47fddb32530a6546ca9a916692c514a9f5f",
+          "size": 2474
+        },
+        "img/share_tieba.png": {
+          "sha256": "8aad317945b4ae8e0b1b496b555974364e4c4caea839d4e34bfb0e4cadf18bae",
+          "size": 17722
+        },
+        "img/share_wechat.png": {
+          "sha256": "902ca25082d428d350b204ded7de62b04167b325432d8bfa55e397631838e5d0",
+          "size": 2261
+        },
+        "img/share_weibo.png": {
+          "sha256": "bfd1294940ecae6ddc11ba6bb3d9926b51153890075722306c62be1c6d84d708",
+          "size": 2895
+        },
+        "js/xqshare.js": {
+          "sha256": "6be9d39a1422d2003b369f494154658c4ada93cf09161ed63845fb90784238e2",
+          "size": 7737
+        },
+        "js/xqshare.min.js": {
+          "sha256": "9e80075f8ffc84efc7aa9871690c48c77d7366b2e8ca5db9ca52105d8a45b5d6",
+          "size": 5029
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    },
+    "0.0.3": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqshare/-/xqshare-0.0.3.tgz",
+      "integrity": "sha512-LH9wJZ7oy/BT3DwwdxudnboylnGk2IlTI7uBblsK6by/DtLy+a4FRiQZYbCcolVMuEw9XEF6hDxa4Jo4lexKOw==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:45.188Z",
+      "files": {
+        "css/xqshare.css": {
+          "sha256": "4fd60ef4742285bf89a4dcbb9d2a87375c11bfde9f8a356231ea604b8d9e16fa",
+          "size": 4556
+        },
+        "css/xqshare.min.css": {
+          "sha256": "c6a7fc61208ecee1c2ee1bff625efc1407a3c057efaf793364416d5274fca5a0",
+          "size": 3282
+        },
+        "img/share_douban.png": {
+          "sha256": "a1e1f63f4bef14db882ba8c0a040c6574529748d39c422d1ce359df2312235a1",
+          "size": 8961
+        },
+        "img/share_qq.png": {
+          "sha256": "9ea33aeab0a431d630a3427b3689194151a3f97ac8125dc9076593791de43c75",
+          "size": 3181
+        },
+        "img/share_qzone.png": {
+          "sha256": "36b9ff140a4209302c236b498c23a47fddb32530a6546ca9a916692c514a9f5f",
+          "size": 2474
+        },
+        "img/share_tieba.png": {
+          "sha256": "8aad317945b4ae8e0b1b496b555974364e4c4caea839d4e34bfb0e4cadf18bae",
+          "size": 17722
+        },
+        "img/share_wechat.png": {
+          "sha256": "902ca25082d428d350b204ded7de62b04167b325432d8bfa55e397631838e5d0",
+          "size": 2261
+        },
+        "img/share_weibo.png": {
+          "sha256": "bfd1294940ecae6ddc11ba6bb3d9926b51153890075722306c62be1c6d84d708",
+          "size": 2895
+        },
+        "js/xqshare-esm.js": {
+          "sha256": "cc074eecb7ce3c3ad83c61cc313ec479a8b97c4836fd099c7d5b506152e2bee4",
+          "size": 6593
+        },
+        "js/xqshare-esm.min.js": {
+          "sha256": "a7a59ab2b155b4f041ff40d60c56832238e36df1cea28609c3c0672bf7f0d1dc",
+          "size": 4737
+        },
+        "js/xqshare.js": {
+          "sha256": "6be9d39a1422d2003b369f494154658c4ada93cf09161ed63845fb90784238e2",
+          "size": 7737
+        },
+        "js/xqshare.min.js": {
+          "sha256": "9e80075f8ffc84efc7aa9871690c48c77d7366b2e8ca5db9ca52105d8a45b5d6",
+          "size": 5029
+        },
+        "vue/index.js": {
+          "sha256": "3ee9cca44d12095c8f0c51b48f732693ee285bc48d3e331557b65ce9e935b6c4",
+          "size": 185
+        },
+        "vue/index.vue": {
+          "sha256": "ba14f7eb676c895b3f5c69c0e036a41bc26e2b828347f14ab9f296b89b090a42",
+          "size": 9781
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    },
+    "0.0.5": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqshare/-/xqshare-0.0.5.tgz",
+      "integrity": "sha512-EsMeUOMkOo1ZCIsWX7KwhwPQS6upDlWUFp1T88+lIO/rRZqRC6RvwwU1OI50SVhShkd3t9KWxpg2LXzingb0kQ==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:45.560Z",
+      "files": {
+        "css/xqshare.css": {
+          "sha256": "4fd60ef4742285bf89a4dcbb9d2a87375c11bfde9f8a356231ea604b8d9e16fa",
+          "size": 4556
+        },
+        "css/xqshare.min.css": {
+          "sha256": "c6a7fc61208ecee1c2ee1bff625efc1407a3c057efaf793364416d5274fca5a0",
+          "size": 3282
+        },
+        "js/xqshare-esm.js": {
+          "sha256": "8315c802e40bb08e681af45354fcf90d06a20bbd1728cf11ad850ffb4e2daecd",
+          "size": 6598
+        },
+        "js/xqshare-esm.min.js": {
+          "sha256": "ba541378d6b4947fa659cf23bde787a5a48b47c656b5466485f14436e9beb0eb",
+          "size": 4742
+        },
+        "js/xqshare.js": {
+          "sha256": "6352a9ef3e34247ae80b25010d88bc01ae356ffe55d6717af82dabaafd1ffe63",
+          "size": 7742
+        },
+        "js/xqshare.min.js": {
+          "sha256": "7edd9b148e1b3143aa3dc0a9557ae711dc363c505722297066c90caa5b82a92a",
+          "size": 5034
+        },
+        "vue/index.js": {
+          "sha256": "3ee9cca44d12095c8f0c51b48f732693ee285bc48d3e331557b65ce9e935b6c4",
+          "size": 185
+        },
+        "vue/index.vue": {
+          "sha256": "01741139178d2a45ad59a7e023b39214c40b52924e7d3e32a53cfd818ba9d5aa",
+          "size": 10237
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    },
+    "0.1.3": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqshare/-/xqshare-0.1.3.tgz",
+      "integrity": "sha512-AdWIza5wy7l4kssZ8G8K41n97SAySf0XBDeds24wrWVGU5h4+Hg6SblciEmFpGzTNvI92WG77RAsmQvfgMZC1Q==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T08:41:56.996Z",
+      "files": {
+        "css/xqshare.css": {
+          "sha256": "a8c7cec163704a06b52f3c218c6cd92d771bfa027caff1a45359d75438757811",
+          "size": 7997
+        },
+        "css/xqshare.min.css": {
+          "sha256": "66c8afbb1356b927058912f88d1515a26d457df2589bc7b88f9a86f4054310fe",
+          "size": 4215
+        },
+        "img/share_douban.png": {
+          "sha256": "a1e1f63f4bef14db882ba8c0a040c6574529748d39c422d1ce359df2312235a1",
+          "size": 8960
+        },
+        "img/share_qq.png": {
+          "sha256": "9ea33aeab0a431d630a3427b3689194151a3f97ac8125dc9076593791de43c75",
+          "size": 3180
+        },
+        "img/share_qzone.png": {
+          "sha256": "36b9ff140a4209302c236b498c23a47fddb32530a6546ca9a916692c514a9f5f",
+          "size": 2473
+        },
+        "img/share_tieba.png": {
+          "sha256": "8aad317945b4ae8e0b1b496b555974364e4c4caea839d4e34bfb0e4cadf18bae",
+          "size": 17720
+        },
+        "img/share_wechat.png": {
+          "sha256": "902ca25082d428d350b204ded7de62b04167b325432d8bfa55e397631838e5d0",
+          "size": 2260
+        },
+        "img/share_weibo.png": {
+          "sha256": "bfd1294940ecae6ddc11ba6bb3d9926b51153890075722306c62be1c6d84d708",
+          "size": 2894
+        },
+        "js/xqshare-esm.js": {
+          "sha256": "61085ea3b51bc777391041fb529fa91d6cecef6e377b52d61c769a4880839ece",
+          "size": 23550
+        },
+        "js/xqshare-esm.min.js": {
+          "sha256": "eafbb4bc9afff26b33d20107de7230c933eacf2c299617c334f01f1bea243bca",
+          "size": 13562
+        },
+        "js/xqshare.js": {
+          "sha256": "d767c032de8f7a0cc22760a25ba916f124888a069f83a510ff1fefde439a79b1",
+          "size": 26780
+        },
+        "js/xqshare.min.js": {
+          "sha256": "36b2608fc79300d4f72d23119e5f271c034f6fb151479668106d5be6c04475ed",
+          "size": 14628
+        },
+        "vue/index.js": {
+          "sha256": "5d4c888b9a5cda9beafc10e892e74924d43acb094b23aa6ee3cda23165f48a32",
+          "size": 219
+        },
+        "vue/xqshare.vue": {
+          "sha256": "86b0194e4e09e2c7526bab1a585746d3f20d4b39fdfdc16ffde7ed6bff0bec1f",
+          "size": 4250
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    }
+  },
+  "legacyRootPaths": [
+    "css/xqshare.css",
+    "css/xqshare.min.css",
+    "img/share_douban.png",
+    "img/share_qq.png",
+    "img/share_qzone.png",
+    "img/share_tieba.png",
+    "img/share_wechat.png",
+    "img/share_weibo.png",
+    "js/xqshare-esm.js",
+    "js/xqshare-esm.min.js",
+    "js/xqshare.js",
+    "js/xqshare.min.js",
+    "vue/index.js",
+    "vue/index.vue"
+  ],
+  "pkg": "xqshare"
+}

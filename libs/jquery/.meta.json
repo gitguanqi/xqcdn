@@ -1,0 +1,126 @@
+{
+  "library": "jquery",
+  "source": "npm",
+  "versions": {
+    "1.10.0": {
+      "origin": "url",
+      "urls": [
+        {
+          "to": "jquery.js",
+          "url": "https://code.jquery.com/jquery-1.10.0.js",
+          "integrity": "sha512-SVmzN8tLW2gcok9RNTpzdDB4Y295KaIVNT3TRNqc4bitaxg91DkNJQ381DjiPavonxMnkrr7VRvGf8lDjp0L7Q=="
+        },
+        {
+          "to": "jquery.min.js",
+          "url": "https://code.jquery.com/jquery-1.10.0.min.js",
+          "integrity": "sha512-hlwstlkIAF4MppsmWTuFv1VK1xGS0bRFZKxRMrVZagR4r8jhOGbIdqHoKpEuwGugLzP7oAXJzJo3Ai9UZFn2tA=="
+        }
+      ],
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:30.616Z",
+      "files": {
+        "jquery.js": {
+          "sha256": "8aa0f84b5331efcc3cb72c7d504c2bc6ebd861da003d72c33df99ce650d4531d",
+          "size": 283610
+        },
+        "jquery.min.js": {
+          "sha256": "dbe2f39d679680bec02757226881b9ac53fb18a7a6cf397e2bbe6d4724c1c8e1",
+          "size": 93032
+        }
+      }
+    },
+    "1.11.3": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/jquery/-/jquery-1.11.3.tgz",
+      "integrity": "sha512-pHM/XLofp0FJc0/0AsRm8q/5ob+a1kno+vfclXGozaMBPv3qD7Xq19loECVcBB4MOLdygnyneQMPTsH5QiVNBQ==",
+      "license": null,
+      "fetchedAt": "2026-10-23T07:14:30.965Z",
+      "files": {
+        "jquery.js": {
+          "sha256": "2065aecca0fb9b0567358d352ed5f1ab72fce139bf449b4d09805f5d9c3725ed",
+          "size": 294745
+        },
+        "jquery.min.js": {
+          "sha256": "329ab92b9276ef4e3148f69be6b208969bebdf2db3121a589caa172453fd9f10",
+          "size": 95960
+        }
+      }
+    },
+    "1.12.4": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/jquery/-/jquery-1.12.4.tgz",
+      "integrity": "sha512-UEVp7PPK9xXYSk8xqXCJrkXnKZtlgWkd2GsAQbMRFK6S/ePU2JN5G2Zum8hIVjzR3CpdfSqdqAzId/xd4TJHeg==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:31.353Z",
+      "files": {
+        "jquery.js": {
+          "sha256": "430f36f9b5f21aae8cc9dca6a81c4d3d84da5175eaedcf2fdc2c226302cb3575",
+          "size": 304438
+        },
+        "jquery.min.js": {
+          "sha256": "668b046d12db350ccba6728890476b3efee53b2f42dbb84743e5e9f1ae0cc404",
+          "size": 97168
+        },
+        "LICENSE": {
+          "sha256": "f980a306a01e5881cc8004115f7e6dde44e7f5296477237d37d169a86ce7c094",
+          "size": 1606
+        }
+      }
+    },
+    "2.2.4": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/jquery/-/jquery-2.2.4.tgz",
+      "integrity": "sha512-lBHj60ezci2u1v2FqnZIraShGgEXq35qCzMv4lITyHGppTnA13rwR0MgwyNJh9TnDs3aXUvd1xjAotfraMHX/Q==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:31.712Z",
+      "files": {
+        "jquery.js": {
+          "sha256": "893e90f6230962e42231635df650f20544ad22affc3ee396df768eaa6bc5a6a2",
+          "size": 267365
+        },
+        "jquery.min.js": {
+          "sha256": "05b85d96f41fff14d8f608dad03ab71e2c1017c2da0914d7c59291bad7a54f8e",
+          "size": 85582
+        },
+        "LICENSE": {
+          "sha256": "f980a306a01e5881cc8004115f7e6dde44e7f5296477237d37d169a86ce7c094",
+          "size": 1606
+        }
+      }
+    },
+    "3.6.0": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/jquery/-/jquery-3.6.0.tgz",
+      "integrity": "sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:32.051Z",
+      "files": {
+        "jquery.js": {
+          "sha256": "1fe2bb5390a75e5d61e72c107cab528fc3c29a837d69aab7d200e1dbb5dcd239",
+          "size": 299461
+        },
+        "jquery.min.js": {
+          "sha256": "ff1523fb7389539c84c65aba19260648793bb4f5e29329d2ee8804bc37a3fe6e",
+          "size": 89503
+        },
+        "LICENSE": {
+          "sha256": "d4db9ebe6f29f5168eac45ad713f055623ac5d0dcd5ba92da23d650ae012020d",
+          "size": 1097
+        }
+      }
+    }
+  },
+  "pkg": "jquery",
+  "legacyRootFiles": [
+    "jquery.js",
+    "jquery.min.js"
+  ],
+  "legacyRootPaths": [
+    "jquery.js",
+    "jquery.min.js"
+  ]
+}

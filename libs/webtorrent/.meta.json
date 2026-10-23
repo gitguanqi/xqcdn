@@ -1,0 +1,28 @@
+{
+  "library": "webtorrent",
+  "source": "npm",
+  "versions": {
+    "1.0.1": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/webtorrent/-/webtorrent-1.0.1.tgz",
+      "integrity": "sha512-A0l8T7iRJ+Cc/TUQqPAX/7hemrEEfIimaRiEYMTPAs1TM99Yd5tfKe00jTkjmI6a0nqx7d7+r5GgXSO/uFs7GA==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:37.041Z",
+      "files": {
+        "js/webtorrent.min.js": {
+          "sha256": "11d99f2f90eabe246dbec99ede76f74af2314b1a522ae107437dcb40576e2677",
+          "size": 793361
+        },
+        "LICENSE": {
+          "sha256": "821ea8b64b4994190b94bd629bbd897ba39cd25f7fb9747b70eec61f73dee44a",
+          "size": 1101
+        }
+      }
+    }
+  },
+  "pkg": "webtorrent",
+  "legacyRootPaths": [
+    "js/webtorrent.min.js"
+  ]
+}

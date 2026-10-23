@@ -1,0 +1,37 @@
+{
+  "library": "vue-router",
+  "source": "npm",
+  "versions": {
+    "3.0.2": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/vue-router/-/vue-router-3.0.2.tgz",
+      "integrity": "sha512-opKtsxjp9eOcFWdp6xLQPLmRGgfM932Tl56U9chYTnoWqKxQ8M20N7AkdEbM5beUh6wICoFGYugAX9vQjyJLFg==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:36.370Z",
+      "files": {
+        "vue-router.js": {
+          "sha256": "657b839c2708ab4fb517035aa2fb4710f71d4451102b5d2bcf1fa562dc71261f",
+          "size": 68228
+        },
+        "vue-router.min.js": {
+          "sha256": "0db825bb115c26a06079527017589d72f03669e6b27334015893c69f82992047",
+          "size": 24084
+        },
+        "LICENSE": {
+          "sha256": "ad1385b0b7724167451aaa7c2b8e4af2e97a5daa07fb4b678cddd4da75259feb",
+          "size": 1073
+        }
+      }
+    }
+  },
+  "pkg": "vue-router",
+  "legacyRootFiles": [
+    "vue-router.js",
+    "vue-router.min.js"
+  ],
+  "legacyRootPaths": [
+    "vue-router.js",
+    "vue-router.min.js"
+  ]
+}

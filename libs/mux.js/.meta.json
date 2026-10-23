@@ -1,0 +1,28 @@
+{
+  "library": "mux.js",
+  "source": "npm",
+  "versions": {
+    "5.11.0": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/mux.js/-/mux.js-5.11.0.tgz",
+      "integrity": "sha512-Q/iLfohHh5Pp6lW7EFtcxNuaCNJ3Ruywfy46pWLsY+yIxR1kXXImYY1wOhg8jLdBMs1kRaZqsiB4Zncsiw0a2Q==",
+      "license": "Apache-2.0",
+      "fetchedAt": "2026-10-23T07:14:34.164Z",
+      "files": {
+        "js/mux.min.js": {
+          "sha256": "5de7642129179c9ffd6f4c9f47300497a59bd8055616fed014459090dfec27e4",
+          "size": 108799
+        },
+        "LICENSE": {
+          "sha256": "1a3c5bb355ae9ea7f0e8e92836b72189c7acf85a487dd8706d5f1dfff9bf7d3d",
+          "size": 11342
+        }
+      }
+    }
+  },
+  "pkg": "mux.js",
+  "legacyRootPaths": [
+    "js/mux.min.js"
+  ]
+}

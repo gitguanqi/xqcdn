@@ -26,5 +26,5 @@ function checkIe() {
   var isIe = checkIe();
   
   if (isIe == 'IE') {
-    location.href = 'https://felab.guanqi.xyz/link/browser/';
+    location.href = 'https://felab.xqgj.cc/link/browser/';
   }

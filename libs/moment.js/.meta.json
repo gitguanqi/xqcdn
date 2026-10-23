@@ -1,0 +1,37 @@
+{
+  "library": "moment.js",
+  "source": "npm",
+  "versions": {
+    "2.29.1": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/moment/-/moment-2.29.1.tgz",
+      "integrity": "sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:33.814Z",
+      "files": {
+        "moment.js": {
+          "sha256": "736a69cb2a3a81af79986b5c745ce91b46658b33a8659ebf5244a143d481acb9",
+          "size": 159695
+        },
+        "moment.min.js": {
+          "sha256": "e6208c616594ea57f2eb2abefd891a6906592615ca82cb245e7b6d6339203856",
+          "size": 58823
+        },
+        "LICENSE": {
+          "sha256": "8f38f320bbf5eb84c08e08676f7ee1d2204ebe5797f6a090d077329cf212fca3",
+          "size": 1075
+        }
+      }
+    }
+  },
+  "pkg": "moment",
+  "legacyRootFiles": [
+    "moment.js",
+    "moment.min.js"
+  ],
+  "legacyRootPaths": [
+    "moment.js",
+    "moment.min.js"
+  ]
+}

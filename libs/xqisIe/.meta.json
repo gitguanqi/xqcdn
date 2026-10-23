@@ -1,0 +1,92 @@
+{
+  "library": "xqisIe",
+  "source": "npm",
+  "versions": {
+    "0.0.1": {
+      "origin": "adopted",
+      "files": {
+        "isIe.js": {
+          "sha256": "931bfdbf777cc60395ffb0b634d74478d5d1c0cf7ddee2f1e1101d0a1a37c500",
+          "size": 896
+        },
+        "isIe.min.js": {
+          "sha256": "2471f114c769fed13d28752ea25d91222094b2bab38591f9cb4c6c66f7bcf165",
+          "size": 428
+        }
+      }
+    },
+    "0.0.6": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqisie/-/xqisie-0.0.6.tgz",
+      "integrity": "sha512-Di9KzHcIN/IHSa28vQY/gTHyQdJSBa1S6aHpTtFgD3g7eN+/6+6d8ojTw7JYm2QR00qtutdIK9TyNXwKnft1BQ==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:40.794Z",
+      "files": {
+        "xqisie-esm.js": {
+          "sha256": "512f91efc6f75e134f96bb4d18dfe8559f977eb5eff653ae8665744a802d5074",
+          "size": 733
+        },
+        "xqisie-esm.min.js": {
+          "sha256": "d6f8c30589d75c27e4c8f9b26b403822621b6c5181bf431894e105f2b0a670f1",
+          "size": 401
+        },
+        "xqisie.js": {
+          "sha256": "491d845d1630f54503711d8b9e6ce9a222e8fd6017a51431cd0df8db74161682",
+          "size": 1376
+        },
+        "xqisie.min.js": {
+          "sha256": "d5946a02204fc29e34d95785436ed9b29752661aaaf338d318eabe72c650e68c",
+          "size": 644
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    },
+    "0.2.0": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqisie/-/xqisie-0.2.0.tgz",
+      "integrity": "sha512-uX7m3eLY4rExofaIDhMoZcc95I7f5V/cwa7aQQaTrp6xxWpidn1lYwaJp4mBoaDpRja3SjN7PxA5SEpqk/OrSw==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T08:30:36.342Z",
+      "files": {
+        "xqisie-esm.js": {
+          "sha256": "377ae99867486e4105e43387bcc8a98f3522efda246744800f99d26d064f4947",
+          "size": 2488
+        },
+        "xqisie-esm.min.js": {
+          "sha256": "1ca3e47640d5094271015d38b5031586b3a5d44e1c64d55131aa271eded36f31",
+          "size": 869
+        },
+        "xqisie.js": {
+          "sha256": "5dddfe5df4d6329c6bc23aacdb9770678dd2845dd299d8e28f9eed4d7d9370ba",
+          "size": 2945
+        },
+        "xqisie.min.js": {
+          "sha256": "10d2b6a7bb92d5902e621ca0d0c76253bf23361638d84d9b099ec2d24f65bee7",
+          "size": 1234
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    }
+  },
+  "legacyRootFiles": [
+    "xqisie-esm.js",
+    "xqisie-esm.min.js",
+    "xqisie.js",
+    "xqisie.min.js"
+  ],
+  "legacyRootPaths": [
+    "xqisie-esm.js",
+    "xqisie-esm.min.js",
+    "xqisie.js",
+    "xqisie.min.js"
+  ],
+  "pkg": "xqisie"
+}

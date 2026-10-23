@@ -1,0 +1,37 @@
+{
+  "library": "lodash.js",
+  "source": "npm",
+  "versions": {
+    "4.17.21": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz",
+      "integrity": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:33.089Z",
+      "files": {
+        "lodash.js": {
+          "sha256": "4c04561befdf653aef017a42ac5addf68ea943cdfca6bdee5ce04e04e8139f54",
+          "size": 561307
+        },
+        "lodash.min.js": {
+          "sha256": "a9705dfc47c0763380d851ab1801be6f76019f6b67e40e9b873f8b4a0603f7a9",
+          "size": 73154
+        },
+        "LICENSE": {
+          "sha256": "f71e8ed126b46346494aad5486874cd8f0aafe95092ed67d2e3cb6110f939abc",
+          "size": 1952
+        }
+      }
+    }
+  },
+  "pkg": "lodash",
+  "legacyRootFiles": [
+    "lodash.js",
+    "lodash.min.js"
+  ],
+  "legacyRootPaths": [
+    "lodash.js",
+    "lodash.min.js"
+  ]
+}

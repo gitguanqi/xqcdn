@@ -1,0 +1,23 @@
+{
+  "library": "jquery-running",
+  "source": "manual",
+  "versions": {
+    "1.0.0": {
+      "origin": "adopted",
+      "files": {
+        "css/jquery.running.css": {
+          "sha256": "f93108d58c8b7dc148bf2943a066cad907957ce0512eacfd00372537a9ea1deb",
+          "size": 1548
+        },
+        "js/jquery.running.min.js": {
+          "sha256": "0e7ce5328adc91e2adcd996f6610071325ed2724e547171a61bd48cd06f284f4",
+          "size": 3696
+        }
+      }
+    }
+  },
+  "legacyRootPaths": [
+    "css/jquery.running.css",
+    "js/jquery.running.min.js"
+  ]
+}

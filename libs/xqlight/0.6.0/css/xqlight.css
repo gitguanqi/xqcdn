@@ -1,0 +1,660 @@
+/*!
+ * xqlight v0.6.0
+ * Lightbox stylesheet shared by the browser build and the Vue wrapper.
+ * @author fegq
+ * @license MIT
+ */
+
+@font-face {
+  font-family: "plugin";
+  /* Project id 3684399。只保留现代浏览器需要的格式，eot/svg 已移除。 */
+  src: url('../fonts/iconfont.woff2?t=1664700514597') format('woff2'),
+       url('../fonts/iconfont.woff?t=1664700514597') format('woff'),
+       url('../fonts/iconfont.ttf?t=1664700514597') format('truetype');
+  font-display: swap;
+}
+
+.plugin {
+  font-family: "plugin" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.plugin-search-minus:before {
+  content: "\e82c";
+}
+
+.plugin-search-plus:before {
+  content: "\e82d";
+}
+
+.plugin-times:before {
+  content: "\e65c";
+}
+
+.plugin-fullscreen-exit:before {
+  content: "\e7ec";
+}
+
+.plugin-download:before {
+  content: "\e66c";
+}
+
+.plugin-arrow-left:before {
+  content: "\e685";
+}
+
+.plugin-arrow-right:before {
+  content: "\e687";
+}
+
+.plugin-fullscreen:before {
+  content: "\e641";
+}
+
+/* ─────────────────────────────────────────────────────────────
+   根节点
+   默认隐藏，`.active` 是唯一可见状态。浏览器版由脚本添加该类，
+   Vue 版由 `:class` 绑定，两者共用同一套样式契约。
+   ───────────────────────────────────────────────────────────── */
+.lightbox {
+  --xq-scrim: rgba(0, 0, 0, .78);
+  --xq-accent: #9cc7ff;
+  --xq-radius: 4px;
+  --xq-control: 40px;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+  /* iOS 地址栏收起/展开时 100vh 会跳动，dvh 跟随可视区域；不支持的浏览器忽略本行 */
+  height: 100dvh;
+  background: var(--xq-scrim);
+  overflow: hidden;
+  z-index: 9999;
+  color: #fff;
+  font-size: 16px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.lightbox,
+.lightbox *,
+.lightbox *::before,
+.lightbox *::after {
+  box-sizing: border-box;
+}
+
+/* 遮罩加一层很轻的模糊，图片与背后的页面内容拉开层次；窄屏关闭以省 GPU */
+@supports (backdrop-filter: blur(3px)) or (-webkit-backdrop-filter: blur(3px)) {
+  .lightbox {
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+  }
+}
+
+.lightbox.active {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   入场动效
+   display 从 none 切到 flex 本身无法过渡，所以动画放在子元素上：
+   契约（.lightbox 隐藏 / .active 显示）保持不变，关闭仍然瞬切。
+   ───────────────────────────────────────────────────────────── */
+@keyframes xqlight-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes xqlight-pop-in {
+  from {
+    opacity: 0;
+    transform: scale(.985);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes xqlight-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes xqlight-pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .45;
+  }
+}
+
+.lightbox.active .lightbox-title {
+  animation: xqlight-fade-in .18s ease-out both;
+}
+
+.lightbox.active .lightbox-content {
+  animation: xqlight-pop-in .22s ease-out both;
+}
+
+.lightbox.active .lightbox-thumbs:not(.lightbox-thumbs-hidden) {
+  animation: xqlight-fade-in .24s ease-out both;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   标题栏
+   ───────────────────────────────────────────────────────────── */
+.lightbox-title {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: env(safe-area-inset-top) 20px 0;
+  width: 100%;
+  height: calc(60px + env(safe-area-inset-top));
+  color: #fff;
+  font-size: 16px;
+}
+
+.lightbox-title-tip {
+  flex: 0 0 auto;
+  color: rgba(255, 255, 255, .62);
+  letter-spacing: .02em;
+}
+
+.lightbox-title-num {
+  flex: 1 1 auto;
+  min-width: 0;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgba(255, 255, 255, .55);
+  font-variant-numeric: tabular-nums;
+}
+
+/* 序号比名称更轻，名称才是信息主体 */
+.lightbox-title-num strong {
+  color: rgba(255, 255, 255, .9);
+  font-weight: 500;
+}
+
+.lightbox-name {
+  display: inline;
+  color: rgba(255, 255, 255, .92);
+}
+
+.lightbox-title p {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  margin: 0;
+}
+
+.lightbox-title p i {
+  display: inline-block;
+  width: var(--xq-control);
+  height: var(--xq-control);
+  margin-left: 4px;
+  border-radius: 8px;
+  line-height: var(--xq-control);
+  text-align: center;
+  font-size: 19px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color .16s ease, opacity .16s ease, transform .16s ease;
+}
+
+/* 只在支持 hover 的设备上给悬停反馈，避免触屏点完"粘住" */
+@media (hover: hover) {
+  .lightbox-title p i:hover {
+    background-color: rgba(255, 255, 255, .12);
+  }
+}
+
+.lightbox-title p i:active {
+  transform: scale(.94);
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.lightbox-download-busy {
+  animation: xqlight-pulse 1s ease-in-out infinite;
+}
+
+/* 缩放按钮：放大后图标切到"减号"，与全屏按钮的状态切换保持一致 */
+.lightbox-zoom-active {
+  background-color: rgba(255, 255, 255, .14);
+}
+
+/* 旋转图标用 CSS 画：一段开口圆环 + 角上的箭头，避免为两个图标再加载一套字体 */
+.lightbox-title p i.lightbox-rotate {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-title p i.lightbox-rotate::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  transform: rotate(-45deg);
+}
+
+.lightbox-title p i.lightbox-rotate::after {
+  content: "";
+  position: absolute;
+  top: 24%;
+  right: 24%;
+  width: 4px;
+  height: 4px;
+  border-top: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+  transform: rotate(45deg);
+  transform-origin: center;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   内容区
+   ───────────────────────────────────────────────────────────── */
+.lightbox-content {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px calc(20px + env(safe-area-inset-bottom));
+  width: 100%;
+  min-height: 0;
+}
+
+.lightbox-ls {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* 库自带列表重置：宿主页面即使没有自己的 reset，也不会出现项目符号与缩进。 */
+.lightbox-list {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  list-style: none;
+  touch-action: none;
+}
+
+.lightbox-list li {
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  list-style: none;
+}
+
+.lightbox-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 100%;
+  outline: none;
+  cursor: zoom-in;
+}
+
+.lightbox-img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  border-radius: var(--xq-radius);
+  /* 透明 PNG 也能看出图片边界 */
+  background-color: #0e0e11;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, .45);
+  object-fit: contain;
+  transform-origin: center center;
+  transition: opacity .15s ease-out, transform .18s ease-out;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* 放大后才有持续合成的价值，静止时不必常驻 will-change */
+.lightbox-img-zoomed {
+  will-change: transform;
+  cursor: grab;
+}
+
+.lightbox-img-zoomed:active {
+  cursor: grabbing;
+}
+
+/* 拖拽期间必须关掉过渡，否则手势会"追不上"指针 */
+.lightbox-img-dragging {
+  transition: none;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   加载中 / 加载失败
+   由根节点上的 data-xqlight-status 驱动，JS 只切一个属性。
+   ───────────────────────────────────────────────────────────── */
+.lightbox-loader,
+.lightbox-error {
+  display: none;
+}
+
+.lightbox[data-xqlight-status="loading"] .lightbox-img {
+  opacity: 0;
+}
+
+.lightbox[data-xqlight-status="loading"] .lightbox-loader {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 28px;
+  height: 28px;
+  margin: -14px 0 0 -14px;
+  border: 2px solid rgba(255, 255, 255, .22);
+  border-top-color: rgba(255, 255, 255, .9);
+  border-radius: 50%;
+  animation: xqlight-spin .8s linear infinite;
+}
+
+.lightbox[data-xqlight-status="error"] .lightbox-img {
+  opacity: 0;
+}
+
+.lightbox[data-xqlight-status="error"] .lightbox-error {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 12px 16px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, .06);
+  color: rgba(255, 255, 255, .78);
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.lightbox-retry {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   左右箭头
+   ───────────────────────────────────────────────────────────── */
+.lightbox-arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 100%;
+  cursor: pointer;
+  transition: background-color .18s ease;
+}
+
+.lightbox-arrow-left {
+  left: 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, .28), rgba(0, 0, 0, 0));
+}
+
+.lightbox-arrow-right {
+  right: 0;
+  background: linear-gradient(270deg, rgba(0, 0, 0, .28), rgba(0, 0, 0, 0));
+}
+
+.lightbox-arrow i {
+  font-size: 32px;
+  color: #fff;
+  font-weight: bold;
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, .55));
+  transition: transform .16s ease, opacity .16s ease;
+}
+
+@media (hover: hover) {
+  .lightbox-arrow:hover i {
+    transform: scale(1.12);
+  }
+
+  .lightbox-arrow-left:hover {
+    background: linear-gradient(90deg, rgba(0, 0, 0, .42), rgba(0, 0, 0, 0));
+  }
+
+  .lightbox-arrow-right:hover {
+    background: linear-gradient(270deg, rgba(0, 0, 0, .42), rgba(0, 0, 0, 0));
+  }
+}
+
+.lightbox-arrow:active i {
+  transform: scale(.94);
+}
+
+/* 只有一张图时左右切换没有意义 */
+.lightbox[data-xqlight-count="1"] .lightbox-arrow {
+  visibility: hidden;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   缩略图
+   ───────────────────────────────────────────────────────────── */
+.lightbox-thumbs {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  padding: 10px 20px calc(12px + env(safe-area-inset-bottom));
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: thin;
+  touch-action: pan-x;
+}
+
+.lightbox-thumbs-hidden {
+  display: none;
+}
+
+.lightbox-thumb {
+  flex: 0 0 auto;
+  width: 64px;
+  height: 46px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: var(--xq-radius);
+  background-color: #111;
+  opacity: .5;
+  overflow: hidden;
+  cursor: pointer;
+  transition: opacity .16s ease, border-color .16s ease;
+}
+
+.lightbox-thumb-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (hover: hover) {
+  .lightbox-thumb:hover {
+    opacity: .8;
+  }
+}
+
+.lightbox-thumb.active {
+  opacity: 1;
+  border-color: rgba(255, 255, 255, .9);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   焦点可见性
+   程序化聚焦（打开时把焦点给关闭键）不该出现大边框，
+   只有键盘操作才显示焦点环。
+   ───────────────────────────────────────────────────────────── */
+.lightbox a:focus,
+.lightbox button:focus,
+.lightbox [role="button"]:focus {
+  outline: none;
+}
+
+.lightbox a:focus-visible,
+.lightbox button:focus-visible,
+.lightbox [role="button"]:focus-visible,
+.lightbox [tabindex="0"]:focus-visible {
+  outline: 2px solid var(--xq-accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   移动端
+   ───────────────────────────────────────────────────────────── */
+@media all and (max-width: 768px) {
+  .lightbox {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+
+  .lightbox-title {
+    gap: 8px;
+    padding: env(safe-area-inset-top) 10px 0;
+    height: calc(52px + env(safe-area-inset-top));
+    font-size: 14px;
+  }
+
+  .lightbox-title-tip {
+    display: none;
+  }
+
+  .lightbox-title p i {
+    --xq-control: 36px;
+    margin-left: 2px;
+    font-size: 17px;
+  }
+
+  .lightbox-content {
+    padding: 0 8px calc(8px + env(safe-area-inset-bottom));
+  }
+
+  .lightbox-ls {
+    padding: 0 36px;
+  }
+
+  .lightbox-arrow {
+    width: 36px;
+  }
+
+  .lightbox-arrow i {
+    font-size: 26px;
+  }
+
+  .lightbox-thumbs {
+    gap: 6px;
+    padding: 8px 10px calc(8px + env(safe-area-inset-bottom));
+  }
+
+  .lightbox-thumb {
+    width: 52px;
+    height: 38px;
+  }
+}
+
+/* 五个控件在窄屏上要挤得下，再收一档 */
+@media all and (max-width: 480px) {
+  .lightbox-title p i {
+    --xq-control: 32px;
+    margin-left: 1px;
+    font-size: 15px;
+  }
+
+  /* 名字让位给控件：计数 "(1/3)" 保留 */
+  .lightbox-title .lightbox-name {
+    display: none;
+  }
+
+  .lightbox-title p i.lightbox-rotate::before {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+/* 横屏手机：竖向空间比标题栏更宝贵 */
+@media (orientation: landscape) and (max-height: 500px) {
+  .lightbox-title {
+    height: calc(44px + env(safe-area-inset-top));
+    font-size: 13px;
+  }
+
+  .lightbox-title-tip {
+    display: none;
+  }
+
+  .lightbox-title p i {
+    --xq-control: 34px;
+    font-size: 16px;
+  }
+
+  .lightbox-thumbs {
+    display: none;
+  }
+
+  .lightbox-ls {
+    padding: 0 44px;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────
+   尊重系统的减弱动效设置
+   ───────────────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .lightbox *,
+  .lightbox *::before,
+  .lightbox *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+  }
+}

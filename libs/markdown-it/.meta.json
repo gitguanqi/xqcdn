@@ -1,0 +1,29 @@
+{
+  "library": "markdown-it",
+  "source": "npm",
+  "versions": {
+    "12.2.0": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/markdown-it/-/markdown-it-12.2.0.tgz",
+      "integrity": "sha512-Wjws+uCrVQRqOoJvze4HCqkKl1AsSh95iFAeQDwnyfxM09divCBSXlDR1uTvyUP3Grzpn4Ru8GeCxYPM8vkCQg==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:33.430Z",
+      "files": {
+        "js/markdown-it.min.js": {
+          "sha256": "0de8aa9d3451a5b4a636ac6f3ba66d6800deef9134460650db9cc1cb731e3c46",
+          "size": 100879
+        },
+        "LICENSE": {
+          "sha256": "792c48c5a849a15fdf9e37e8bcf9e6d1dd13b32b46c642a748a0a46a9919d473",
+          "size": 1073
+        }
+      }
+    }
+  },
+  "pkg": "markdown-it",
+  "legacyRootPaths": [
+    "css/github-markdown.css",
+    "js/markdown-it.min.js"
+  ]
+}

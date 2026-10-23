@@ -1,0 +1,139 @@
+{
+  "library": "xqclip",
+  "source": "npm",
+  "versions": {
+    "0.0.1": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqclip/-/xqclip-0.0.1.tgz",
+      "integrity": "sha512-4w6TnbEHCcex6+n+WZJNjI86J1hx5qlK8KQ+F8/pZ8kc/HoYNeS2Rwc6tSyvqbc0u2kc9jm8RCIyf6fZt/uJAQ==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:37.860Z",
+      "files": {
+        "css/clip.css": {
+          "sha256": "f51cbec242de1b5c32d9c0b0fb98572950fbbb07d9b50a21e450336610232f98",
+          "size": 2783
+        },
+        "css/clip.min.css": {
+          "sha256": "d1daa8d1ede538494a11c7c64f8987b2e1c4b26c00fab86d4ec4c19c6e87412d",
+          "size": 2017
+        },
+        "js/clip.js": {
+          "sha256": "02fa3a0eef954b1bbbe1226d3f4b3996e28cd6a547c411753ba4ec1b581dcdc6",
+          "size": 20640
+        },
+        "js/clip.min.js": {
+          "sha256": "c6d9d569467c8ee366b1f754db260b718fb895348a27f9b4ed1aceb33cec88d1",
+          "size": 10543
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    },
+    "0.0.3": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqclip/-/xqclip-0.0.3.tgz",
+      "integrity": "sha512-G1NkyMSynpeJxPKhDIbemNg1Sl/DfBX8bHAVBgv/IUbCv2GakqdFqZUcHs0+h+TZYgmDVKmaLzJZ9yWph1t79Q==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:38.249Z",
+      "files": {
+        "css/xqclip.css": {
+          "sha256": "f51cbec242de1b5c32d9c0b0fb98572950fbbb07d9b50a21e450336610232f98",
+          "size": 2783
+        },
+        "css/xqclip.min.css": {
+          "sha256": "d1daa8d1ede538494a11c7c64f8987b2e1c4b26c00fab86d4ec4c19c6e87412d",
+          "size": 2017
+        },
+        "js/xqclip-esm.js": {
+          "sha256": "0010093866d9991c1eb1a3b6135357b90dd0b1644d9690908e63e665fd8b275a",
+          "size": 20149
+        },
+        "js/xqclip-esm.min.js": {
+          "sha256": "cb2c84d2de48b177dc21baf4c68ff15c06f5d4fcf58f073e3fc3d936951d162b",
+          "size": 10405
+        },
+        "js/xqclip.js": {
+          "sha256": "02fa3a0eef954b1bbbe1226d3f4b3996e28cd6a547c411753ba4ec1b581dcdc6",
+          "size": 20640
+        },
+        "js/xqclip.min.js": {
+          "sha256": "c6d9d569467c8ee366b1f754db260b718fb895348a27f9b4ed1aceb33cec88d1",
+          "size": 10543
+        },
+        "vue/xqclip.js": {
+          "sha256": "315e9702571c44c41f197c62cf9df9aba96027614e00d3272ee0250282ba61a3",
+          "size": 366
+        },
+        "vue/xqclip.vue": {
+          "sha256": "9def657b8d97554658e80b2d78a5b0309e5753d9bca4e9ddd5a58ea8b4b9a431",
+          "size": 26016
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    },
+    "0.1.3": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqclip/-/xqclip-0.1.3.tgz",
+      "integrity": "sha512-YunBKiyHOlfFfiYdt/yTJ+F7887qX97UIqX4JBh40KMHdWefH2g4QJHwnWN0P14Z/LuQy1m2UDRtABw7ZTqoTw==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T08:41:55.872Z",
+      "files": {
+        "css/xqclip.css": {
+          "sha256": "cd5119a73910c8fa447aab0a33e0d4caba53e96d0c2009fea5b35c6e567b41e3",
+          "size": 2643
+        },
+        "css/xqclip.min.css": {
+          "sha256": "38ae71e0a247f9397f50eaa54cdbede1ece9838e92d6e6c2b300aeb402f3e1d6",
+          "size": 1844
+        },
+        "js/xqclip.js": {
+          "sha256": "15ec8f7102e53e66cd86ed52d28dbb030bdae2c3c48056f15c67ae0d95d84694",
+          "size": 21441
+        },
+        "js/xqclip.min.js": {
+          "sha256": "1c3c3cc2daba731359c8cdedab4557497e2d89fa819adc7f15e362900aa10cb3",
+          "size": 12120
+        },
+        "js/xqclip-esm.js": {
+          "sha256": "46a3772f75d6e7e86c7f88ba6bcfd89dc0d44121d982f390ad8d1de732be318b",
+          "size": 18867
+        },
+        "js/xqclip-esm.min.js": {
+          "sha256": "cdabc7eeaf436fdb7ea6d380d33ee7210b883900989030d7df2dbd0ab44e5d61",
+          "size": 11144
+        },
+        "vue/xqclip.js": {
+          "sha256": "56044dd55dda2ab000de85c7c7609459249654f1938f2a2a94ed233d4856dd83",
+          "size": 217
+        },
+        "vue/xqclip.vue": {
+          "sha256": "1eb8a859fc6d3f4c3ad97bf328c5973adb99fe02719a4ea02887f3379b2cecff",
+          "size": 4540
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    }
+  },
+  "legacyRootPaths": [
+    "css/xqclip.css",
+    "css/xqclip.min.css",
+    "js/xqclip-esm.js",
+    "js/xqclip-esm.min.js",
+    "js/xqclip.js",
+    "js/xqclip.min.js",
+    "vue/xqclip.js",
+    "vue/xqclip.vue"
+  ],
+  "pkg": "xqclip"
+}

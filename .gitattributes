@@ -1,0 +1,25 @@
+# Repository-wide line ending policy.
+#
+# The tree is developed on Windows and deployed on Linux, and the CDN ships
+# third-party builds byte-for-byte. Normalize text to LF in the repository so
+# a checkout never turns into a 10k-line "changed file" diff, and mark real
+# binaries so git never rewrites them.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.eot binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.zip binary
+*.gz binary
+*.tgz binary
+*.rar binary
+*.apk binary
+*.exe binary
+*.pdf binary

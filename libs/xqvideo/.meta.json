@@ -1,0 +1,27 @@
+{
+  "library": "xqvideo",
+  "source": "manual",
+  "versions": {
+    "0.0.1": {
+      "origin": "adopted",
+      "files": {
+        "xqvideo.js": {
+          "sha256": "e45b6966bddbaef902dd5fb24f7d1bf50f5781fd4ffe77eaad4abac1b659f7ed",
+          "size": 2118
+        },
+        "xqvideo.min.js": {
+          "sha256": "60d5d76b2204a4b16e02ccffd079d1ce4314e763d88bc8e45210a72684ea63aa",
+          "size": 696
+        }
+      }
+    }
+  },
+  "legacyRootFiles": [
+    "xqvideo.js",
+    "xqvideo.min.js"
+  ],
+  "legacyRootPaths": [
+    "xqvideo.js",
+    "xqvideo.min.js"
+  ]
+}

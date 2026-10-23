@@ -1,0 +1,161 @@
+{
+  "library": "bootstrap",
+  "source": "npm",
+  "versions": {
+    "3.4.1": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/bootstrap/-/bootstrap-3.4.1.tgz",
+      "integrity": "sha512-yN5oZVmRCwe5aKwzRj6736nSmKDX7pLYwsXiCj/EYmo16hODaBiT4En5btW/jhBF/seV+XMx3aYwukYC3A49DA==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:18.758Z",
+      "files": {
+        "css/bootstrap.css": {
+          "sha256": "04f2005b7360c1bdd680776ba7e6b615e0eedbe2073dd5b341cb74b10f313d10",
+          "size": 152723
+        },
+        "css/bootstrap.min.css": {
+          "sha256": "80504e05cca74721295131958dab58ebc0f94cdbcfbb10569149243a0cace741",
+          "size": 121415
+        },
+        "fonts/glyphicons-halflings-regular.eot": {
+          "sha256": "13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407",
+          "size": 20127
+        },
+        "fonts/glyphicons-halflings-regular.svg": {
+          "sha256": "42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5",
+          "size": 109025
+        },
+        "fonts/glyphicons-halflings-regular.ttf": {
+          "sha256": "90ea0753cae9bd11d4bf9f61e39308de83aee4c5a8e7fb725cd0078fb9d364d3",
+          "size": 45404
+        },
+        "fonts/glyphicons-halflings-regular.woff": {
+          "sha256": "a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742",
+          "size": 23424
+        },
+        "fonts/glyphicons-halflings-regular.woff2": {
+          "sha256": "fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c",
+          "size": 18028
+        },
+        "js/bootstrap.js": {
+          "sha256": "dbd2a35e72edc7d6bde483481a912f1c38aa57fab2747d9b071d317339ee03a2",
+          "size": 78064
+        },
+        "js/bootstrap.min.js": {
+          "sha256": "9ee2fcff6709e4d0d24b09ca0fc56aade12b4961ed9c43fd13b03248bfb57afe",
+          "size": 39685
+        },
+        "LICENSE": {
+          "sha256": "f2bc4d83a3c6e3733a229ff8039eba3ef481ea097323c5d0642107df857db4dc",
+          "size": 1106
+        }
+      }
+    },
+    "4.6.0": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/bootstrap/-/bootstrap-4.6.0.tgz",
+      "integrity": "sha512-Io55IuQY3kydzHtbGvQya3H+KorS/M9rSNyfCGCg9WZ4pyT/lCxIlpJgG1GXW/PswzC84Tr2fBYi+7+jFVQQBw==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:19.215Z",
+      "files": {
+        "css/bootstrap.css": {
+          "sha256": "99176e2075bdb2e7cfc6a153d779e7021ee49759df616883609a91e8b003dedc",
+          "size": 209666
+        },
+        "css/bootstrap.min.css": {
+          "sha256": "6c61b169d3d7fd99e69b7d34bb788d698ddf97f1ae19ad106bcb9697757d31f0",
+          "size": 161368
+        },
+        "js/bootstrap.js": {
+          "sha256": "f822ff628f543013c8d120cc285064ce07f0e249f61b3e9658200bfb3bc20e3e",
+          "size": 148426
+        },
+        "js/bootstrap.min.js": {
+          "sha256": "4707c12390b75965a7204159d8c2914cf7d72eec59f0e792eb8134a5a7730b70",
+          "size": 63430
+        },
+        "LICENSE": {
+          "sha256": "5b30317c9c35bb6f05101c501de866cc6852ab9b655dcf5941733f6644c3ebd0",
+          "size": 1131
+        }
+      }
+    },
+    "5.0.2": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/bootstrap/-/bootstrap-5.0.2.tgz",
+      "integrity": "sha512-1Ge963tyEQWJJ+8qtXFU6wgmAVj9gweEjibUdbmcCEYsn38tVwRk8107rk2vzt6cfQcRr3SlZ8aQBqaD8aqf+Q==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:19.612Z",
+      "files": {
+        "css/bootstrap.css": {
+          "sha256": "d59c4bbdc57f2ec6b19d9b4e19478b3168bdedb07ab58af94bce04664f1747ab",
+          "size": 206495
+        },
+        "css/bootstrap.min.css": {
+          "sha256": "936fc28708b694c540046537e9cc7c222a4c60a77621bea8a220d63d962d6a77",
+          "size": 155804
+        },
+        "js/bootstrap.js": {
+          "sha256": "e044056aa049ebd6044f62d943d7a658ecf41e4339f4919f1e6f605d5c4f3ca2",
+          "size": 153553
+        },
+        "js/bootstrap.min.js": {
+          "sha256": "b2528bc8efc5cc286b042685e3a06365dca20d592da4de24100168c4a0a2cba6",
+          "size": 60052
+        },
+        "LICENSE": {
+          "sha256": "5b30317c9c35bb6f05101c501de866cc6852ab9b655dcf5941733f6644c3ebd0",
+          "size": 1131
+        }
+      }
+    },
+    "5.3.8": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/bootstrap/-/bootstrap-5.3.8.tgz",
+      "integrity": "sha512-HP1SZDqaLDPwsNiqRqi5NcP0SSXciX2s9E+RyqJIIqGo+vJeN5AJVM98CXmW/Wux0nQ5L7jeWUdplCEf0Ee+tg==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:20.143Z",
+      "files": {
+        "css/bootstrap.css": {
+          "sha256": "31f13a942a2f8e4f593b685c923a368b182f7685af3291009a07be11e21ea6dc",
+          "size": 280268
+        },
+        "css/bootstrap.min.css": {
+          "sha256": "a7695108838ea4708a547d2d07fb37c4889eb663fb18c3761677ed6a50c4fe41",
+          "size": 232065
+        },
+        "js/bootstrap.js": {
+          "sha256": "ab98aa7bf840394fae3ac4b8ba37eecf1a9a09e353a914bdf366d611f82f0610",
+          "size": 145435
+        },
+        "js/bootstrap.min.js": {
+          "sha256": "e2382985a84daef12f42872b0fdb8b7bf22a854a694f404bb8fe35aadba2c1b9",
+          "size": 60497
+        },
+        "js/bootstrap.bundle.js": {
+          "sha256": "37779b4833eeb752aa382c30ab0655f983a6fc10f570c218dbd638b26721f124",
+          "size": 207790
+        },
+        "js/bootstrap.bundle.min.js": {
+          "sha256": "255a7059a014b2fb2f49ce3e1812300a7ca282449b1b781e9502975e03c06b73",
+          "size": 80447
+        },
+        "LICENSE": {
+          "sha256": "4620c84ad5ce8602ff65640ed6b7c8b78ebb9e036584f0ebc1ccc88206a4bb51",
+          "size": 1093
+        }
+      }
+    }
+  },
+  "pkg": "bootstrap",
+  "legacyRootPaths": [
+    "css/bootstrap.css",
+    "css/bootstrap.min.css",
+    "js/bootstrap.js",
+    "js/bootstrap.min.js"
+  ]
+}

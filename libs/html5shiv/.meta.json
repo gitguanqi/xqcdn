@@ -1,0 +1,33 @@
+{
+  "library": "html5shiv",
+  "source": "npm",
+  "versions": {
+    "3.7.3": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/html5shiv/-/html5shiv-3.7.3.tgz",
+      "integrity": "sha512-SZwGvLGNtgp8GbgFX7oXEp8OR1aBt5LliX6dG0kdD1kl3KhMonN0QcSa/A3TsTgFewaGCbIryQunjayWDXzxmw==",
+      "license": null,
+      "fetchedAt": "2026-10-23T07:14:30.569Z",
+      "files": {
+        "html5shiv.js": {
+          "sha256": "91e65efa3e7b1b78438a761754d5ddd79b3fff6524961a4e1b92f9b0a88dd2d2",
+          "size": 10642
+        },
+        "html5shiv.min.js": {
+          "sha256": "f6e0283561ddb33b140e14977ffad57163aa28f7e2e7ff15e51e1475b6657b60",
+          "size": 2734
+        }
+      }
+    }
+  },
+  "pkg": "html5shiv",
+  "legacyRootFiles": [
+    "html5shiv.js",
+    "html5shiv.min.js"
+  ],
+  "legacyRootPaths": [
+    "html5shiv.js",
+    "html5shiv.min.js"
+  ]
+}

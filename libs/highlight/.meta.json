@@ -1,0 +1,2209 @@
+{
+  "library": "highlight",
+  "source": "npm",
+  "versions": {
+    "11.0.1": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/@highlightjs/cdn-assets/-/cdn-assets-11.0.1.tgz",
+      "integrity": "sha512-v7Qd4TRbsUZib2UkRhrMjGlKIuTxE+XlrpSDijWHYKwdPlWezTi0F+d0/xiNquc6qgeN/pZiyHIq/jXNHqnEhQ==",
+      "license": "BSD-3-Clause",
+      "fetchedAt": "2026-10-23T07:14:29.375Z",
+      "files": {
+        "css/a11y-dark.min.css": {
+          "sha256": "cb30e0c12d8ad8be9c0c517226ba4ffa88802ce495dada60b6f7494075a8a133",
+          "size": 1164
+        },
+        "css/a11y-light.min.css": {
+          "sha256": "0f213ada60182ec80375ed15ce2d5b5524a4914cec29e0a1daf08468cc4dea92",
+          "size": 1152
+        },
+        "css/agate.min.css": {
+          "sha256": "133d93de7443441e840db08ddcf4049fc8561cd50fca248cd4d1b158ca125b09",
+          "size": 1376
+        },
+        "css/an-old-hope.min.css": {
+          "sha256": "a69a6fd11a529a690f2bcd2c2c43a9ad7fe3d5f8a5f4d3b2e12da23b1249be79",
+          "size": 969
+        },
+        "css/androidstudio.min.css": {
+          "sha256": "c0869a17349d3f1bdd078763e8c11ec9808c9f38239bb254720577662fba87bf",
+          "size": 611
+        },
+        "css/arduino-light.min.css": {
+          "sha256": "13ec00189091ad0345c6d0907b59c4a8e2a00f47dba809d3684ca0aafbcc988f",
+          "size": 844
+        },
+        "css/arta.min.css": {
+          "sha256": "fc393c86f9ac4eafe3309e5765f43224d9ce1e40d637ba769764b42611f8b2dc",
+          "size": 673
+        },
+        "css/ascetic.min.css": {
+          "sha256": "c7172b2f5414300d8e8c35218c4359942716e1724dd25a7804a652588c3201ec",
+          "size": 454
+        },
+        "css/atom-one-dark-reasonable.min.css": {
+          "sha256": "81ac553d7c137f253788c8d298b25ad25c6150d1e394aa41e919c4b967064611",
+          "size": 1193
+        },
+        "css/atom-one-dark.min.css": {
+          "sha256": "4237ffca7ce6aadb438c457e0a675b125c534bbdda5b87f41f3a1495603bcc9b",
+          "size": 856
+        },
+        "css/atom-one-light.min.css": {
+          "sha256": "593ee2475d42ac9ae701a177a353825bd661b6249fa1ad4bad232540825e9e83",
+          "size": 856
+        },
+        "css/base16/3024.min.css": {
+          "sha256": "1ef720b3a1f0cc560a7223cc4ecf0aca32661461e1dd77242b90c6b4e888ece8",
+          "size": 1362
+        },
+        "css/base16/apathy.min.css": {
+          "sha256": "bee69fbb9a5b75a05366ea5dd26f7a7aa138010cd4475534fb7022934259d901",
+          "size": 1367
+        },
+        "css/base16/apprentice.min.css": {
+          "sha256": "ce92823e0b03e0b5906c3e3d7c04dd29569e0d5e1c934ebfbe7528717981a6c3",
+          "size": 1332
+        },
+        "css/base16/ashes.min.css": {
+          "sha256": "6d4667689d66e52a59b7cba54f8730d6f42ae58098bc11cc39b98771a4fb9921",
+          "size": 1366
+        },
+        "css/base16/atelier-cave-light.min.css": {
+          "sha256": "47c1953f609efbed5a8c6878b40b8cbf46317037f08e3b5b02f050fac1117ddb",
+          "size": 1378
+        },
+        "css/base16/atelier-cave.min.css": {
+          "sha256": "f76506ca53f6b6b0e9cc826e664af762ca177f8e3d763f12ea666394262c07ba",
+          "size": 1372
+        },
+        "css/base16/atelier-dune-light.min.css": {
+          "sha256": "c2eca434616ae3f7635881b8b42642bfd837a3ec828446ce09b4a247887f3231",
+          "size": 1378
+        },
+        "css/base16/atelier-dune.min.css": {
+          "sha256": "3bd3e2c06559f07da5f66a080b7576eb5eb5b80670cbae6c2102b4f07c5a2712",
+          "size": 1372
+        },
+        "css/base16/atelier-estuary-light.min.css": {
+          "sha256": "6e3c9edd8d2d82fda883468f9a41d11b7d13fccd2d36965fc288325dc5983884",
+          "size": 1381
+        },
+        "css/base16/atelier-estuary.min.css": {
+          "sha256": "d1e415b542f05545603f25482d0cff7e5883b28fe367156114e1c5d8936922ab",
+          "size": 1375
+        },
+        "css/base16/atelier-forest-light.min.css": {
+          "sha256": "60b327566e341b5e517f323f023544fce99de404b7c3b5bcc8ee35db4dc2d104",
+          "size": 1380
+        },
+        "css/base16/atelier-forest.min.css": {
+          "sha256": "5281d2575b4b3da46f8a681a65cc067b3c0cd2bb06ae56d71e4529e0cb15b7f9",
+          "size": 1374
+        },
+        "css/base16/atelier-heath-light.min.css": {
+          "sha256": "8c31fc37543152abd76623062109fcf1fdb5bafd5d43cafac9fa631b21743a1b",
+          "size": 1376
+        },
+        "css/base16/atelier-heath.min.css": {
+          "sha256": "7fd5c8f7758615465590d4dcbebb5bade04ef037a390b556a12b048037cdeaae",
+          "size": 1370
+        },
+        "css/base16/atelier-lakeside-light.min.css": {
+          "sha256": "c22101a6c528235a94fdf6077fa76b02fbe4c1ee72dca1d79fb7cf881b714948",
+          "size": 1382
+        },
+        "css/base16/atelier-lakeside.min.css": {
+          "sha256": "306564c6462ccfecc8cd3102042b15ad04db63eff8a361a2f99a84ec44956d7d",
+          "size": 1376
+        },
+        "css/base16/atelier-plateau-light.min.css": {
+          "sha256": "268e28fb377b39918022641f844071259fb875a2827341a4c9a0c78ae0ed96e5",
+          "size": 1381
+        },
+        "css/base16/atelier-plateau.min.css": {
+          "sha256": "11f9cbe9c4c275bccd727a9f816e1123fd818c15ed953056a1fd5786a7e4d4f7",
+          "size": 1375
+        },
+        "css/base16/atelier-savanna-light.min.css": {
+          "sha256": "63df03535ebe9b08b8ecf5f86624594f3a3123e754e4da9e6a13bb2e71d8127b",
+          "size": 1381
+        },
+        "css/base16/atelier-savanna.min.css": {
+          "sha256": "97627ea158b3262310726a6bc59b95a5c4690825f00e70d377165799f89d5e01",
+          "size": 1375
+        },
+        "css/base16/atelier-seaside-light.min.css": {
+          "sha256": "7136cfdee8ad7d3929a252540d6163e903aacb7de399a1cfb33e8477fcc141ab",
+          "size": 1381
+        },
+        "css/base16/atelier-seaside.min.css": {
+          "sha256": "e230c76a73ba5fcec3a7d38c8de67f423811e56e3bc55610844fdc3758a3b943",
+          "size": 1375
+        },
+        "css/base16/atelier-sulphurpool-light.min.css": {
+          "sha256": "43313c468b3c92b3f72136be95643d42b97489715f5fa4c776531364d665d5bc",
+          "size": 1385
+        },
+        "css/base16/atelier-sulphurpool.min.css": {
+          "sha256": "da073745b4d4019b0835d56cd4dcd25749fc1564687ff8a640d42cb5f9c6a041",
+          "size": 1379
+        },
+        "css/base16/atlas.min.css": {
+          "sha256": "f825500a2705f09ba38654df06f54f7d0451e351040bc6903537ea34b7e61497",
+          "size": 1355
+        },
+        "css/base16/bespin.min.css": {
+          "sha256": "522ab1ae24354de218d08a3c1409f8f91f7692880b57b9f0cfa7101b943abde7",
+          "size": 1332
+        },
+        "css/base16/black-metal-bathory.min.css": {
+          "sha256": "379ea965d2e79de19721b6a563fb5775e14221abe8dd283cb671d19c8cf362fa",
+          "size": 1349
+        },
+        "css/base16/black-metal-burzum.min.css": {
+          "sha256": "e24b115eb01dada962aa9a72b7bdb97ed1d5833ca40eae9041901bd79c56b693",
+          "size": 1339
+        },
+        "css/base16/black-metal-dark-funeral.min.css": {
+          "sha256": "9793527e9cead2092615cc72c21f9d02874f684be396cf06567205c3d0ff2249",
+          "size": 1354
+        },
+        "css/base16/black-metal-gorgoroth.min.css": {
+          "sha256": "96090bbf762ca4c80b716a9505894204dcd3c11fc9ac7c1e0459bfc3dbf9d455",
+          "size": 1351
+        },
+        "css/base16/black-metal-immortal.min.css": {
+          "sha256": "ef1fbdaa62c71075ab8cbd26c15455a414aecc02d8fc6490ccdc9c1b1154dc24",
+          "size": 1341
+        },
+        "css/base16/black-metal-khold.min.css": {
+          "sha256": "6930d2cb9546eb0fc7f06c3719547047541215a0fc31743c89206fe725a20b11",
+          "size": 1347
+        },
+        "css/base16/black-metal-marduk.min.css": {
+          "sha256": "de6517ec4ee010fbd291b5a72c2974bc5590ca1823928292574f27fc537dd705",
+          "size": 1348
+        },
+        "css/base16/black-metal-mayhem.min.css": {
+          "sha256": "608bdf7deeabfc30f0cf0f4203c6177bb9930f497d1e038266cee6d97f78e849",
+          "size": 1348
+        },
+        "css/base16/black-metal-nile.min.css": {
+          "sha256": "4fa8b120b0ffa079241be4517cfd229ce5eebd64ecad7b98faf3e454ddfffda7",
+          "size": 1337
+        },
+        "css/base16/black-metal-venom.min.css": {
+          "sha256": "924e389c9957073bd6e08328cca1488b612f5d1aabd60f24599a58b2e751ef53",
+          "size": 1347
+        },
+        "css/base16/black-metal.min.css": {
+          "sha256": "3cf95af5bd79dea50bdd91dfbf5d9d4f45694f44258217e3de362364d2dc95e1",
+          "size": 1336
+        },
+        "css/base16/brewer.min.css": {
+          "sha256": "900288cc72d033e244d9b7699978fdf500d786f9413118eb0e499945460de091",
+          "size": 1368
+        },
+        "css/base16/bright.min.css": {
+          "sha256": "15bf3de074e3acbb9897e5149ebb747cc060546e0b418ac8472b056b3457c5a2",
+          "size": 1360
+        },
+        "css/base16/brogrammer.min.css": {
+          "sha256": "671174c816260384f169a6c1770d132720bfe32b4b2bdf6e778aa2ac4647f659",
+          "size": 1371
+        },
+        "css/base16/brush-trees-dark.min.css": {
+          "sha256": "5593f170cbe2f1a3c132c73461128ae01cb841618bed3eb049913f7e80b63269",
+          "size": 1376
+        },
+        "css/base16/brush-trees.min.css": {
+          "sha256": "2682a5f8d301add2d97f459352c32d8845c62d3ec05b8842277bc9083ffe81cd",
+          "size": 1371
+        },
+        "css/base16/chalk.min.css": {
+          "sha256": "e604084cc2ea18450b09fece133799597e8aedc83091fc92c86e439209bd6579",
+          "size": 1362
+        },
+        "css/base16/circus.min.css": {
+          "sha256": "c522bbdc8f6c86cfea6393fd101e52dad9bfe6bb020a28eea4677c603a542504",
+          "size": 1415
+        },
+        "css/base16/classic-dark.min.css": {
+          "sha256": "85a96b2f470f120dcd0dc7b90b6337fdba65bc16b35fd7f649a372787467c26d",
+          "size": 1364
+        },
+        "css/base16/classic-light.min.css": {
+          "sha256": "00bb96fd9053b37e126bd37a46f45743d6edc287b29c7d1a23ec26e8ac7a3124",
+          "size": 1365
+        },
+        "css/base16/codeschool.min.css": {
+          "sha256": "b04b7f55a30cca16a72a33e0af01d777a6a0093913d2a22397ca0a24847a8dd2",
+          "size": 1337
+        },
+        "css/base16/colors.min.css": {
+          "sha256": "9fa4f7b525693e68a5dc5773921c0812fe6ffdf5ffad4ca7cb717c22b6da3f4d",
+          "size": 1328
+        },
+        "css/base16/cupcake.min.css": {
+          "sha256": "344984f67dbee3e51b9112f942be59e22f525c0eebedd9a3982c83cd2852e1f8",
+          "size": 1364
+        },
+        "css/base16/cupertino.min.css": {
+          "sha256": "adbd2aa5eb33bb75e2ccac9eaa098ec47c2fb90ea114b460e2a6054cbc0456fc",
+          "size": 1311
+        },
+        "css/base16/danqing.min.css": {
+          "sha256": "cd2bb7db589c4caead5071c0e68f5e70cbfa3bb501af7c0ae5be3e1cc88e735c",
+          "size": 1372
+        },
+        "css/base16/darcula.min.css": {
+          "sha256": "573755da23370e2684a7773872ff0f7c46590b42a0b4527759c4c40b82dd2e5a",
+          "size": 1331
+        },
+        "css/base16/dark-violet.min.css": {
+          "sha256": "b865114643635d3b8df5bd34b9e6589652b1dd9dcb36abe9a8efed1847fba5eb",
+          "size": 1376
+        },
+        "css/base16/darkmoss.min.css": {
+          "sha256": "e51f8e68b41796ff63906e769aa7f7d37ef0a968c7c2d5c8035011647cc7a351",
+          "size": 1370
+        },
+        "css/base16/darktooth.min.css": {
+          "sha256": "337db29465b35ac8ec3039942f0fabd0093206cbeed857e9c3a79435e25a9c6c",
+          "size": 1370
+        },
+        "css/base16/decaf.min.css": {
+          "sha256": "72b084da94bf7dce0fd81c215bf9722eb415312742ceb4999997bcc1f7d45ece",
+          "size": 1365
+        },
+        "css/base16/default-dark.min.css": {
+          "sha256": "03079943b1cebc6f0666fe83af58573f488aa3c33bfea8e796391812d3d38471",
+          "size": 1369
+        },
+        "css/base16/default-light.min.css": {
+          "sha256": "dd0f40585c5dc5c837d5f7ea03e2c3a8116eaa621bb83896c88e7d7374e22a60",
+          "size": 1370
+        },
+        "css/base16/dirtysea.min.css": {
+          "sha256": "cc3f50c45c42882c26563585b50e5b1e4d0b9780b0f2892c19298e65daa02b14",
+          "size": 1340
+        },
+        "css/base16/dracula.min.css": {
+          "sha256": "0a1c819cb52dc39e0761ed683a4b9aa344a013d03b7a60bfebab935b75f68859",
+          "size": 1420
+        },
+        "css/base16/edge-dark.min.css": {
+          "sha256": "c436411608c43a8f82eb69ad19fe85e440b45283f3910758ece8dc9bf83939ab",
+          "size": 1351
+        },
+        "css/base16/edge-light.min.css": {
+          "sha256": "8ced9ba7192ddb40eabd31f7de35dced27e250d75138eb9e8c44b3c2582d64a6",
+          "size": 1352
+        },
+        "css/base16/eighties.min.css": {
+          "sha256": "8fab858ca87a12ef3c4574f313ea6202300b2fc177e9b87dcc81f769984eb154",
+          "size": 1344
+        },
+        "css/base16/embers.min.css": {
+          "sha256": "353fe1b099caa37ea775f15a73b66aca50779a24bf45f2e94e24169f8a799925",
+          "size": 1367
+        },
+        "css/base16/equilibrium-dark.min.css": {
+          "sha256": "6bcb9423674025d7d1ba598bc90fa1eb1767852beb27462c3a570d5ecc4ac2a3",
+          "size": 1346
+        },
+        "css/base16/equilibrium-gray-dark.min.css": {
+          "sha256": "852b6f547ea795b67c1d89121953becc4534268b5d56bc11935eb2616e572aeb",
+          "size": 1345
+        },
+        "css/base16/equilibrium-gray-light.min.css": {
+          "sha256": "d788738c9e49571254fe27f78504db6d3c3da6fcd97b8ba9e5c60c4b25ecd323",
+          "size": 1349
+        },
+        "css/base16/equilibrium-light.min.css": {
+          "sha256": "792e71e62aa93340f4e9fabf5449cdab115ec2c975068058e5c2c1cb2318a104",
+          "size": 1347
+        },
+        "css/base16/espresso.min.css": {
+          "sha256": "3bcd0054eb17bcc7454c51d4e8e7c198e7756ce86846c9448169e8d7ebeef006",
+          "size": 1391
+        },
+        "css/base16/eva-dim.min.css": {
+          "sha256": "4c25069a467a7fe51d8f14485fe2f9d764ef58f9b282cc980accaccb27407251",
+          "size": 1360
+        },
+        "css/base16/eva.min.css": {
+          "sha256": "6f2b806f3e900ca45f7a24c06ce5f405eead2ef29a69cde84a944e3aa855b08f",
+          "size": 1347
+        },
+        "css/base16/flat.min.css": {
+          "sha256": "7202dbae2f3e44da7896292714ceba19800f09d8ffb0f606e98660ed7567e1ea",
+          "size": 1361
+        },
+        "css/base16/framer.min.css": {
+          "sha256": "3f5762b0f5cbc399ba53b2eff48afcac241bf3eb5990c0ce5bc9989729fc63fe",
+          "size": 1358
+        },
+        "css/base16/fruit-soda.min.css": {
+          "sha256": "9edf77d890bed58326224275feb4704ab96899d706662d31ea4e1b9aa614a93c",
+          "size": 1333
+        },
+        "css/base16/gigavolt.min.css": {
+          "sha256": "1bf42afa4d3f2546fe55ea12c3777857e06f7cda593b4450f4165c429c54e6f5",
+          "size": 1368
+        },
+        "css/base16/github.min.css": {
+          "sha256": "3a9a5def8b9c311e5ae43abde85c63133185eed4f0d9f67fea4b00a8308cf066",
+          "size": 1318
+        },
+        "css/base16/google-dark.min.css": {
+          "sha256": "faa82c10e5d8149c09f7482bb97771c7070411d8ff9aad6fe398079ac1bd0d36",
+          "size": 1351
+        },
+        "css/base16/google-light.min.css": {
+          "sha256": "22555b2c0fb5b740de49e51bd4918c92bca3cb0cd92a3ea1276f98bb8a7ac8a1",
+          "size": 1349
+        },
+        "css/base16/grayscale-dark.min.css": {
+          "sha256": "24740571946a391d54b83e8f05665371d5b0a2094f9b1620188f32c8155d4bb6",
+          "size": 1375
+        },
+        "css/base16/grayscale-light.min.css": {
+          "sha256": "2c339add23329ae013f252cb54795f327e397015d557484ef3fd23ddb0f2e09c",
+          "size": 1376
+        },
+        "css/base16/green-screen.min.css": {
+          "sha256": "f91cab98a57712bf1e4ee91cc056fc81ed678906b74d33109b0c45f83ed122f4",
+          "size": 1321
+        },
+        "css/base16/gruvbox-dark-hard.min.css": {
+          "sha256": "8d96be3609bb678377e38636f973df18a572d51fd27eea9c08be77eb1772dca1",
+          "size": 1413
+        },
+        "css/base16/gruvbox-dark-medium.min.css": {
+          "sha256": "45f119288471ab717414b69ea96377906741af8313bbf1b5e9d40c531df1f492",
+          "size": 1415
+        },
+        "css/base16/gruvbox-dark-pale.min.css": {
+          "sha256": "670802de6e43782701d3a2eab26b97876e842b3d3f95b9f186781f630382bd42",
+          "size": 1413
+        },
+        "css/base16/gruvbox-dark-soft.min.css": {
+          "sha256": "639ed4895622c834327942cb5842bc53795b5287f9089d802ad5e1de3b20b0c0",
+          "size": 1413
+        },
+        "css/base16/gruvbox-light-hard.min.css": {
+          "sha256": "68e473de6d60adabae0c544b9fb1287e7c9a4f35f9cdc791a8f35f60628bc903",
+          "size": 1414
+        },
+        "css/base16/gruvbox-light-medium.min.css": {
+          "sha256": "24859e0b708a93aafb965bdf1ad3fee5978c053d731a89d9f0f7a876e4db28f5",
+          "size": 1416
+        },
+        "css/base16/gruvbox-light-soft.min.css": {
+          "sha256": "bfaef86b5b81e252dcf0ed12f98ee1efb569ab6ed14ff254837f84fea936117c",
+          "size": 1414
+        },
+        "css/base16/hardcore.min.css": {
+          "sha256": "4cb1ca75576430c649ba0cc437d4b7e94e3bc891cf0a4556eb60b4f88aa38de7",
+          "size": 1338
+        },
+        "css/base16/harmonic16-dark.min.css": {
+          "sha256": "0ae0e3b7e9f134f3f688639063f8190b58b19aaa37020a25b7ddf58a41999d91",
+          "size": 1376
+        },
+        "css/base16/harmonic16-light.min.css": {
+          "sha256": "b2610c64d3692c295283747b56d5426a9938312fd78638635bcd0879cd977488",
+          "size": 1377
+        },
+        "css/base16/heetch-dark.min.css": {
+          "sha256": "b3fb46d8078ebe37f224655403e5c2c1f3093bcbcc9ff26dc56b555e49c93bbd",
+          "size": 1362
+        },
+        "css/base16/heetch-light.min.css": {
+          "sha256": "f117388aacdd5ce7b37a84b563b65567482338f0b76cf2b5c568b0c1ffa1381b",
+          "size": 1363
+        },
+        "css/base16/helios.min.css": {
+          "sha256": "087717a9a5238e2df0ace7552f69f210b5598e33e9ded57049308631f513e94a",
+          "size": 1365
+        },
+        "css/base16/hopscotch.min.css": {
+          "sha256": "6d7cfa2cb24c33cd6ecbdc9ecb337ef7899e327c12f7f3e5a2c76b765386c008",
+          "size": 1338
+        },
+        "css/base16/horizon-dark.min.css": {
+          "sha256": "63df528e177e2b91d773eeb912643fa6f7e679585a602e8d0eb856898df1e7ce",
+          "size": 1377
+        },
+        "css/base16/horizon-light.min.css": {
+          "sha256": "2a8f39ede2998a69035da1e8708953f63a26b9a13a91619b28c59deadbb5847a",
+          "size": 1378
+        },
+        "css/base16/humanoid-dark.min.css": {
+          "sha256": "fcd77670076d3e683e2720901a63b668967752d7f05242b93b419770ba7e6fec",
+          "size": 1352
+        },
+        "css/base16/humanoid-light.min.css": {
+          "sha256": "db2c1599048db2c58fd8a2e520091f2bb6fb5c5037441f0c456e497135a38e8f",
+          "size": 1353
+        },
+        "css/base16/ia-dark.min.css": {
+          "sha256": "1d9b8f9151d73d519005855fc20ea4b02fcc0ff7d88ce4868d93ef9dbb97ccb1",
+          "size": 1353
+        },
+        "css/base16/ia-light.min.css": {
+          "sha256": "f51092251bfcb7e3d60b3ac12ff415bd1402668c927ae049942373e79629c6da",
+          "size": 1360
+        },
+        "css/base16/icy-dark.min.css": {
+          "sha256": "6b684b92d2077e5d7eead2dce2aee74daca1dbc18bf784c1aa5a557894944eae",
+          "size": 1354
+        },
+        "css/base16/ir-black.min.css": {
+          "sha256": "7b95aa046b9a9cee4af547c59af2f598c3a04085e7df61b9e3f4476ce771ec00",
+          "size": 694
+        },
+        "css/base16/isotope.min.css": {
+          "sha256": "eccc1937f9bcc71d10982c8133737ddab7a8c715a10171a9b0fb98d184216fab",
+          "size": 1298
+        },
+        "css/base16/kimber.min.css": {
+          "sha256": "a81f7332125faacdffad34b2ff234c2c2c4428912fa380b281fad98d3569d644",
+          "size": 1362
+        },
+        "css/base16/london-tube.min.css": {
+          "sha256": "8a326b54a743c9467fa99023ed662ed57010966a8bd912cd5d82c04efa877881",
+          "size": 1340
+        },
+        "css/base16/macintosh.min.css": {
+          "sha256": "6efa0dac8125b3d72b7541ef672dbbbfcceb8ff1b0bd7a4d0fb8594e91c1a474",
+          "size": 1354
+        },
+        "css/base16/marrakesh.min.css": {
+          "sha256": "05f5131e07366e47c592228b4300d4868e3988ae770b701479f13f4f30616e99",
+          "size": 1372
+        },
+        "css/base16/materia.min.css": {
+          "sha256": "e4fb69e39632dfcb708f2569d6ac5fba2c0bbbac8c772e71ca3fdacaa6801e46",
+          "size": 1327
+        },
+        "css/base16/material-darker.min.css": {
+          "sha256": "2146f49955507232defbaa435cc6da0937488c5aaa635f1ce5abace27d141ca2",
+          "size": 1340
+        },
+        "css/base16/material-lighter.min.css": {
+          "sha256": "9de012fb966d2db243f9170b80aa5bff7bbb1429601df4dd702cbf71d2a7106f",
+          "size": 1347
+        },
+        "css/base16/material-palenight.min.css": {
+          "sha256": "1252d88676d736afe418c2ab1c1b780a54c977e0f208ce8759be1931b41c9530",
+          "size": 1349
+        },
+        "css/base16/material-vivid.min.css": {
+          "sha256": "c3f9bf52bee6bdba5fa0d95d3ba552fea3070baa70c7ab90ff58c5624632fdd6",
+          "size": 1342
+        },
+        "css/base16/material.min.css": {
+          "sha256": "64bff7dbf593544c420c899671fbd131e180577dd11bc7248cd991fd0719cb3c",
+          "size": 1333
+        },
+        "css/base16/mellow-purple.min.css": {
+          "sha256": "b024a82dfa66cb4b1317bb59f7a4b2db3b55c3ac36fd5d0ab62036e7a7636d08",
+          "size": 1330
+        },
+        "css/base16/mexico-light.min.css": {
+          "sha256": "6d73869503c7cfe607c5731e1264cc0bb325e0df83f6447290de7409c68a4f09",
+          "size": 1345
+        },
+        "css/base16/mocha.min.css": {
+          "sha256": "f45bde801c648224e6cec0ed0bcb16c6eb859341f454d90efac3716b334e001d",
+          "size": 1362
+        },
+        "css/base16/monokai.min.css": {
+          "sha256": "cff1e9f20834a9c8a4470018c2d43f76336a1dc5cb79daa308a6f4b335935c45",
+          "size": 790
+        },
+        "css/base16/nebula.min.css": {
+          "sha256": "46e55c9a786e24f583eb647bb6621daba3015f3cfaaff85099f0a087671331f3",
+          "size": 1370
+        },
+        "css/base16/nord.min.css": {
+          "sha256": "c7410d495c8bab285472be5836a02c3d828065e34e61bc50902678052fc7b8a9",
+          "size": 2684
+        },
+        "css/base16/nova.min.css": {
+          "sha256": "e889078315598ff47d267154fc46161e35e0210bee94ea40f1cc76910294115d",
+          "size": 1394
+        },
+        "css/base16/ocean.min.css": {
+          "sha256": "a38843125864a4486b2a7f9f7e30d6adfa3bd330d3209ca70c26f8364e9c0c64",
+          "size": 1362
+        },
+        "css/base16/oceanicnext.min.css": {
+          "sha256": "b7e2f8773ca2c3e31823fdcccc1d7a8f666f2f88d32d92ca6997a1d30bc61225",
+          "size": 1382
+        },
+        "css/base16/one-light.min.css": {
+          "sha256": "e1b3e7ce24200abe2e40eaba68c36b73dfe693d571345ad7b12e298e7512b599",
+          "size": 1374
+        },
+        "css/base16/onedark.min.css": {
+          "sha256": "a01b0ca9e49090c4a5027dc818000f8edf1ae90053fafe395593212758f7d397",
+          "size": 1367
+        },
+        "css/base16/outrun-dark.min.css": {
+          "sha256": "d54ae2343843270c4708c2f72115f869e2e19b44233a3d10459441d97387b710",
+          "size": 1380
+        },
+        "css/base16/papercolor-dark.min.css": {
+          "sha256": "5238afa1047baca3c82b45a1f480032741978d107607d17446383c54a6678fb2",
+          "size": 1443
+        },
+        "css/base16/papercolor-light.min.css": {
+          "sha256": "4db7d693851b5a43fffe24776e5a887ad64c4ebfc8a23c414e12774a3feb6bdc",
+          "size": 1427
+        },
+        "css/base16/paraiso.min.css": {
+          "sha256": "44a089ba7de4c3f85b51d257ef02f4144936880ef0a2a192ef319f6a4cf5f055",
+          "size": 1336
+        },
+        "css/base16/pasque.min.css": {
+          "sha256": "e68069a85d61624168f37e45ae28f6546864b6483f23223b4181b4ac89cc7edb",
+          "size": 1370
+        },
+        "css/base16/phd.min.css": {
+          "sha256": "d05238ab84ba5be2e6de2fcdcff1cc8d9abf4b114326fb653317521d6d8ce0d6",
+          "size": 1366
+        },
+        "css/base16/pico.min.css": {
+          "sha256": "edf5a8a672eb4b0949d4f8a249553a38125eeaea52031cc6b0790d1a40c0a8d9",
+          "size": 1361
+        },
+        "css/base16/pop.min.css": {
+          "sha256": "bf0dec37194fd268c32300a652ce1b319e74a0f8997af2032755dc3e0fbd5225",
+          "size": 1354
+        },
+        "css/base16/porple.min.css": {
+          "sha256": "7d58c13897e018e84afd0ef85a5b16c9507deb45990c12bfc29872ccccd6bcec",
+          "size": 1373
+        },
+        "css/base16/qualia.min.css": {
+          "sha256": "7922198d2dfc6f28a1daa013b293f4540c20290cc57c44c625fec2d4590cf0b9",
+          "size": 1328
+        },
+        "css/base16/railscasts.min.css": {
+          "sha256": "78cf872f3de02eb4cf4b7de6dc7ed3f92b2309f611da1450252a9a5abe69571b",
+          "size": 1362
+        },
+        "css/base16/rebecca.min.css": {
+          "sha256": "100b543d083362427cd6b41ac4c623b857743f3ee8263fa963b9528649118469",
+          "size": 1419
+        },
+        "css/base16/ros-pine-dawn.min.css": {
+          "sha256": "4cca9d35acece0771ab2f15d1340760fbe84cf53bcf62a01930acec55dae2989",
+          "size": 1366
+        },
+        "css/base16/ros-pine-moon.min.css": {
+          "sha256": "61734cc82dd320971bbb8f7e9b39c34c832b137ed8a950f66ab4d43fad2bc191",
+          "size": 1366
+        },
+        "css/base16/ros-pine.min.css": {
+          "sha256": "430d6c481897fb0f5ef71e2185bcd1183ca01e97affef417471e72a8e56f06c3",
+          "size": 1361
+        },
+        "css/base16/sagelight.min.css": {
+          "sha256": "3a7ccfcc4181c31063032a85ea3d8ad9a9753260b3e094b0693195263d86b168",
+          "size": 1344
+        },
+        "css/base16/sandcastle.min.css": {
+          "sha256": "efbec9384ee6594ea4bc856284fe4ff944af841eeb82d7d4c177639d0cd2abb2",
+          "size": 1340
+        },
+        "css/base16/seti-ui.min.css": {
+          "sha256": "9f241d3689a4084fabcfc230dc82604f78463ee643bea9a24acabc38eedaafae",
+          "size": 1325
+        },
+        "css/base16/shapeshifter.min.css": {
+          "sha256": "7312d5c8878fefb368e6b2fc5d3537324b2e764db00da855b0a5fb40e24a0c60",
+          "size": 1361
+        },
+        "css/base16/silk-dark.min.css": {
+          "sha256": "f0309c6eecbe18000b15257d69903bce97dd185ae5dc319b68c1bce0032f22bd",
+          "size": 1373
+        },
+        "css/base16/silk-light.min.css": {
+          "sha256": "2ba54135b8c64a89f912c170ef061f3bd4a15340f5cac0dcbe90c7110b86842e",
+          "size": 1374
+        },
+        "css/base16/snazzy.min.css": {
+          "sha256": "eed404b98514274181d6d39bf3b27ec35808739f4601824386deebfee7f56298",
+          "size": 1440
+        },
+        "css/base16/solar-flare-light.min.css": {
+          "sha256": "147935a1d766e0ee9370567394dcf43830b922bdf88a44205ee441df9da1c40e",
+          "size": 1377
+        },
+        "css/base16/solar-flare.min.css": {
+          "sha256": "ec1e9ae28412d2eeae8a35062c0a09d2414271cde90d0c3ab3fba5b597ea7886",
+          "size": 1371
+        },
+        "css/base16/solarized-dark.min.css": {
+          "sha256": "29fe463f8d79889ca96d778a96acfa18986e028dedba5f1adbc579deeaba64d4",
+          "size": 1375
+        },
+        "css/base16/solarized-light.min.css": {
+          "sha256": "310f086238a833c1327d1163b9738a587eaaa7a09547c77aef71729aa40553f7",
+          "size": 1376
+        },
+        "css/base16/spacemacs.min.css": {
+          "sha256": "c123656b1a01934afac883dbff50d0f06ac70646a5b52a6eaceda607e818eb04",
+          "size": 1389
+        },
+        "css/base16/summercamp.min.css": {
+          "sha256": "3bf8c6ba818cab8a6410b7bccca9794e4f055da1fc5c518c5b0f80ca4c60db45",
+          "size": 1356
+        },
+        "css/base16/summerfruit-dark.min.css": {
+          "sha256": "d742e73176f7afe68a4f3e2bdedb085a041c4db47d7dae0d7addd06cffb5b7d6",
+          "size": 1373
+        },
+        "css/base16/summerfruit-light.min.css": {
+          "sha256": "5e06f8d5de62844759d4bd0ef04135494b3fdb6ab1245de94568a7c428283871",
+          "size": 1368
+        },
+        "css/base16/synth-midnight-terminal-dark.min.css": {
+          "sha256": "1a768a90b2df9dd27f2b706383ac6f95e82ec442130e028cbb165e9f563dd3fa",
+          "size": 1393
+        },
+        "css/base16/synth-midnight-terminal-light.min.css": {
+          "sha256": "c47e00f551663003108575e0c20bb7b6cc7abd270ea177ac863aa680e2e90501",
+          "size": 1394
+        },
+        "css/base16/tango.min.css": {
+          "sha256": "869283ee5b88ce73d54a8d74ec954f6f63e0573edd83ef572c5708e07dd78640",
+          "size": 1365
+        },
+        "css/base16/tender.min.css": {
+          "sha256": "f527fa055923d001e7452c74d1d2097185f5954b4d1de792f53619618c0fb7b2",
+          "size": 1376
+        },
+        "css/base16/tomorrow-night.min.css": {
+          "sha256": "abddded842def90599997a2dc06d9e2aea892e3231fe077c62fb263b73522284",
+          "size": 1341
+        },
+        "css/base16/tomorrow.min.css": {
+          "sha256": "4d5605ff1b62e365012817eef29e701f0e403a2ee2da138c9056edc329bafe1f",
+          "size": 1362
+        },
+        "css/base16/twilight.min.css": {
+          "sha256": "7e643f68137ea352be7a8f16f888f4050b292c221ea25965eb03caefb1ba7f9d",
+          "size": 1365
+        },
+        "css/base16/unikitty-dark.min.css": {
+          "sha256": "4dd8acde3b6ad704071022521fcd567a31a21bfb521b2a1a386aeab9371fe83c",
+          "size": 1357
+        },
+        "css/base16/unikitty-light.min.css": {
+          "sha256": "f69a8640bf0503c219a36c4c2cd0795975e97975788eedb14fca82bea8d7afef",
+          "size": 1355
+        },
+        "css/base16/vulcan.min.css": {
+          "sha256": "2866d18607255307657de93021f53a86d55dfc0aa64565d32d22f6f6fb5cebe3",
+          "size": 1314
+        },
+        "css/base16/windows-10-light.min.css": {
+          "sha256": "c53353ddbf5368d733d18e805c65bb17443f3d82af216b9675ea628feb63afee",
+          "size": 1375
+        },
+        "css/base16/windows-10.min.css": {
+          "sha256": "101ce7aff8f8c1be388995f73389f1551202c72d848656870e9c90aff0b21634",
+          "size": 1366
+        },
+        "css/base16/windows-95-light.min.css": {
+          "sha256": "a54381800e4628fc7d9543d9d08d2f7730204ce6859083a702797212e32a4c4e",
+          "size": 1378
+        },
+        "css/base16/windows-95.min.css": {
+          "sha256": "e8a25b96675e9f7f307eacf42d0dbd04b7efe1013c9dfd3bd1b53734f67b473a",
+          "size": 1369
+        },
+        "css/base16/windows-high-contrast-light.min.css": {
+          "sha256": "b0e0cf3ba21ab1c041d72536fedccc7f1f956f20926737a784e9972af4dceaeb",
+          "size": 1373
+        },
+        "css/base16/windows-high-contrast.min.css": {
+          "sha256": "eb4ed8d3cb14d51365341d17ba275bc12de51c5eac8ec34ff9a1127cb8200f20",
+          "size": 1374
+        },
+        "css/base16/windows-nt-light.min.css": {
+          "sha256": "4c84dc25289b72c4908f5d9fe6913d51bc3f9b03c3d59f3013cc37bac5fbb1ba",
+          "size": 1347
+        },
+        "css/base16/windows-nt.min.css": {
+          "sha256": "aaf55b1f84de0bc3f47718ab3be14b19f6e92891f51480343d4bce319769051c",
+          "size": 1332
+        },
+        "css/base16/woodland.min.css": {
+          "sha256": "a672256f963722d3dfb46704fadd4e3457f9de7195e0610c28c08f206f45aa36",
+          "size": 1362
+        },
+        "css/base16/xcode-dusk.min.css": {
+          "sha256": "f69f19ae3f8fd29de570180548753f2af11260ee6af5804dbd07fb6d844c0213",
+          "size": 1373
+        },
+        "css/base16/zenburn.min.css": {
+          "sha256": "2a4ade361661105c78f50e8ffbebed2489a38b5fb75c9777c4947073f546b1e4",
+          "size": 1325
+        },
+        "css/brown-paper.min.css": {
+          "sha256": "276937c2a139476af190e8e29fbd53603ac1a8e79786ee335c9240b961b8977a",
+          "size": 656
+        },
+        "css/brown-papersq.png": {
+          "sha256": "c8ba4e261adc5df0a1c35e1591ef4badf22c0f178b844f730988b4c65f48fae6",
+          "size": 18198
+        },
+        "css/codepen-embed.min.css": {
+          "sha256": "e570b51ac6e07a5c3860ffd837a976348926eadfc2508d5cb0f43c87bd856b17",
+          "size": 600
+        },
+        "css/color-brewer.min.css": {
+          "sha256": "9e93cdccfb01ea9050c43d2cfe312174bdc06e3c129137decf956935ae8de395",
+          "size": 631
+        },
+        "css/dark.min.css": {
+          "sha256": "257d28abe2e37412a75bfc1d5635a41689482a889f75f986dade4c8bf54803d8",
+          "size": 619
+        },
+        "css/default.min.css": {
+          "sha256": "0867f7f52cf102611ed3d3a3a21d7aff6c5344d95e5fdc0165c11756736ac123",
+          "size": 1155
+        },
+        "css/devibeans.min.css": {
+          "sha256": "088b0d02466750db57b224a910bb1d14b0b7ae8d8cae043824a53e99ad533630",
+          "size": 1086
+        },
+        "css/docco.min.css": {
+          "sha256": "7f4d1279ae8626c8029981bf8a11bcf09e28264ac0d4ca565959b41193c25f2c",
+          "size": 837
+        },
+        "css/far.min.css": {
+          "sha256": "72bbf97a96ef6443bdef69a73c860d8614673a062fb5cc154652c811e28cd4c0",
+          "size": 669
+        },
+        "css/foundation.min.css": {
+          "sha256": "56a4ff93d5c3227db7f315077b6273ab92f5c43d2bf115e8b8f8460eda5b1828",
+          "size": 779
+        },
+        "css/github-dark-dimmed.min.css": {
+          "sha256": "bc1116bfba58ee83794d53b8bd08e5ab13cba81bf03454cf67d6cfe435033cae",
+          "size": 1259
+        },
+        "css/github-dark.min.css": {
+          "sha256": "9f208d022102b1d0c7aebfecd8e42ca7997d5de636649d2b31ea63093d809019",
+          "size": 1324
+        },
+        "css/github.min.css": {
+          "sha256": "3a9a5def8b9c311e5ae43abde85c63133185eed4f0d9f67fea4b00a8308cf066",
+          "size": 1318
+        },
+        "css/gml.min.css": {
+          "sha256": "25f372ec6124021543297b5736d32a73f1081ba44ee64be1d0230d45c648dbc2",
+          "size": 787
+        },
+        "css/googlecode.min.css": {
+          "sha256": "52efe30b381cd0dcc3f2ed2d37678e2ddbd3912b503702e93f835f2d92aef115",
+          "size": 835
+        },
+        "css/gradient-dark.min.css": {
+          "sha256": "0880e093ddf42b771b10ac80fe2f8c50db9991238ed4f0d1df4f4fce3835d55c",
+          "size": 1052
+        },
+        "css/gradient-light.min.css": {
+          "sha256": "f6e6918ce0e28c4585d55e2b814d6086bb7aca213bef966b3f5b1005b5a93b07",
+          "size": 1065
+        },
+        "css/grayscale.min.css": {
+          "sha256": "01dc402d1a98f9bc397c9a4e2e2c28337de6aadafa2a646d33b08bf1943eca2c",
+          "size": 1674
+        },
+        "css/hybrid.min.css": {
+          "sha256": "57630d112dd15f5b85fcc1ad5add955f6475234af00e6c4414a72fda4d9bd363",
+          "size": 897
+        },
+        "css/idea.min.css": {
+          "sha256": "9af8a16e829fc33cf91992ae4c360eeeb698a5a200c7fdc26a68d55360d4643e",
+          "size": 906
+        },
+        "css/ir-black.min.css": {
+          "sha256": "7b95aa046b9a9cee4af547c59af2f598c3a04085e7df61b9e3f4476ce771ec00",
+          "size": 694
+        },
+        "css/isbl-editor-dark.min.css": {
+          "sha256": "9587b47988195e93a0d8cb14bfd5fdb88069f6f623a1f2979e0c6049bedba329",
+          "size": 971
+        },
+        "css/isbl-editor-light.min.css": {
+          "sha256": "10eafc5ec24c70c1f417cccb252d5d5bdb9b4b1f64018a44cc65d07b3d604f33",
+          "size": 952
+        },
+        "css/kimbie-dark.min.css": {
+          "sha256": "fc16ff6dca74b92b99480f07f6c66f8df5673550a3ed140c8896b5f93dcc9107",
+          "size": 652
+        },
+        "css/kimbie-light.min.css": {
+          "sha256": "d34b4751751d8c628b58aff8e60cf11760a9e69b5d9cb14849eaa4a977a552e3",
+          "size": 652
+        },
+        "css/lightfair.min.css": {
+          "sha256": "461a84c65812a99149ffe720f212926d38f28a4ac164505d850b9978f2ee1483",
+          "size": 831
+        },
+        "css/lioshi.min.css": {
+          "sha256": "7a4783b5b182edcf6d57cfa8c87367957184d3b4e8e04dc8ad3ba2ca66e9e2a9",
+          "size": 715
+        },
+        "css/magula.min.css": {
+          "sha256": "e331c3f6fdf366be9b57e9383107280188a07655adb8b4311e06086c85b2646c",
+          "size": 642
+        },
+        "css/mono-blue.min.css": {
+          "sha256": "13275dc14a220195ebca63c6769ec648bb1c684d84e94bbb444b6ad14db100b2",
+          "size": 631
+        },
+        "css/monokai-sublime.min.css": {
+          "sha256": "e0c1c5cd8d2f6b68c642f93d1ffa28f90723261cff61f17c59ff79c87b576ac7",
+          "size": 826
+        },
+        "css/monokai.min.css": {
+          "sha256": "cff1e9f20834a9c8a4470018c2d43f76336a1dc5cb79daa308a6f4b335935c45",
+          "size": 790
+        },
+        "css/night-owl.min.css": {
+          "sha256": "d8dfd126e376afbeadd941be47bc4ee88df1a82ccad09a25d03b3fc68d7d6a2e",
+          "size": 1421
+        },
+        "css/nnfx-dark.min.css": {
+          "sha256": "6996263d6d0560c049d8b02ff92f1cb9573b90251a2aaa2ad76a5fe1831a9056",
+          "size": 1420
+        },
+        "css/nnfx-light.min.css": {
+          "sha256": "ae81c3742a73247aee673834f53d319fc059432e8f0c85824769a3cb74a9d620",
+          "size": 1421
+        },
+        "css/nord.min.css": {
+          "sha256": "c7410d495c8bab285472be5836a02c3d828065e34e61bc50902678052fc7b8a9",
+          "size": 2684
+        },
+        "css/obsidian.min.css": {
+          "sha256": "85ee91acffb5e3728aa311af3e96fc3e4526f6a03c7f59eeee14d5eb5633f9f6",
+          "size": 882
+        },
+        "css/paraiso-dark.min.css": {
+          "sha256": "e3555e7814cead808c44cfab981694064723bde0062921519c0df7518758c2e1",
+          "size": 637
+        },
+        "css/paraiso-light.min.css": {
+          "sha256": "ef103032d0fac832caf8d23155de61cf2abadb72a6a62128a4e13a0277176347",
+          "size": 637
+        },
+        "css/pojoaque.jpg": {
+          "sha256": "499141b14881b3c0e369666fa11cfc38afb7c05d7ced6e1b25fb0c61b5f386ed",
+          "size": 1186
+        },
+        "css/pojoaque.min.css": {
+          "sha256": "88ff69e2c0f7bf10dc6025043ae58ee1e20437b0ecee59b40c9c9b7a2dd9ebbc",
+          "size": 814
+        },
+        "css/purebasic.min.css": {
+          "sha256": "f6929961a6688156a9fbc14974963054f1eeb539f39a953ff416f9d78b965d00",
+          "size": 734
+        },
+        "css/qtcreator-dark.min.css": {
+          "sha256": "68d1dbdb1b7bc33c12db0b4f8251d2b2426c19617eb513bfcef0f3ac9913d0f6",
+          "size": 815
+        },
+        "css/qtcreator-light.min.css": {
+          "sha256": "c507cdf158e7fa2555cadaee8d58caf03dff1ea1de73438c1bf96d8c4e2822e7",
+          "size": 810
+        },
+        "css/rainbow.min.css": {
+          "sha256": "2a6dd631f54bc02c3df7cfe84512537438b188f941b5f42eddcce95a00452183",
+          "size": 826
+        },
+        "css/routeros.min.css": {
+          "sha256": "4805dfa137e8bfbf26bb12e375327b2f081fd46cb81eaa6a0b65be3431acd8fa",
+          "size": 862
+        },
+        "css/school-book.min.css": {
+          "sha256": "0c6ddfa1b1e62e83a14a912b93403efe296842d9cea0ec252db7def208fe0e79",
+          "size": 664
+        },
+        "css/shades-of-purple.min.css": {
+          "sha256": "7f1563277b62ab9662ead94fbae3bab683bfc21190ddaf8df5b59fe20fa272ad",
+          "size": 854
+        },
+        "css/srcery.min.css": {
+          "sha256": "e4bd6b5727bd9c473855eb8b3328ba23a613aab7115758e8f888e53248dbba74",
+          "size": 795
+        },
+        "css/stackoverflow-dark.min.css": {
+          "sha256": "49025886ee4fd405fb39648de5592247fe8f3571dad73147d69538685c0de063",
+          "size": 1283
+        },
+        "css/stackoverflow-light.min.css": {
+          "sha256": "2feefa8b491f92be5647b4fdec50446b179ecaf0c1bc463a53a45d3520d7150d",
+          "size": 1297
+        },
+        "css/sunburst.min.css": {
+          "sha256": "a869d0c5b3652829169cad4877e17a4e3325202ba04318984c4774a473dc2b31",
+          "size": 950
+        },
+        "css/tomorrow-night-blue.min.css": {
+          "sha256": "45beaaf08940eb7588b70dec43820cb218201b3ab678009244a9ce78983612ec",
+          "size": 648
+        },
+        "css/tomorrow-night-bright.min.css": {
+          "sha256": "12dc3a769f085d91d1b6dbf65625afaefd7570fdc58158708b84eede8699037b",
+          "size": 648
+        },
+        "css/vs.min.css": {
+          "sha256": "13591f69f8f988ef93c3fd388717521be3a7bdcce88ce5cad8ad2208461fcd2c",
+          "size": 640
+        },
+        "css/vs2015.min.css": {
+          "sha256": "3e2efbd7efa306bc2078755818e6b5b2337c89d5e5aeb612290548efe240e789",
+          "size": 1088
+        },
+        "css/xcode.min.css": {
+          "sha256": "5152183724f5ebb632ddd5a8262f7bf98a9df421225da51b38df60a831c26a82",
+          "size": 945
+        },
+        "css/xt256.min.css": {
+          "sha256": "37d4879923bbac594490ca0c298e66151f90b828fc85fd0296eb41a13ca9dab3",
+          "size": 765
+        },
+        "js/highlight.js": {
+          "sha256": "0cd300f16dcebd51849871641ec7e22e6e0341458c7a87fa6ace7db181b6aaec",
+          "size": 329195
+        },
+        "js/highlight.min.js": {
+          "sha256": "76a081f13bd654afad6930d5d1db880c954020d6eec1f95022c725309def29bd",
+          "size": 110017
+        },
+        "lang/1c.min.js": {
+          "sha256": "800afd2c5ec85a11c9e543e2396f1746f431c8466ef7e10f67702eeab5d2cabf",
+          "size": 159566
+        },
+        "lang/abnf.min.js": {
+          "sha256": "797ae2abc71cb9f084491395bc8e01b5f56aad54ec7daa7f666a662173bff6d4",
+          "size": 763
+        },
+        "lang/accesslog.min.js": {
+          "sha256": "d35e2bd42135262990e3c03e2f1cf6da6e44f9dba807e15f244d1e808b944d51",
+          "size": 1078
+        },
+        "lang/actionscript.min.js": {
+          "sha256": "f0d03e2d69f51c602953cc0137df38b7b99a169c81a70494b059085591e666a4",
+          "size": 1575
+        },
+        "lang/ada.min.js": {
+          "sha256": "1f42ff5aa511e7f37b48a9ecf51f8c3dbb65e95fea577a07ba03c5caf56c14f7",
+          "size": 2170
+        },
+        "lang/angelscript.min.js": {
+          "sha256": "44d200ae8e7dd1e3716dec946fcce0d671fd007ef8d7d532f4775be12e331be6",
+          "size": 1735
+        },
+        "lang/apache.min.js": {
+          "sha256": "a519ad6f3cf9c4077c9e9646e02fcca50f71b336db943d78563b4a98fc6ddd34",
+          "size": 964
+        },
+        "lang/applescript.min.js": {
+          "sha256": "9ba6641ca72006b52ebf1353967fe36616c9a77e99cfda5cdae497996587b0d5",
+          "size": 2803
+        },
+        "lang/arcade.min.js": {
+          "sha256": "7e6c82a96667e7213e7c16d30bb6d66c8575a3fb3ecf0c82946e1782ef4913ec",
+          "size": 2868
+        },
+        "lang/arduino.min.js": {
+          "sha256": "de7774a1ece94cfe39c0d7bc81809c0dbeffb696cb6bb2efb0be08f40fe4e43d",
+          "size": 10361
+        },
+        "lang/armasm.min.js": {
+          "sha256": "e3ea9ecec55f84c7da9832ca176c0356966a2fb4a7d04e21558aed0cf9cfc450",
+          "size": 3170
+        },
+        "lang/asciidoc.min.js": {
+          "sha256": "8270762cf0261cf92b8f77337e883919d22ee1a072cdc29e4d4cc2d9a80d3333",
+          "size": 2541
+        },
+        "lang/aspectj.min.js": {
+          "sha256": "18dcb377bd5e9cb3be476bd4bb12d40e4425d6f8da85f2010480a8ec1b05a2d1",
+          "size": 2780
+        },
+        "lang/autohotkey.min.js": {
+          "sha256": "f2f6e3fb14b7999bef0b5aca214a6c9e1e08cced9f091d4b95a30c3cc7b5ce08",
+          "size": 941
+        },
+        "lang/autoit.min.js": {
+          "sha256": "a81c4061f507e401904fd0ca75e0f8ac3da566f27ec0395811d908492e583d81",
+          "size": 6620
+        },
+        "lang/avrasm.min.js": {
+          "sha256": "a60d71067095894a66fc6201efdcfa7e02ac3eff054f88776a4aefb3daaa3b7d",
+          "size": 1989
+        },
+        "lang/awk.min.js": {
+          "sha256": "97efb91454ec08c847e1ccdbc8c31fb9b4c515f07bb391adf84f2f2445cded07",
+          "size": 675
+        },
+        "lang/axapta.min.js": {
+          "sha256": "057816781157eb74775dc9e5fbfb8aa60a79827b33d02a1d77334f24245be8a9",
+          "size": 1638
+        },
+        "lang/bash.min.js": {
+          "sha256": "26df077435cbed8421e789a36a31ca1858f8e6620dd0b7a31b4bffcb6930fd83",
+          "size": 2076
+        },
+        "lang/basic.min.js": {
+          "sha256": "a8c4cb24c07b5d4a3bcb6f805338631b05988d28e2a5f8e985ce307c827f9022",
+          "size": 1831
+        },
+        "lang/bnf.min.js": {
+          "sha256": "0361a4844e40337cf366f3edc8b2756bee0a5c6fcd5ca790d958998fd1819230",
+          "size": 293
+        },
+        "lang/brainfuck.min.js": {
+          "sha256": "f968feef1e74994f7fa3ccf60b807395cfb5ed9e62fd63ded227491443156c43",
+          "size": 417
+        },
+        "lang/c.min.js": {
+          "sha256": "4add1c856b362b9cd7329bf4a8e44ef452db76dd8d387b8e656d101ac3a51d18",
+          "size": 3947
+        },
+        "lang/cal.min.js": {
+          "sha256": "3b9a8427b5fe16dcd6b6f68062319c822d1a29197762b606178d9dc2eed022dc",
+          "size": 1008
+        },
+        "lang/capnproto.min.js": {
+          "sha256": "7eb473f1068b21cb96fd1ff585291c15e1f40c5d56c237512389860934ed7a04",
+          "size": 936
+        },
+        "lang/ceylon.min.js": {
+          "sha256": "6415a7e062d0d5e938fd67a012faee7fe5dd6247b9abddb253365abc9d9de134",
+          "size": 1260
+        },
+        "lang/clean.min.js": {
+          "sha256": "436dae6716f08c12744f7d3897f5ab002bd415997b23fcd5b7b6e76cbfd190c5",
+          "size": 612
+        },
+        "lang/clojure-repl.min.js": {
+          "sha256": "1e199149fb7bfb59e883a2a10e737d41abb2675b632d40024bdbd91fcc14a214",
+          "size": 196
+        },
+        "lang/clojure.min.js": {
+          "sha256": "140d07eee80c2a0af159d824d1e4c1659c5a825c7b4e2c7f65f1e2e66e9f5b1c",
+          "size": 3686
+        },
+        "lang/cmake.min.js": {
+          "sha256": "a8856a32847e73b49d5763dee3d34b20272bb821f83cc0296c36c88acc4cedf7",
+          "size": 2442
+        },
+        "lang/coffeescript.min.js": {
+          "sha256": "cc24545fd54ea3375c53739edfd38cc46236a21307d6a4f13652b5c21af7efd6",
+          "size": 2962
+        },
+        "lang/coq.min.js": {
+          "sha256": "3920195fe16c26e4b52cf72b6dc4db8cf816e53d339f0c0d5616e8246f6fa37a",
+          "size": 4301
+        },
+        "lang/cos.min.js": {
+          "sha256": "13b7344716620baeddeee421dbf5c4ba3c033fb3c1b270b03ff3aa6d0812276e",
+          "size": 1351
+        },
+        "lang/cpp.min.js": {
+          "sha256": "63e646a6c069bde1202a448a505ceedf455152c262d70099cfef77269fbc3dcb",
+          "size": 5780
+        },
+        "lang/crmsh.min.js": {
+          "sha256": "1f40272763e49fccffd8e792685b102a3aced665832a63ef529a56fd916f7471",
+          "size": 1423
+        },
+        "lang/crystal.min.js": {
+          "sha256": "1aa763b41d2a637045468a7d7c1b27f5f1aee35b6a144625f7cf13ec2a2f7cb7",
+          "size": 3727
+        },
+        "lang/csharp.min.js": {
+          "sha256": "ea54b858eee9e60c33c75ba84c0e76db7a43a1765f1df23bc45f73a33ba4528a",
+          "size": 3936
+        },
+        "lang/csp.min.js": {
+          "sha256": "270496679e00926f0c5f6645bbc3ff82fc1aed5d26560b47b6ad4b4b7ec3e87c",
+          "size": 477
+        },
+        "lang/css.min.js": {
+          "sha256": "46a8eb264547975df6a5860ac2d7dc2849e4a62c338328b9fc84d06595ca6062",
+          "size": 6962
+        },
+        "lang/d.min.js": {
+          "sha256": "ea48ae38b2d8cc47b24b836b2c2dd046225c46632adc76335151b9d23a32d61a",
+          "size": 2461
+        },
+        "lang/dart.min.js": {
+          "sha256": "d5c496b1d28b8ddf5fe9657943fa1863dd5092190102e8b8d341e710fc45c071",
+          "size": 2137
+        },
+        "lang/delphi.min.js": {
+          "sha256": "a5a52c0ea36f07ce82d5f26467584f788a4a7e9846599bdf6b0f23a3776f0e93",
+          "size": 2214
+        },
+        "lang/diff.min.js": {
+          "sha256": "de370a8f841b1824067c8b932401aa44a34a01d4612811ffe98b833afb1715b3",
+          "size": 758
+        },
+        "lang/django.min.js": {
+          "sha256": "ab5ae781d9067d5b7f7d3a9f8bdb0b20966a0bf9e8f48956c8c61ea05ab58d37",
+          "size": 1798
+        },
+        "lang/dns.min.js": {
+          "sha256": "66946495327ba8fa628065e10dc8255321c215f4f73551e9c663dd29a83e8586",
+          "size": 1829
+        },
+        "lang/dockerfile.min.js": {
+          "sha256": "2803e084ed3b05373903a2304723ae8c215a4fc1a0fafdd610180344696baf4d",
+          "size": 445
+        },
+        "lang/dos.min.js": {
+          "sha256": "c55f14c1ee331d621b7bb579cc9459eff140e8e2ec1a76a5ee9834fcfc8f4b42",
+          "size": 1362
+        },
+        "lang/dsconfig.min.js": {
+          "sha256": "aa7c334bb10f17f913bcf2bb726dbd55d3f637ad59e2fc7ad1034656bbcb67b3",
+          "size": 606
+        },
+        "lang/dts.min.js": {
+          "sha256": "17f56e50e5ce603f025a631d324cf605fe41b50abd0fc034bcf9fb35dda27f52",
+          "size": 1427
+        },
+        "lang/dust.min.js": {
+          "sha256": "1586cb226ebf7e3dc5201435d6c58b5d7da7d5ee420f2bcb64cf336e17c1265d",
+          "size": 463
+        },
+        "lang/ebnf.min.js": {
+          "sha256": "47424b1d056e5406eb187621b088d2de56f8edaed899611f4250dd3c00225b51",
+          "size": 404
+        },
+        "lang/elixir.min.js": {
+          "sha256": "60a7719da3ffc26195bb63c2b1af10a6c19e34419f8eceb912a76964961b3151",
+          "size": 2311
+        },
+        "lang/elm.min.js": {
+          "sha256": "cb65e1508ca0521893a0e40177c5fc53bbe050b983bc340616983b2250bbbcc3",
+          "size": 1205
+        },
+        "lang/erb.min.js": {
+          "sha256": "b9f52e1edd73a76f987ac72538642ceeae04d616283a5cdcde08a592d966cce0",
+          "size": 214
+        },
+        "lang/erlang-repl.min.js": {
+          "sha256": "eb1db3810a692c94461253cb94af95e51130f472406afc24c272d675172fa24f",
+          "size": 892
+        },
+        "lang/erlang.min.js": {
+          "sha256": "590826d16591ab925362632b7dc25632c48c53628320c5330de1740ca2775e18",
+          "size": 2013
+        },
+        "lang/excel.min.js": {
+          "sha256": "795601cca8dd61868d1eccb8c6a70be1d98a4233d6d5e4488c9baacfa665cd14",
+          "size": 5292
+        },
+        "lang/fix.min.js": {
+          "sha256": "3e0074e3075d3c657450b553ca46794c3f257966c1879511793eb0c465751fff",
+          "size": 405
+        },
+        "lang/flix.min.js": {
+          "sha256": "cd4411c9b52f1bf785ae6acd09a1523d211c0de55d57a2933b8da84d68019cfa",
+          "size": 666
+        },
+        "lang/fortran.min.js": {
+          "sha256": "d4da7c08f1daf8a18d7e0871810dd19660a65e6bf5c2768b5403a2e12dffb716",
+          "size": 5785
+        },
+        "lang/fsharp.min.js": {
+          "sha256": "d5d3f72867e491f8ed5c8b008ec96657346d9653c8c0ca111576658bda119672",
+          "size": 1288
+        },
+        "lang/gams.min.js": {
+          "sha256": "0adc9d4db35f98ee93948d561232b0fd731de296a2c1b1c298f646733a69b88b",
+          "size": 3075
+        },
+        "lang/gauss.min.js": {
+          "sha256": "622598c7729dcd5b84c1ceb3fe53d339d059a10f7c11ea32d49343a0b9d7ff09",
+          "size": 13025
+        },
+        "lang/gcode.min.js": {
+          "sha256": "78ccd49db2639c8f8af0358b3080657bc53975f3d6147a30be30d463c034a8d3",
+          "size": 1035
+        },
+        "lang/gherkin.min.js": {
+          "sha256": "5dd6e6098cec9016d6c3d4af604789f6335896e91503acd770faac12b77ac3ac",
+          "size": 548
+        },
+        "lang/glsl.min.js": {
+          "sha256": "9a4eb567bff2a916fe706f430e5e72fe8c2c09e006dfd445bc35420443d21b91",
+          "size": 8334
+        },
+        "lang/gml.min.js": {
+          "sha256": "7a3d1642c86dd3334194f6d2c9f54e1ef39f1e4162a2cfb1bdda644697500566",
+          "size": 50567
+        },
+        "lang/go.min.js": {
+          "sha256": "2166cdb39e5c21153d8aba0b7c7a4c9964ffcc527d6f3af28b00bffac2f9cf67",
+          "size": 1114
+        },
+        "lang/golo.min.js": {
+          "sha256": "c93207fea5a9099a57ead7aeaba61168796e043d16fe845d98470e36d62f00b7",
+          "size": 651
+        },
+        "lang/gradle.min.js": {
+          "sha256": "0791ed7c6a5e24a2d212ca2ab40762eac489d392b8f424c61d96eb06227d0b01",
+          "size": 1865
+        },
+        "lang/groovy.min.js": {
+          "sha256": "e4b853f4fcd961519fdc93c016400636f1adc10b77f156863d11aacc1460a013",
+          "size": 1591
+        },
+        "lang/haml.min.js": {
+          "sha256": "43817b5413135d64bc5c11ec1821367fe59651611629f4d8cebba447886dae7b",
+          "size": 1111
+        },
+        "lang/handlebars.min.js": {
+          "sha256": "2dc310fafff93b8a668a3bfb070070c4ed8150f1a93446f9beb1fa7eca38a2ff",
+          "size": 2541
+        },
+        "lang/haskell.min.js": {
+          "sha256": "27491dab388daa22552cda081a52801354bb790db82c5bf95ec4debec3486138",
+          "size": 2001
+        },
+        "lang/haxe.min.js": {
+          "sha256": "0667ddf602e594abf9add2d585455dbb6ffd34b1cc95d8e4d395fb616f7feab9",
+          "size": 1922
+        },
+        "lang/hsp.min.js": {
+          "sha256": "9cbb1f94da82207c52eb6264f52c12520029fdd2c6c72b0f85e03e02b397bcaf",
+          "size": 3391
+        },
+        "lang/http.min.js": {
+          "sha256": "486ea4b5696366fe86f8a17ab08e9af489fccdd90c33f1ca9b87ed211b79ea01",
+          "size": 936
+        },
+        "lang/hy.min.js": {
+          "sha256": "2d56b15764192be3d722b534f8fe30d78f791183824fb0a37fc30a98770723df",
+          "size": 2980
+        },
+        "lang/inform7.min.js": {
+          "sha256": "84de5080f25dbfe15d3816d40dfb1d5b376376fad73366b19a5b6040c248ad0d",
+          "size": 684
+        },
+        "lang/ini.min.js": {
+          "sha256": "a0565af6dd0778bb5c62d32726a1357ae5c12c8227a727634f2d96e7deabaae7",
+          "size": 1261
+        },
+        "lang/irpf90.min.js": {
+          "sha256": "ffdb0fe1249a030f42bd095568c0c961e2fba107c9ad224df9a49a10d8782d1f",
+          "size": 4833
+        },
+        "lang/isbl.min.js": {
+          "sha256": "a549f70d0b2efb243e34121072c4f681c4da79437b3d261454a75a146af01e3b",
+          "size": 83220
+        },
+        "lang/java.min.js": {
+          "sha256": "7b08d0558c393ccce1bfc61164edf28f25b35088f65ea7503be92851de78da15",
+          "size": 2567
+        },
+        "lang/javascript.min.js": {
+          "sha256": "02564ccef230c3954eb6caacf29575256c8ef5881a05e1b38e8f26da01fe790c",
+          "size": 5926
+        },
+        "lang/jboss-cli.min.js": {
+          "sha256": "360c30614e70a397014ce39af13c9cdc580b4a69288989681641be69ded84118",
+          "size": 882
+        },
+        "lang/json.min.js": {
+          "sha256": "2d039e0338a4d6511bcc12914e76031f5fb92178aed4fdf56dbbb21277436c79",
+          "size": 355
+        },
+        "lang/julia-repl.min.js": {
+          "sha256": "19f84377d57999474b879ec64a884f1192b072674d23920a3e6aa9e8eae8f61b",
+          "size": 223
+        },
+        "lang/julia.min.js": {
+          "sha256": "f550a0372b0fef3de58a98c6af1e517f8f3b89a6ffcf3f982c9c521003c4e6cd",
+          "size": 4020
+        },
+        "lang/kotlin.min.js": {
+          "sha256": "5d7bfe31bf24cb5d227ce6ba78770b3f58503128b5bd68cdf624945ea0cc8ed2",
+          "size": 3398
+        },
+        "lang/lasso.min.js": {
+          "sha256": "e6e7122d0d64b2dc6287f0d9b4d4a87d42840fabafc82fd098ed48cc8ecd4163",
+          "size": 3063
+        },
+        "lang/latex.min.js": {
+          "sha256": "05a78b9a7004ce25ae81785daf3dfa252131bec6eca1e82b46a1f9406fb79e59",
+          "size": 3654
+        },
+        "lang/ldif.min.js": {
+          "sha256": "20e780af228768db2683dc0d37c9e1786a31de5410e92aeffbd2b5cbd640b37b",
+          "size": 246
+        },
+        "lang/leaf.min.js": {
+          "sha256": "b02a7e426970c6cd5e3d666352f13d75176c76de4a162bdb25d16af2df827a6c",
+          "size": 445
+        },
+        "lang/less.min.js": {
+          "sha256": "c49d9486c35b10edddebc501c6ef082b0ee7eddac10199a8f848cfcf5d4a251e",
+          "size": 7802
+        },
+        "lang/lisp.min.js": {
+          "sha256": "4c83f5c84af108180db3883100dfc944b2db1c0cb5f20ec134a25211e077bc90",
+          "size": 1166
+        },
+        "lang/livecodeserver.min.js": {
+          "sha256": "186ea961907bf7d370f9e38036aac4c8d278783437d2bab812b2ef94842cc2e7",
+          "size": 8262
+        },
+        "lang/livescript.min.js": {
+          "sha256": "df4fde45370fddeb53c4160644c54c0dfa04b18bb0e99456f4306f606bb6ecd6",
+          "size": 3358
+        },
+        "lang/llvm.min.js": {
+          "sha256": "9197f2b82fba584e4564e17359135fa0a2d2156ab1ddca53b5713404d2bc9c8b",
+          "size": 2671
+        },
+        "lang/lsl.min.js": {
+          "sha256": "cf302237705d346ef227d066a5b3f5e7794f96e7a01c5557621a397e124c5e52",
+          "size": 11916
+        },
+        "lang/lua.min.js": {
+          "sha256": "6241f8a0342cf7d8e05fdb0c39eadf1be7f502ab04f01f5012d1a514656d69b7",
+          "size": 1911
+        },
+        "lang/makefile.min.js": {
+          "sha256": "c0fa9db5c99d638049deffb6a5b7be8cc570045d418e69c9f65d3a1ef551546c",
+          "size": 1097
+        },
+        "lang/markdown.min.js": {
+          "sha256": "fccbd9868ad7e6069d7b09f7d4f7b8f641b3ab7f838bfb8fb91c62ca2759ef16",
+          "size": 2067
+        },
+        "lang/mathematica.min.js": {
+          "sha256": "b96cdabd068e3ae60a16fda730cde9987e771d01e26982d8bc8a540419eaa193",
+          "size": 113155
+        },
+        "lang/matlab.min.js": {
+          "sha256": "c2f80b7c1324456cef543e2a0aed65c15ba578e351dcf353d3f9714b7139f3f0",
+          "size": 2331
+        },
+        "lang/maxima.min.js": {
+          "sha256": "8b834213d11ad03fa958aae4e299d627d70032a975fade6480b9860ae24dfb67",
+          "size": 28721
+        },
+        "lang/mel.min.js": {
+          "sha256": "fc3cf94403f679c1a21f1b36ff20d4522be706f73cd5bfc2f96987dd16180676",
+          "size": 16535
+        },
+        "lang/mercury.min.js": {
+          "sha256": "ab9cbe33ac3421995b7369ce3979ceaa260c938c32eb03b4f0e47cefe4fae045",
+          "size": 2081
+        },
+        "lang/mipsasm.min.js": {
+          "sha256": "d64e5c4c3d938a74901a3706b42b47849ed0d848c721941b5c4f5af10fc026ea",
+          "size": 2476
+        },
+        "lang/mizar.min.js": {
+          "sha256": "f1dc6ece4372c511bdbbd644a980486c8f74bb76c78ebffe0e412e75f8a98ac3",
+          "size": 726
+        },
+        "lang/mojolicious.min.js": {
+          "sha256": "cb2f004d1de248a6c69ba1324ffc9fa41689aacd03348fec14d05fa010507ddb",
+          "size": 317
+        },
+        "lang/monkey.min.js": {
+          "sha256": "2b6cf31e51618d89a29865abf806c14d777a4961032f080a7010eb4c5c80f653",
+          "size": 1352
+        },
+        "lang/moonscript.min.js": {
+          "sha256": "25296ef7e451d418ea98d6cf9d120e953ebbf56968a5c928f705e8d678a1e5f2",
+          "size": 1744
+        },
+        "lang/n1ql.min.js": {
+          "sha256": "17ec3253b31cc29b3081c0a59ee395a053bb8958613cf4491bc79c7f182fba7e",
+          "size": 3615
+        },
+        "lang/nestedtext.min.js": {
+          "sha256": "ff0fb1d5973c940e23a1e4cb3174d88dd3ea503e91388fce2e676bed3d2d05c6",
+          "size": 566
+        },
+        "lang/nginx.min.js": {
+          "sha256": "0ecbd28fe27a6637384fca9238b9552b9196da0f8a34a125ca310f4f4f7868ff",
+          "size": 1662
+        },
+        "lang/nim.min.js": {
+          "sha256": "10a22f3f80c280b6d9d90ef19707363237e3f463f55c0eb86fcd6dfa6a6f65c4",
+          "size": 1688
+        },
+        "lang/nix.min.js": {
+          "sha256": "95db5a21f7d678fd6836420775b0f1bcd17da37eef9f0d5a13a24aa09f3b9176",
+          "size": 708
+        },
+        "lang/node-repl.min.js": {
+          "sha256": "217f329ec91679d4a7ff0bf807915b217a54d9ea63ca43b94726acac4cc597c7",
+          "size": 246
+        },
+        "lang/nsis.min.js": {
+          "sha256": "cd1a66ebc74cebba3a7d0ce9ae0ce438198a8bb727bb69a301fd53ba412ef46e",
+          "size": 5218
+        },
+        "lang/objectivec.min.js": {
+          "sha256": "11cd02b9a26f100c410fee39a9b8cc0782c77bad6e6eb36804be1c458ae2d980",
+          "size": 2845
+        },
+        "lang/ocaml.min.js": {
+          "sha256": "7c076a7814c6f73841304ae6c3a657ff4e3f689e02a4ff8590f04fe9956d1e78",
+          "size": 1268
+        },
+        "lang/openscad.min.js": {
+          "sha256": "7cb9504a89f7b0899fc2d326cf701582c23cabedeb22e1327af3d5c2f8889443",
+          "size": 1310
+        },
+        "lang/oxygene.min.js": {
+          "sha256": "7d88929571aee6d229a0408fca7beb9fc5ec60cdb22fbea288ded148cd36ddd5",
+          "size": 1965
+        },
+        "lang/parser3.min.js": {
+          "sha256": "923ae00940139e5b267d6ed5c13500a8590015bf2b341c8f0d61f9d0ec1860fa",
+          "size": 581
+        },
+        "lang/perl.min.js": {
+          "sha256": "40dd94c427d150d425e6d8f6bd777a2619c054c3a4ffb288f8b5dfb74ab87e16",
+          "size": 4168
+        },
+        "lang/pf.min.js": {
+          "sha256": "02492d5d0cb21bc5b163cc15dcfb2d207b5a2d2c5971190bd0b2865e01df5cee",
+          "size": 1279
+        },
+        "lang/pgsql.min.js": {
+          "sha256": "b41df50c84d4c4119a0d2992bfd3c33c3c4d0f73eef3e27a7148120d21d6df1c",
+          "size": 18975
+        },
+        "lang/php-template.min.js": {
+          "sha256": "59e039a0b0b1dac6250dd0c25656aa4153b8fd5bdfaf7669f7eaf5a46ae68b6f",
+          "size": 454
+        },
+        "lang/php.min.js": {
+          "sha256": "a1fac2fc95c34dde38bd5a6f1c2f3dc1547dee75182d3439e6ab80aabd8557c6",
+          "size": 4168
+        },
+        "lang/plaintext.min.js": {
+          "sha256": "77bd3c60fa02de6d6e9437d99be7ffd47890e7da133f3f50ea16b7b0280dde4b",
+          "size": 136
+        },
+        "lang/pony.min.js": {
+          "sha256": "1b10a3f61a34433315ec59db10146b86d120d6e04da2b3f9dd0fb36715096043",
+          "size": 967
+        },
+        "lang/powershell.min.js": {
+          "sha256": "2a56ce09d1658699053635ba43afbbe16e162547853abb01ccc4ab19f1fe2d72",
+          "size": 4392
+        },
+        "lang/processing.min.js": {
+          "sha256": "9b7026c795df24bbc9150c0ee25794f63a9487c09764f226648769c7a03c6937",
+          "size": 4638
+        },
+        "lang/profile.min.js": {
+          "sha256": "5049a60224755dd7981046d1606be4b4d3f82a17df2c2971b4c12c4742c600ae",
+          "size": 512
+        },
+        "lang/prolog.min.js": {
+          "sha256": "ef50d1f68466a529588efb597bbc2e43c1d87cef655005623016d1a06f886ad9",
+          "size": 696
+        },
+        "lang/properties.min.js": {
+          "sha256": "d5748b6950f6767fde088083531d43629aec0b850011ae307832d863fe39f305",
+          "size": 594
+        },
+        "lang/protobuf.min.js": {
+          "sha256": "4b4d90f249da04a993b96978517e0e704b27f45182c977c9b15a7367afb3437f",
+          "size": 708
+        },
+        "lang/puppet.min.js": {
+          "sha256": "beba0118b5f6e3fdc23acd4d94978399e917874e753b35b7cf90467a3618ec71",
+          "size": 4118
+        },
+        "lang/purebasic.min.js": {
+          "sha256": "316c82a38b7816e5b287d22745a554b1bd8ee2b801e3d551f52a32837f1b3fc4",
+          "size": 1609
+        },
+        "lang/python-repl.min.js": {
+          "sha256": "319103693af8773078f2ed6a479050ebb74e3b2ca0f2b61fb4b50114e40369de",
+          "size": 247
+        },
+        "lang/python.min.js": {
+          "sha256": "ccb5bee73f7a652a5aa3739302ac397cd6987631f06745b47018410782994c98",
+          "size": 4330
+        },
+        "lang/q.min.js": {
+          "sha256": "f0725cc4f5efb0716e7cd5943c387490ec5ecd452a361b11bc72e78ced251e92",
+          "size": 1158
+        },
+        "lang/qml.min.js": {
+          "sha256": "c7716637bf331fb93ab2128fe78de94af46eed3c1abe7d7583ec6e532ba07d03",
+          "size": 2825
+        },
+        "lang/r.min.js": {
+          "sha256": "68741669ac6b4dae50888d6371c78aa9420baeb84e08ff30f2bc31e1698c1272",
+          "size": 3231
+        },
+        "lang/reasonml.min.js": {
+          "sha256": "6099152404763d2ee4c9e7d4e0e6e836d03c4191ed10129155d924e5209608e0",
+          "size": 3359
+        },
+        "lang/rib.min.js": {
+          "sha256": "15cb597ab7a6532906949a2524adf572e2e00b282749d052680e1892a2e573a9",
+          "size": 1309
+        },
+        "lang/roboconf.min.js": {
+          "sha256": "6e4de1d1cab3a15cd6a018d1825cd46de59a23ce81b84279be8bc872c0cc73fa",
+          "size": 742
+        },
+        "lang/routeros.min.js": {
+          "sha256": "0170ad7a27a1e1b37f258b530a1848127a52b377db29170749788888e8d68f33",
+          "size": 2501
+        },
+        "lang/rsl.min.js": {
+          "sha256": "5f8d66441a8244b2f8b2663940d40f685b7b1c8b692492337c74c93bbb9d10e7",
+          "size": 1082
+        },
+        "lang/ruby.min.js": {
+          "sha256": "3dbed6838bfc3838a0f0b589ca720cdfbac109b1f545047f91d8561024f2cdf9",
+          "size": 3568
+        },
+        "lang/ruleslanguage.min.js": {
+          "sha256": "a4d08bbd9ed878744d3f8531ad5873eb6d4a1c7bec53e13834cfb104750ceb34",
+          "size": 3858
+        },
+        "lang/rust.min.js": {
+          "sha256": "cd73ea0c7496b6b9ab6d1008791bdfb99efa65c9e8128cb73eeaa77febf558ce",
+          "size": 2953
+        },
+        "lang/sas.min.js": {
+          "sha256": "cab2355ca7386870c18b92f9a47b225f75a22a6415b34a881f331ccbb4acdf37",
+          "size": 4980
+        },
+        "lang/scala.min.js": {
+          "sha256": "a146f259c15751a43c77e50de8d649fb34a51fcc636440855511ea8a5e4dd18c",
+          "size": 1586
+        },
+        "lang/scheme.min.js": {
+          "sha256": "f0aa9cd3f6d5a288bce3a7fe2480a04f26382bd6e0bda12bc0b2635333d8013d",
+          "size": 3329
+        },
+        "lang/scilab.min.js": {
+          "sha256": "fb6e6d414071f99944de30ce2ecd38d3f2af4a28d84f11ce60d39a97c3734e92",
+          "size": 1230
+        },
+        "lang/scss.min.js": {
+          "sha256": "b0b33614c1c39151fcb0f3c1e445e1e68a6df1433e8e687ad6a3ad6c1ddd1627",
+          "size": 7883
+        },
+        "lang/shell.min.js": {
+          "sha256": "61909d1542b4c695b8dbc646b36ff6c623cdfa7da9ca0e7d8feba8b1ad399457",
+          "size": 251
+        },
+        "lang/smali.min.js": {
+          "sha256": "2306cbeb934e7d1622b96daf4d118ac1709693adc1a0f398d86fb5958e7cf094",
+          "size": 1032
+        },
+        "lang/smalltalk.min.js": {
+          "sha256": "db06fd75a10d9156314d00dc9675d1a5b9c98be4e5a73074aad20f0a30c8bde7",
+          "size": 654
+        },
+        "lang/sml.min.js": {
+          "sha256": "3259649443b00bbba18bcec93f2f86cdff4be52149fc933c5272bade9af1eea7",
+          "size": 1165
+        },
+        "lang/sqf.min.js": {
+          "sha256": "1c32b5d53ccc283c375a1c252bffbdea512dec90c106bdfc5536986ea2458bf3",
+          "size": 41226
+        },
+        "lang/sql.min.js": {
+          "sha256": "3a58f31df5355e7edcf1f4ed21efc1c727064e99888d6377b0ac7c804f5e512d",
+          "size": 6743
+        },
+        "lang/stan.min.js": {
+          "sha256": "2064c702375152c6c9def42e5b77c329466943622ea36ea1a17161337448388b",
+          "size": 7556
+        },
+        "lang/stata.min.js": {
+          "sha256": "74d943385553c193ac9d345dd729d350381d539a05e47aee373b6710fffdb3bf",
+          "size": 16724
+        },
+        "lang/step21.min.js": {
+          "sha256": "9498fe4e7cd5c27652ffacb8859b4203ccfb5a8a1f0e763ba0553940e3664104",
+          "size": 641
+        },
+        "lang/stylus.min.js": {
+          "sha256": "84055e74738d54a6c3148f27345bc4ee0bf05a27c460e1868e9db7369400189c",
+          "size": 7158
+        },
+        "lang/subunit.min.js": {
+          "sha256": "a2d8e02fa3489f50febd350a7b3fcca022cc4556792dbfc2a2e14dd97faec5c4",
+          "size": 531
+        },
+        "lang/swift.min.js": {
+          "sha256": "12a8ba3697ee9df939952261fe7e0941363db1195f4eece212244e4e3f8e513d",
+          "size": 7428
+        },
+        "lang/taggerscript.min.js": {
+          "sha256": "6d1c3b1d19fd6a7bb2aa764b9c7e4b9d3a11b0d92ce6bc311e4df978561998fd",
+          "size": 453
+        },
+        "lang/tap.min.js": {
+          "sha256": "01d2ae53b5860e443f19437bde359ec79fa21311dfab1ce7a8e1a72ee4fc01ef",
+          "size": 411
+        },
+        "lang/tcl.min.js": {
+          "sha256": "bf8d3eed4a10e3bcde637c34b7ea4bd26f5c7154019d62efba6c5cabcb448695",
+          "size": 2048
+        },
+        "lang/thrift.min.js": {
+          "sha256": "da187eafb470e1360a8716619237470dd3547feb5eaa054c6556f48e2b5cb8ce",
+          "size": 707
+        },
+        "lang/tp.min.js": {
+          "sha256": "b806e86e1d9661dd676b79bc62ef8c986962032be9d2db1da2224138c2777d12",
+          "size": 1652
+        },
+        "lang/twig.min.js": {
+          "sha256": "1051829c4b01b2855cee792d7e9dab3e224d5704e14775beec0e97d65bd893be",
+          "size": 1183
+        },
+        "lang/typescript.min.js": {
+          "sha256": "84126fb2e7fe93b9d7b885bf66554e3b4daabe1891c3a88c32e716aa87073747",
+          "size": 6901
+        },
+        "lang/vala.min.js": {
+          "sha256": "a33df8e73dea3dcfad9cce41a583ea231347e1869aa3dbcc863f1f14ba7ba4a2",
+          "size": 926
+        },
+        "lang/vbnet.min.js": {
+          "sha256": "3787141a9b4c4b9a2d69d74fbcb1073c7ab3ccfd6b3dd3c000d41c274f2fa9fd",
+          "size": 2921
+        },
+        "lang/vbscript-html.min.js": {
+          "sha256": "dcc5fe5711a5b17d7d8265116962075fd8b61fcbff9d8780256599cd95508ba2",
+          "size": 178
+        },
+        "lang/vbscript.min.js": {
+          "sha256": "2a61459d6775ca2f1387c76857531e825a043846683be09a44b50a037171dc88",
+          "size": 2161
+        },
+        "lang/verilog.min.js": {
+          "sha256": "e809a09daa7789da5e1c10b41af745b1b4a142c9f0d8c1fce09d49a7a3482704",
+          "size": 4887
+        },
+        "lang/vhdl.min.js": {
+          "sha256": "b048f83562299f09837007689dd469ec59bd743f4dfc1d519e98866994a19a4f",
+          "size": 1989
+        },
+        "lang/vim.min.js": {
+          "sha256": "35da55fc9d890da9e24f5b50d6397fc2f1a8f09d61c2aad1114c808e04ed0d43",
+          "size": 8625
+        },
+        "lang/wasm.min.js": {
+          "sha256": "a79df6901e27c1383fdb2d66cde2b6e1d10227b52bada7adb00390c658b43bf1",
+          "size": 1698
+        },
+        "lang/wren.min.js": {
+          "sha256": "958abc30c27c62136461076124542665db72e6d19df4da6d0157cf5d42584c47",
+          "size": 2540
+        },
+        "lang/x86asm.min.js": {
+          "sha256": "ff95819a25abeca5aaa172675a18956cd922512746e6c2f1b719cac878d47b68",
+          "size": 19067
+        },
+        "lang/xl.min.js": {
+          "sha256": "1fa97c96c4d386614fee4753fcbbfa9c56f0035560ac829b53dc398587434ba0",
+          "size": 1912
+        },
+        "lang/xml.min.js": {
+          "sha256": "e9b3b5c81d118581e440fb5ed6009b66126859acc825314e09d43d633912433f",
+          "size": 2167
+        },
+        "lang/xquery.min.js": {
+          "sha256": "50e5a3e73c848e9a4e8b3146a457d33a607a79c1a8fae2d10cc12e28584ed939",
+          "size": 5649
+        },
+        "lang/yaml.min.js": {
+          "sha256": "c415a5e26a9fab3fdcb846b0c69a7450ba1fbaa9277e8fbbb2a716927f2e6c00",
+          "size": 1760
+        },
+        "lang/zephir.min.js": {
+          "sha256": "b44db75974f9d3ec589beb1508041b0545052a2539174d4c1f5d29e3dcc63cf1",
+          "size": 1622
+        },
+        "LICENSE": {
+          "sha256": "6c081431591d9df696c82dc598fe1423765b8a299b200ed00b281afd0f64c490",
+          "size": 1514
+        }
+      }
+    }
+  },
+  "pkg": "@highlightjs/cdn-assets",
+  "legacyRootPaths": [
+    "css/a11y-dark.min.css",
+    "css/a11y-light.min.css",
+    "css/agate.min.css",
+    "css/an-old-hope.min.css",
+    "css/androidstudio.min.css",
+    "css/arduino-light.min.css",
+    "css/arta.min.css",
+    "css/ascetic.min.css",
+    "css/atom-one-dark-reasonable.min.css",
+    "css/atom-one-dark.min.css",
+    "css/atom-one-light.min.css",
+    "css/base16/3024.min.css",
+    "css/base16/apathy.min.css",
+    "css/base16/apprentice.min.css",
+    "css/base16/ashes.min.css",
+    "css/base16/atelier-cave-light.min.css",
+    "css/base16/atelier-cave.min.css",
+    "css/base16/atelier-dune-light.min.css",
+    "css/base16/atelier-dune.min.css",
+    "css/base16/atelier-estuary-light.min.css",
+    "css/base16/atelier-estuary.min.css",
+    "css/base16/atelier-forest-light.min.css",
+    "css/base16/atelier-forest.min.css",
+    "css/base16/atelier-heath-light.min.css",
+    "css/base16/atelier-heath.min.css",
+    "css/base16/atelier-lakeside-light.min.css",
+    "css/base16/atelier-lakeside.min.css",
+    "css/base16/atelier-plateau-light.min.css",
+    "css/base16/atelier-plateau.min.css",
+    "css/base16/atelier-savanna-light.min.css",
+    "css/base16/atelier-savanna.min.css",
+    "css/base16/atelier-seaside-light.min.css",
+    "css/base16/atelier-seaside.min.css",
+    "css/base16/atelier-sulphurpool-light.min.css",
+    "css/base16/atelier-sulphurpool.min.css",
+    "css/base16/atlas.min.css",
+    "css/base16/bespin.min.css",
+    "css/base16/black-metal-bathory.min.css",
+    "css/base16/black-metal-burzum.min.css",
+    "css/base16/black-metal-dark-funeral.min.css",
+    "css/base16/black-metal-gorgoroth.min.css",
+    "css/base16/black-metal-immortal.min.css",
+    "css/base16/black-metal-khold.min.css",
+    "css/base16/black-metal-marduk.min.css",
+    "css/base16/black-metal-mayhem.min.css",
+    "css/base16/black-metal-nile.min.css",
+    "css/base16/black-metal-venom.min.css",
+    "css/base16/black-metal.min.css",
+    "css/base16/brewer.min.css",
+    "css/base16/bright.min.css",
+    "css/base16/brogrammer.min.css",
+    "css/base16/brush-trees-dark.min.css",
+    "css/base16/brush-trees.min.css",
+    "css/base16/chalk.min.css",
+    "css/base16/circus.min.css",
+    "css/base16/classic-dark.min.css",
+    "css/base16/classic-light.min.css",
+    "css/base16/codeschool.min.css",
+    "css/base16/colors.min.css",
+    "css/base16/cupcake.min.css",
+    "css/base16/cupertino.min.css",
+    "css/base16/danqing.min.css",
+    "css/base16/darcula.min.css",
+    "css/base16/dark-violet.min.css",
+    "css/base16/darkmoss.min.css",
+    "css/base16/darktooth.min.css",
+    "css/base16/decaf.min.css",
+    "css/base16/default-dark.min.css",
+    "css/base16/default-light.min.css",
+    "css/base16/dirtysea.min.css",
+    "css/base16/dracula.min.css",
+    "css/base16/edge-dark.min.css",
+    "css/base16/edge-light.min.css",
+    "css/base16/eighties.min.css",
+    "css/base16/embers.min.css",
+    "css/base16/equilibrium-dark.min.css",
+    "css/base16/equilibrium-gray-dark.min.css",
+    "css/base16/equilibrium-gray-light.min.css",
+    "css/base16/equilibrium-light.min.css",
+    "css/base16/espresso.min.css",
+    "css/base16/eva-dim.min.css",
+    "css/base16/eva.min.css",
+    "css/base16/flat.min.css",
+    "css/base16/framer.min.css",
+    "css/base16/fruit-soda.min.css",
+    "css/base16/gigavolt.min.css",
+    "css/base16/github.min.css",
+    "css/base16/google-dark.min.css",
+    "css/base16/google-light.min.css",
+    "css/base16/grayscale-dark.min.css",
+    "css/base16/grayscale-light.min.css",
+    "css/base16/green-screen.min.css",
+    "css/base16/gruvbox-dark-hard.min.css",
+    "css/base16/gruvbox-dark-medium.min.css",
+    "css/base16/gruvbox-dark-pale.min.css",
+    "css/base16/gruvbox-dark-soft.min.css",
+    "css/base16/gruvbox-light-hard.min.css",
+    "css/base16/gruvbox-light-medium.min.css",
+    "css/base16/gruvbox-light-soft.min.css",
+    "css/base16/hardcore.min.css",
+    "css/base16/harmonic16-dark.min.css",
+    "css/base16/harmonic16-light.min.css",
+    "css/base16/heetch-dark.min.css",
+    "css/base16/heetch-light.min.css",
+    "css/base16/helios.min.css",
+    "css/base16/hopscotch.min.css",
+    "css/base16/horizon-dark.min.css",
+    "css/base16/horizon-light.min.css",
+    "css/base16/humanoid-dark.min.css",
+    "css/base16/humanoid-light.min.css",
+    "css/base16/ia-dark.min.css",
+    "css/base16/ia-light.min.css",
+    "css/base16/icy-dark.min.css",
+    "css/base16/ir-black.min.css",
+    "css/base16/isotope.min.css",
+    "css/base16/kimber.min.css",
+    "css/base16/london-tube.min.css",
+    "css/base16/macintosh.min.css",
+    "css/base16/marrakesh.min.css",
+    "css/base16/materia.min.css",
+    "css/base16/material-darker.min.css",
+    "css/base16/material-lighter.min.css",
+    "css/base16/material-palenight.min.css",
+    "css/base16/material-vivid.min.css",
+    "css/base16/material.min.css",
+    "css/base16/mellow-purple.min.css",
+    "css/base16/mexico-light.min.css",
+    "css/base16/mocha.min.css",
+    "css/base16/monokai.min.css",
+    "css/base16/nebula.min.css",
+    "css/base16/nord.min.css",
+    "css/base16/nova.min.css",
+    "css/base16/ocean.min.css",
+    "css/base16/oceanicnext.min.css",
+    "css/base16/one-light.min.css",
+    "css/base16/onedark.min.css",
+    "css/base16/outrun-dark.min.css",
+    "css/base16/papercolor-dark.min.css",
+    "css/base16/papercolor-light.min.css",
+    "css/base16/paraiso.min.css",
+    "css/base16/pasque.min.css",
+    "css/base16/phd.min.css",
+    "css/base16/pico.min.css",
+    "css/base16/pop.min.css",
+    "css/base16/porple.min.css",
+    "css/base16/qualia.min.css",
+    "css/base16/railscasts.min.css",
+    "css/base16/rebecca.min.css",
+    "css/base16/ros-pine-dawn.min.css",
+    "css/base16/ros-pine-moon.min.css",
+    "css/base16/ros-pine.min.css",
+    "css/base16/sagelight.min.css",
+    "css/base16/sandcastle.min.css",
+    "css/base16/seti-ui.min.css",
+    "css/base16/shapeshifter.min.css",
+    "css/base16/silk-dark.min.css",
+    "css/base16/silk-light.min.css",
+    "css/base16/snazzy.min.css",
+    "css/base16/solar-flare-light.min.css",
+    "css/base16/solar-flare.min.css",
+    "css/base16/solarized-dark.min.css",
+    "css/base16/solarized-light.min.css",
+    "css/base16/spacemacs.min.css",
+    "css/base16/summercamp.min.css",
+    "css/base16/summerfruit-dark.min.css",
+    "css/base16/summerfruit-light.min.css",
+    "css/base16/synth-midnight-terminal-dark.min.css",
+    "css/base16/synth-midnight-terminal-light.min.css",
+    "css/base16/tango.min.css",
+    "css/base16/tender.min.css",
+    "css/base16/tomorrow-night.min.css",
+    "css/base16/tomorrow.min.css",
+    "css/base16/twilight.min.css",
+    "css/base16/unikitty-dark.min.css",
+    "css/base16/unikitty-light.min.css",
+    "css/base16/vulcan.min.css",
+    "css/base16/windows-10-light.min.css",
+    "css/base16/windows-10.min.css",
+    "css/base16/windows-95-light.min.css",
+    "css/base16/windows-95.min.css",
+    "css/base16/windows-high-contrast-light.min.css",
+    "css/base16/windows-high-contrast.min.css",
+    "css/base16/windows-nt-light.min.css",
+    "css/base16/windows-nt.min.css",
+    "css/base16/woodland.min.css",
+    "css/base16/xcode-dusk.min.css",
+    "css/base16/zenburn.min.css",
+    "css/brown-paper.min.css",
+    "css/brown-papersq.png",
+    "css/codepen-embed.min.css",
+    "css/color-brewer.min.css",
+    "css/dark.min.css",
+    "css/default.min.css",
+    "css/devibeans.min.css",
+    "css/docco.min.css",
+    "css/far.min.css",
+    "css/foundation.min.css",
+    "css/github-dark-dimmed.min.css",
+    "css/github-dark.min.css",
+    "css/github.min.css",
+    "css/gml.min.css",
+    "css/googlecode.min.css",
+    "css/gradient-dark.min.css",
+    "css/gradient-light.min.css",
+    "css/grayscale.min.css",
+    "css/highlight-default.min.css",
+    "css/hybrid.min.css",
+    "css/idea.min.css",
+    "css/ir-black.min.css",
+    "css/isbl-editor-dark.min.css",
+    "css/isbl-editor-light.min.css",
+    "css/kimbie-dark.min.css",
+    "css/kimbie-light.min.css",
+    "css/lightfair.min.css",
+    "css/lioshi.min.css",
+    "css/magula.min.css",
+    "css/mono-blue.min.css",
+    "css/monokai-sublime.min.css",
+    "css/monokai.min.css",
+    "css/night-owl.min.css",
+    "css/nnfx-dark.min.css",
+    "css/nnfx-light.min.css",
+    "css/nord.min.css",
+    "css/obsidian.min.css",
+    "css/paraiso-dark.min.css",
+    "css/paraiso-light.min.css",
+    "css/pojoaque.jpg",
+    "css/pojoaque.min.css",
+    "css/purebasic.min.css",
+    "css/qtcreator-dark.min.css",
+    "css/qtcreator-light.min.css",
+    "css/rainbow.min.css",
+    "css/routeros.min.css",
+    "css/school-book.min.css",
+    "css/shades-of-purple.min.css",
+    "css/srcery.min.css",
+    "css/stackoverflow-dark.min.css",
+    "css/stackoverflow-light.min.css",
+    "css/sunburst.min.css",
+    "css/tomorrow-night-blue.min.css",
+    "css/tomorrow-night-bright.min.css",
+    "css/vs.min.css",
+    "css/vs2015.min.css",
+    "css/xcode.min.css",
+    "css/xt256.min.css",
+    "js/highlight.js",
+    "js/highlight.min.js",
+    "lang/1c.min.js",
+    "lang/abnf.min.js",
+    "lang/accesslog.min.js",
+    "lang/actionscript.min.js",
+    "lang/ada.min.js",
+    "lang/angelscript.min.js",
+    "lang/apache.min.js",
+    "lang/applescript.min.js",
+    "lang/arcade.min.js",
+    "lang/arduino.min.js",
+    "lang/armasm.min.js",
+    "lang/asciidoc.min.js",
+    "lang/aspectj.min.js",
+    "lang/autohotkey.min.js",
+    "lang/autoit.min.js",
+    "lang/avrasm.min.js",
+    "lang/awk.min.js",
+    "lang/axapta.min.js",
+    "lang/bash.min.js",
+    "lang/basic.min.js",
+    "lang/bnf.min.js",
+    "lang/brainfuck.min.js",
+    "lang/c.min.js",
+    "lang/cal.min.js",
+    "lang/capnproto.min.js",
+    "lang/ceylon.min.js",
+    "lang/clean.min.js",
+    "lang/clojure-repl.min.js",
+    "lang/clojure.min.js",
+    "lang/cmake.min.js",
+    "lang/coffeescript.min.js",
+    "lang/coq.min.js",
+    "lang/cos.min.js",
+    "lang/cpp.min.js",
+    "lang/crmsh.min.js",
+    "lang/crystal.min.js",
+    "lang/csharp.min.js",
+    "lang/csp.min.js",
+    "lang/css.min.js",
+    "lang/d.min.js",
+    "lang/dart.min.js",
+    "lang/delphi.min.js",
+    "lang/diff.min.js",
+    "lang/django.min.js",
+    "lang/dns.min.js",
+    "lang/dockerfile.min.js",
+    "lang/dos.min.js",
+    "lang/dsconfig.min.js",
+    "lang/dts.min.js",
+    "lang/dust.min.js",
+    "lang/ebnf.min.js",
+    "lang/elixir.min.js",
+    "lang/elm.min.js",
+    "lang/erb.min.js",
+    "lang/erlang-repl.min.js",
+    "lang/erlang.min.js",
+    "lang/excel.min.js",
+    "lang/fix.min.js",
+    "lang/flix.min.js",
+    "lang/fortran.min.js",
+    "lang/fsharp.min.js",
+    "lang/gams.min.js",
+    "lang/gauss.min.js",
+    "lang/gcode.min.js",
+    "lang/gherkin.min.js",
+    "lang/glsl.min.js",
+    "lang/gml.min.js",
+    "lang/go.min.js",
+    "lang/golo.min.js",
+    "lang/gradle.min.js",
+    "lang/groovy.min.js",
+    "lang/haml.min.js",
+    "lang/handlebars.min.js",
+    "lang/haskell.min.js",
+    "lang/haxe.min.js",
+    "lang/hsp.min.js",
+    "lang/http.min.js",
+    "lang/hy.min.js",
+    "lang/inform7.min.js",
+    "lang/ini.min.js",
+    "lang/irpf90.min.js",
+    "lang/isbl.min.js",
+    "lang/java.min.js",
+    "lang/javascript.min.js",
+    "lang/jboss-cli.min.js",
+    "lang/json.min.js",
+    "lang/julia-repl.min.js",
+    "lang/julia.min.js",
+    "lang/kotlin.min.js",
+    "lang/lasso.min.js",
+    "lang/latex.min.js",
+    "lang/ldif.min.js",
+    "lang/leaf.min.js",
+    "lang/less.min.js",
+    "lang/lisp.min.js",
+    "lang/livecodeserver.min.js",
+    "lang/livescript.min.js",
+    "lang/llvm.min.js",
+    "lang/lsl.min.js",
+    "lang/lua.min.js",
+    "lang/makefile.min.js",
+    "lang/markdown.min.js",
+    "lang/mathematica.min.js",
+    "lang/matlab.min.js",
+    "lang/maxima.min.js",
+    "lang/mel.min.js",
+    "lang/mercury.min.js",
+    "lang/mipsasm.min.js",
+    "lang/mizar.min.js",
+    "lang/mojolicious.min.js",
+    "lang/monkey.min.js",
+    "lang/moonscript.min.js",
+    "lang/n1ql.min.js",
+    "lang/nestedtext.min.js",
+    "lang/nginx.min.js",
+    "lang/nim.min.js",
+    "lang/nix.min.js",
+    "lang/node-repl.min.js",
+    "lang/nsis.min.js",
+    "lang/objectivec.min.js",
+    "lang/ocaml.min.js",
+    "lang/openscad.min.js",
+    "lang/oxygene.min.js",
+    "lang/parser3.min.js",
+    "lang/perl.min.js",
+    "lang/pf.min.js",
+    "lang/pgsql.min.js",
+    "lang/php-template.min.js",
+    "lang/php.min.js",
+    "lang/plaintext.min.js",
+    "lang/pony.min.js",
+    "lang/powershell.min.js",
+    "lang/processing.min.js",
+    "lang/profile.min.js",
+    "lang/prolog.min.js",
+    "lang/properties.min.js",
+    "lang/protobuf.min.js",
+    "lang/puppet.min.js",
+    "lang/purebasic.min.js",
+    "lang/python-repl.min.js",
+    "lang/python.min.js",
+    "lang/q.min.js",
+    "lang/qml.min.js",
+    "lang/r.min.js",
+    "lang/reasonml.min.js",
+    "lang/rib.min.js",
+    "lang/roboconf.min.js",
+    "lang/routeros.min.js",
+    "lang/rsl.min.js",
+    "lang/ruby.min.js",
+    "lang/ruleslanguage.min.js",
+    "lang/rust.min.js",
+    "lang/sas.min.js",
+    "lang/scala.min.js",
+    "lang/scheme.min.js",
+    "lang/scilab.min.js",
+    "lang/scss.min.js",
+    "lang/shell.min.js",
+    "lang/smali.min.js",
+    "lang/smalltalk.min.js",
+    "lang/sml.min.js",
+    "lang/sqf.min.js",
+    "lang/sql.min.js",
+    "lang/stan.min.js",
+    "lang/stata.min.js",
+    "lang/step21.min.js",
+    "lang/stylus.min.js",
+    "lang/subunit.min.js",
+    "lang/swift.min.js",
+    "lang/taggerscript.min.js",
+    "lang/tap.min.js",
+    "lang/tcl.min.js",
+    "lang/thrift.min.js",
+    "lang/tp.min.js",
+    "lang/twig.min.js",
+    "lang/typescript.min.js",
+    "lang/vala.min.js",
+    "lang/vbnet.min.js",
+    "lang/vbscript-html.min.js",
+    "lang/vbscript.min.js",
+    "lang/verilog.min.js",
+    "lang/vhdl.min.js",
+    "lang/vim.min.js",
+    "lang/wasm.min.js",
+    "lang/wren.min.js",
+    "lang/x86asm.min.js",
+    "lang/xl.min.js",
+    "lang/xml.min.js",
+    "lang/xquery.min.js",
+    "lang/yaml.min.js",
+    "lang/zephir.min.js"
+  ]
+}

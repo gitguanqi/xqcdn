@@ -1,0 +1,109 @@
+{
+  "library": "xqtime",
+  "source": "npm",
+  "versions": {
+    "0.0.4": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqtime/-/xqtime-0.0.4.tgz",
+      "integrity": "sha512-/SWfZr97O73KXCDRlzrDT8Hy3AxUPDkdbjc+4CnyEIxRGuft0gSqc3tA108WdJVaG+vKXFgZfCU4c108W9focQ==",
+      "license": "GPL-3.0",
+      "fetchedAt": "2026-10-23T07:14:45.881Z",
+      "files": {
+        "js/xqtime-es5.js": {
+          "sha256": "7abf21ee766f19ce7a5ac947b8a59871976457df4cbb1ef43d03fb1a8e733676",
+          "size": 2756
+        },
+        "js/xqtime-es5.min.js": {
+          "sha256": "069d4763fa94c50d3793a50bf95e38767a963d5e552f803d680f771943c9ccf3",
+          "size": 914
+        },
+        "js/xqtime-es6.js": {
+          "sha256": "323ce22297dd13883e75f99a5b2809b759da1d091e571be199c016cb270f0dba",
+          "size": 2784
+        },
+        "js/xqtime-es6.min.js": {
+          "sha256": "a4c68fbcc40b668d0f9bbe851db10d04b084ef8b334d6a73a041a63a63274deb",
+          "size": 936
+        },
+        "LICENSE": {
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "size": 35823
+        }
+      }
+    },
+    "0.0.9": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqtime/-/xqtime-0.0.9.tgz",
+      "integrity": "sha512-5Ghbr113b1YG0vhyQs/MpjmStITAe/9fdcwXs9VYH9x8/wBDa/D5ilqqOKs+MpLCofFnAOcrYhV2E7XchlgvXQ==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:46.195Z",
+      "files": {
+        "xqtime-esm.js": {
+          "sha256": "8ed2124619778e2f76c32df083c88bc0f8f282c96afb47a6f3989ad1d9955cfd",
+          "size": 2799
+        },
+        "xqtime-esm.min.js": {
+          "sha256": "6ce4fa616a7a3045405feaa1629724f47881355c742ae4428ab88ae70bb6ec52",
+          "size": 1262
+        },
+        "xqtime.js": {
+          "sha256": "483c3667803063087ee41e977d70353ef62380fca49541e8f3419c340a010a9c",
+          "size": 3561
+        },
+        "xqtime.min.js": {
+          "sha256": "ecbcb0416af29be6156defbad3d6f097a32179371faa8a745d45c70a247f6289",
+          "size": 1430
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    },
+    "0.2.1": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqtime/-/xqtime-0.2.1.tgz",
+      "integrity": "sha512-hpINkuL2IsZUNOD1NxkQ11hR25D1S/8RfobWy5Q4wEX8yPk4f9Fs1oRuvPAmIaBs/5TCdef1TYkucek/hluGWQ==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T08:30:40.470Z",
+      "files": {
+        "xqtime-esm.js": {
+          "sha256": "f4875a456e4e05a4dc730aba509581d287f9b215829fde3ffd4d65c0b2126ea1",
+          "size": 4018
+        },
+        "xqtime-esm.min.js": {
+          "sha256": "fdc0667681ac6b1a3222af762c01e9613c08ffe92e67cb1573c7504fd1a097bc",
+          "size": 2204
+        },
+        "xqtime.js": {
+          "sha256": "7d420c2a63f41fe08bc45b5511e67ded6754baba7305fff9345040f62bd8fdee",
+          "size": 5765
+        },
+        "xqtime.min.js": {
+          "sha256": "2ca4ddba49bacea976f6889ea3cf3050b830ec6be7755dcea6f6d36ac4ba6347",
+          "size": 3256
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    }
+  },
+  "legacyRootFiles": [
+    "xqtime-esm.js",
+    "xqtime-esm.min.js",
+    "xqtime.js",
+    "xqtime.min.js"
+  ],
+  "legacyRootPaths": [
+    "xqtime-esm.js",
+    "xqtime-esm.min.js",
+    "xqtime.js",
+    "xqtime.min.js"
+  ],
+  "pkg": "xqtime"
+}

@@ -1,0 +1,51 @@
+{
+  "library": "xlsxjs",
+  "source": "npm",
+  "versions": {
+    "0.0.1": {
+      "origin": "adopted",
+      "files": {
+        "xlsx.js": {
+          "sha256": "722018f195c4e67efb676ef5dc8eb7bb0dc7abe456eedfaba39371f7952ee0b7",
+          "size": 1568876
+        },
+        "xlsx.min.js": {
+          "sha256": "067cb57bed8144bd1ab3cbf3c37fa857274f7b82ca27298af2f7a1ac3e509bd2",
+          "size": 888082
+        }
+      }
+    },
+    "0.17.4": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xlsx/-/xlsx-0.17.4.tgz",
+      "integrity": "sha512-9aKt8g9ZLP0CUdBX8L5xnoMDFwSiLI997eQnDThCaqQMYB9AEBIRzblSSNN/ICMGLYIHUO3VKaItcedZJ3ijIg==",
+      "license": "Apache-2.0",
+      "fetchedAt": "2026-10-23T07:14:37.534Z",
+      "files": {
+        "js/xlsx.full.min.js": {
+          "sha256": "6630a5efc598567708308d9a8bf7889a37fd533ef620aeda6f01f13bcd076d16",
+          "size": 952325
+        },
+        "js/xlsx.js": {
+          "sha256": "a2c3f528b5dd5e52156fa2cbc1ea6582cbc0253fb672ba6c790f6b72269b6dd0",
+          "size": 785156
+        },
+        "js/xlsx.min.js": {
+          "sha256": "5d3e34e34c0a0cbdd30ecf37a9a657ee1d0d23ec7b3485e2cadf54b05a9f8cbb",
+          "size": 427609
+        },
+        "LICENSE": {
+          "sha256": "4d2a38ac35cda06a555c84074a819d413339cd3691b822cae50f8f322fe01f64",
+          "size": 11355
+        }
+      }
+    }
+  },
+  "pkg": "xlsx",
+  "legacyRootPaths": [
+    "js/xlsx.full.min.js",
+    "js/xlsx.js",
+    "js/xlsx.min.js"
+  ]
+}

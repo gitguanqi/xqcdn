@@ -1,0 +1,109 @@
+{
+  "library": "xqeditor",
+  "source": "npm",
+  "versions": {
+    "0.0.1": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqeditor/-/xqeditor-0.0.1.tgz",
+      "integrity": "sha512-7CKrnV+duzitMReiN15+s2hgignU+R7sZZwQc8qpBbqiv7nIqf9MiJ4UHEHxr3XyQuPFhtHLhKXx/mRH4TKdkA==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:38.635Z",
+      "files": {
+        "css/xqeditor.css": {
+          "sha256": "2458d78c0e0ad0780617017f164181aaedee4b5a580430a635fd3de21b2ac09b",
+          "size": 8280
+        },
+        "css/xqeditor.min.css": {
+          "sha256": "f5f1a9eb41d1f151a33fef45e6eec6143aca254d11c8e5ee81571093040b812b",
+          "size": 6234
+        },
+        "js/xqeditor-esm.js": {
+          "sha256": "ed543b9f8c3f1b746902549c5f83ef31f0a00ac0640b9ba21c11c2168171ec42",
+          "size": 13432
+        },
+        "js/xqeditor-esm.min.js": {
+          "sha256": "1374683ad473124046fab6e2d5384d2600aa8605ee0f80f209c30391f73d1e24",
+          "size": 9549
+        },
+        "js/xqeditor.js": {
+          "sha256": "06d853eba0c9e13d035c1ebd5562e292d0112a671c3be4dbdad22860abb7ce08",
+          "size": 15368
+        },
+        "js/xqeditor.min.js": {
+          "sha256": "5f238aa11df506f842cee1b78cc3f28bac3c73451c0868dc94f28367d754a1fa",
+          "size": 9999
+        },
+        "vue/index.js": {
+          "sha256": "2d4f8798c421820d214c3db3cb6d9af306d56603f3f2c501515b04036d92ca77",
+          "size": 190
+        },
+        "vue/index.vue": {
+          "sha256": "9205cbc4410e9b11492d734b3f4780f7719f7565396bfa936fac633efab7c6fe",
+          "size": 19273
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    },
+    "0.1.3": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqeditor/-/xqeditor-0.1.3.tgz",
+      "integrity": "sha512-94nP/QJmM2UsiAxjXsifjnO6wssdRNHP2iwtiqYuu4Cq/T5owlrFyxSav4+AZJpylr5qyVWIUbcO72IFULeRkQ==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T08:30:34.424Z",
+      "files": {
+        "css/xqeditor.css": {
+          "sha256": "1bca9fdcfcf4b6707a691d08f4893e2b9e0082a92af070bd367612df187d1bfa",
+          "size": 8919
+        },
+        "css/xqeditor.min.css": {
+          "sha256": "dc1e95eebcbae50595705bd96f52d6c3abc31156902e8af16d0d0f655ef08c83",
+          "size": 6603
+        },
+        "js/xqeditor-esm.js": {
+          "sha256": "c7eda25b56c93b139ffc0c16df49a9ea6c849010717aafa52aee1083462c432d",
+          "size": 13301
+        },
+        "js/xqeditor-esm.min.js": {
+          "sha256": "b45fb4e61ec7eb174d3ac2d184104146ca037d4334f2d5c05a9134234af4221f",
+          "size": 9729
+        },
+        "js/xqeditor.js": {
+          "sha256": "ca1a17b15aa1c48f83118bc71c3a58bc45c4dca72bf94730e12221365112c0c1",
+          "size": 15415
+        },
+        "js/xqeditor.min.js": {
+          "sha256": "8e7b1165cf48cdf54db99004e9d90007744a97a00d20f702b47460a5d07467e7",
+          "size": 10713
+        },
+        "vue/index.js": {
+          "sha256": "649fa07506c39bfa1994872a486e076216b3a6da61f2f063da82b890350a027b",
+          "size": 218
+        },
+        "vue/index.vue": {
+          "sha256": "55b49f2c52591a0c4886ae8580760be378ae2b302e006841f20ce58b515e6850",
+          "size": 3399
+        },
+        "LICENSE": {
+          "sha256": "9a4b7781acda2743e14fa5ae91c82cc4943c81f0a80f2dd1a3ae5b6db1b6ccc2",
+          "size": 1087
+        }
+      }
+    }
+  },
+  "legacyRootPaths": [
+    "css/xqeditor.css",
+    "css/xqeditor.min.css",
+    "js/xqeditor-esm.js",
+    "js/xqeditor-esm.min.js",
+    "js/xqeditor.js",
+    "js/xqeditor.min.js",
+    "vue/index.js",
+    "vue/index.vue"
+  ],
+  "pkg": "xqeditor"
+}

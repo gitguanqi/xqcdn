@@ -1,0 +1,79 @@
+{
+  "library": "xqi18n",
+  "source": "npm",
+  "versions": {
+    "0.0.3": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqi18n/-/xqi18n-0.0.3.tgz",
+      "integrity": "sha512-39UopekLY1NC1Dc8CkcfJRgzKac0KA/2JUDnrnm9AmOZV67NHKOd3VpOn0g99L2h11AzjlKaSAzU1ipJLr9qsQ==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:40.471Z",
+      "files": {
+        "xqi18n-esm.js": {
+          "sha256": "d49236e2d9e5ca8ed2e1a5565ad8a43e1669891e2db38da9d622d90192b93bc5",
+          "size": 1264
+        },
+        "xqi18n-esm.min.js": {
+          "sha256": "573929e37e5ef9e3527c7bd506736ed1355a88893affb8de27faf875204a6512",
+          "size": 774
+        },
+        "xqi18n.js": {
+          "sha256": "f1e6bb3733488ec505dda580b7bacc841f8453277841dff370ff0bd731618b0d",
+          "size": 1905
+        },
+        "xqi18n.min.js": {
+          "sha256": "de4cc1315960296924a2ae5f58a80a6161ffc5d8b7466bd67beaa6922092102d",
+          "size": 1002
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    },
+    "0.2.0": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqi18n/-/xqi18n-0.2.0.tgz",
+      "integrity": "sha512-tgpKCly4T7Iy4hkxXbaKzrA/Wm0A71K1TDABZMCTrl5f4J4gb0ziSr+R1N3X7EtxlaplCheF9RTOLkBzEXFJxQ==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T08:30:35.547Z",
+      "files": {
+        "xqi18n-esm.js": {
+          "sha256": "80c128c89388ea16c2f4e122a085072ebcdcca4d983fd60a31b95ebd4d8b1e3a",
+          "size": 4431
+        },
+        "xqi18n-esm.min.js": {
+          "sha256": "0e8b529c474dd319045c6e08df9f9923741a854dd9be22ea5b4f9c76d2b79d2d",
+          "size": 2234
+        },
+        "xqi18n.js": {
+          "sha256": "432ec4372d47e942eb6af905a598f21a532a227eb82759eed679d3226f65daf9",
+          "size": 6253
+        },
+        "xqi18n.min.js": {
+          "sha256": "8b095b852d268212b47f2cd77e66a535532d440202f514e7eb626a723591b96e",
+          "size": 3244
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    }
+  },
+  "legacyRootFiles": [
+    "xqi18n-esm.js",
+    "xqi18n-esm.min.js",
+    "xqi18n.js",
+    "xqi18n.min.js"
+  ],
+  "legacyRootPaths": [
+    "xqi18n-esm.js",
+    "xqi18n-esm.min.js",
+    "xqi18n.js",
+    "xqi18n.min.js"
+  ],
+  "pkg": "xqi18n"
+}

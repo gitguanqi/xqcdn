@@ -1,0 +1,52 @@
+{
+  "library": "jsrsasign",
+  "source": "npm",
+  "versions": {
+    "10.4.1": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/jsrsasign/-/jsrsasign-10.4.1.tgz",
+      "integrity": "sha512-g2CP2nb8xKdmfZhuHaJEz1zVYTsZc+lUjLFvgbMX35/cUALK0G15sQfCbCpDg/UivkjCNlq0lV6FxCfPhv0shw==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:32.414Z",
+      "files": {
+        "jsrsasign-all-min.js": {
+          "sha256": "437dbe23cb026bb2311a6b8a345fc8ccc340d80ef1103beabd8d995fb11c4f48",
+          "size": 314083
+        },
+        "jsrsasign-jwths-min.js": {
+          "sha256": "1659dfff7671b7b3df1d97b21a3dfdf3b0c9a4d2e563ab7f7d6e7ac564ed3241",
+          "size": 65950
+        },
+        "jsrsasign-rsa-min.js": {
+          "sha256": "77f148e6451cc6ac31393deab470c72fda8933b75c0f4d1cd47e5a2115a22b38",
+          "size": 104926
+        }
+      }
+    },
+    "10.5.27": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/jsrsasign/-/jsrsasign-10.5.27.tgz",
+      "integrity": "sha512-1F4LmDeJZHYwoVvB44jEo2uZL3XuwYNzXCDOu53Ui6vqofGQ/gCYDmaxfVZtN0TGd92UKXr/BONcfrPonUIcQQ==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:32.746Z",
+      "files": {}
+    }
+  },
+  "pkg": "jsrsasign",
+  "legacyRootFiles": [
+    "crypto-1.1.min.js",
+    "cryptojs-core.min.js",
+    "jsrsasign-all-min.js",
+    "jsrsasign-jwths-min.js",
+    "jsrsasign-rsa-min.js"
+  ],
+  "legacyRootPaths": [
+    "crypto-1.1.min.js",
+    "cryptojs-core.min.js",
+    "jsrsasign-all-min.js",
+    "jsrsasign-jwths-min.js",
+    "jsrsasign-rsa-min.js"
+  ]
+}

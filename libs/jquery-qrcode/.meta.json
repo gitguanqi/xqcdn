@@ -1,0 +1,18 @@
+{
+  "library": "jquery-qrcode",
+  "source": "manual",
+  "versions": {
+    "1.0": {
+      "origin": "adopted",
+      "files": {
+        "js/jquery.qrcode.min.js": {
+          "sha256": "f4ccf02b69092819ac24575c717a080c3b6c6d6161f1b8d82bf0bb523075032d",
+          "size": 14023
+        }
+      }
+    }
+  },
+  "legacyRootPaths": [
+    "js/jquery.qrcode.min.js"
+  ]
+}

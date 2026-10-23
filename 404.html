@@ -1,20 +1,194 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="figure,static,file,image">
-    <meta name="description" content="The figure bed is a commonly used picture storage warehouse.">
-    <meta name="author" content="MarkGuan">
-    <title>404 - Figure</title>
-    <style>
-        body {
-            overflow: hidden;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <meta name="description" content="XQCDN 静态资源库 · 页面不存在">
+  <meta name="author" content="gitguanqi">
+  <title>404 · 页面不存在 - XQCDN</title>
+  <style>
+    :root {
+      --bg: #f7f8fa;
+      --card: #ffffff;
+      --fg: #212529;
+      --muted: #6c757d;
+      --line: #e9ecef;
+      --brand: #0d6efd;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background-color: var(--bg);
+      background-image: radial-gradient(circle at 1px 1px, #e2e5ea 1px, transparent 0);
+      background-size: 16px 16px;
+      color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
+        'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    .box {
+      width: 100%;
+      max-width: 560px;
+      padding: 32px 28px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      box-shadow: 0 6px 24px rgba(15, 23, 42, 0.06);
+      text-align: center;
+    }
+
+    .code {
+      font-size: 56px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: var(--brand);
+      line-height: 1.1;
+    }
+
+    h1 {
+      margin: 8px 0 4px;
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 0 0 20px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    code {
+      padding: 2px 6px;
+      background: #f1f3f5;
+      border-radius: 4px;
+      font-size: 13px;
+      word-break: break-all;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    a.btn {
+      display: inline-block;
+      padding: 8px 16px;
+      border-radius: 6px;
+      border: 1px solid var(--line);
+      color: var(--fg);
+      text-decoration: none;
+      font-size: 14px;
+      transition: background-color .15s ease, border-color .15s ease;
+    }
+
+    a.btn:hover {
+      background: #f1f3f5;
+      border-color: #ced4da;
+    }
+
+    a.btn.primary {
+      background: var(--brand);
+      border-color: var(--brand);
+      color: #fff;
+    }
+
+    a.btn.primary:hover {
+      background: #0b5ed7;
+      border-color: #0b5ed7;
+    }
+
+    .footer {
+      margin-top: 24px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .footer a {
+      color: var(--muted);
+    }
+  </style>
 </head>
+
 <body>
-    <script type="text/javascript" src="//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js" charset="utf-8" homePageUrl="/" homePageName="回到我的主页"></script>
+  <main class="box">
+    <div class="code">404</div>
+    <h1>这个页面不存在</h1>
+    <p>请求的地址 <code id="path">/</code> 找不到，可能是路径写错了，或者该资源还没收录。</p>
+
+    <div class="actions">
+      <a class="btn primary" id="home" href="/">返回首页</a>
+      <a class="btn" id="libs" href="/libs/">浏览资源库</a>
+      <a class="btn" href="javascript:history.length > 1 && history.back()">返回上一页</a>
+    </div>
+
+    <div class="footer">
+      <a href="https://github.com/gitguanqi/xqcdn" target="_blank" rel="noopener noreferrer">XQCDN</a>
+      · 静态资源库
+    </div>
+  </main>
+
+  <script>
+    (function () {
+      'use strict';
+
+      /* Resolve the mount point of the site:
+         - GitHub project pages live under "/<repo>/"
+         - nginx may mount the same tree at "/" or at "/xqcdn/"
+         The same file has to work in both cases without server config. */
+      function detectBase() {
+        var host = location.hostname || '';
+        var segs = location.pathname.split('/').filter(function (part) {
+          return part.length > 0;
+        });
+
+        if (/\.github\.io$/i.test(host) && segs.length >= 1) {
+          return '/' + segs[0] + '/';
+        }
+
+        var known = ['libs', 'img', 'soft', 'fancyindex', 'fonts'];
+        if (segs.length >= 2 && known.indexOf(segs[0]) === -1) {
+          return '/' + segs[0] + '/';
+        }
+
+        return '/';
+      }
+
+      try {
+        var base = detectBase();
+        var path = document.getElementById('path');
+        var home = document.getElementById('home');
+        var libs = document.getElementById('libs');
+
+        if (path) {
+          path.textContent = location.pathname + location.search;
+        }
+        if (home) {
+          home.setAttribute('href', base);
+        }
+        if (libs) {
+          libs.setAttribute('href', base + 'libs/');
+        }
+      } catch (e) {
+        /* static fallbacks in the markup are already usable */
+      }
+    }());
+  </script>
 </body>
+
 </html>

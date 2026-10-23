@@ -1,0 +1,93 @@
+{
+  "library": "font-awesome",
+  "source": "npm",
+  "versions": {
+    "5.15.3": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.15.3.tgz",
+      "integrity": "sha512-rFnSUN/QOtnOAgqFRooTA3H57JLDm0QEG/jPdk+tLQNL/eWd+Aok8g3qCI+Q1xuDPWpGW/i9JySpJVsq8Q0s9w==",
+      "license": "(CC-BY-4.0 AND OFL-1.1 AND MIT)",
+      "fetchedAt": "2026-10-23T07:14:26.920Z",
+      "files": {
+        "css/all.css": {
+          "sha256": "7a80009576dbdb9481486adde15ee7b359721fd99ebb5a4f0db37b2e8041e82b",
+          "size": 78005
+        },
+        "css/all.min.css": {
+          "sha256": "c907ed5d23b0dcbe00dab3829820c06de894c958498bfa469ccd9cceb7c7ecbe",
+          "size": 59120
+        },
+        "fonts/fa-brands-400.eot": {
+          "sha256": "9e53d4be4726a15bf1fe7cbab40673a21c20d2e14e8c1e19090dacc648cf8f7a",
+          "size": 136041
+        },
+        "fonts/fa-brands-400.ttf": {
+          "sha256": "aaf632c2602d0c47d7639dd7cb76d2e37f3c11459ada6bf08905f8b0f9fa20da",
+          "size": 135735
+        },
+        "fonts/fa-brands-400.woff": {
+          "sha256": "abfd0b15906111014f5da3c58c321b4d596a05c8fd4b13ac833209e55df952d0",
+          "size": 90059
+        },
+        "fonts/fa-brands-400.woff2": {
+          "sha256": "ed090ffed900e4a46e91bc44756e7594e404cef3979fb798e9bdd89c068193c8",
+          "size": 77048
+        },
+        "fonts/fa-regular-400.eot": {
+          "sha256": "f40d67549183631fcc033291d445cd4f8c6579dc48b537db96d45fc702f559e2",
+          "size": 34393
+        },
+        "fonts/fa-regular-400.ttf": {
+          "sha256": "d10c1ed657beacd7fd178fc1b46335010233c444c35a4e540400c54e1f534774",
+          "size": 34095
+        },
+        "fonts/fa-regular-400.woff": {
+          "sha256": "14c9db4ff87fde08f67b0a69dd594bab6d87174812a0dbd34c59833bfed8cc0e",
+          "size": 16332
+        },
+        "fonts/fa-regular-400.woff2": {
+          "sha256": "b51dec5e2137e576898e4b99992a49cdd2eac5bae2c2174b1bf6abab13565f70",
+          "size": 13275
+        },
+        "fonts/fa-solid-900.eot": {
+          "sha256": "5729a1adb96aa943232aa321add4c9810d5e33115dcf2459e8529e36cd477e1f",
+          "size": 205860
+        },
+        "fonts/fa-solid-900.ttf": {
+          "sha256": "8a3f72cd9ad9855b920b6ac24e157411b2573ba6ea5b45cd3585b900031e34c0",
+          "size": 205573
+        },
+        "fonts/fa-solid-900.woff": {
+          "sha256": "6d75371e0ff4684fa3384d0ba1c3f7bf7a2e4f30a4e92f5caf98f9adee852d36",
+          "size": 101650
+        },
+        "fonts/fa-solid-900.woff2": {
+          "sha256": "d0b4256abed72481585662971262eabee345c19f837af00d7ce24239d3b40eef",
+          "size": 78459
+        },
+        "LICENSE": {
+          "sha256": "e779748dfe75e84f974df3c7bc07f842011a100159158b0f1f49b2f2a5a515cb",
+          "size": 1548
+        }
+      }
+    }
+  },
+  "pkg": "@fortawesome/fontawesome-free",
+  "legacyRootPaths": [
+    "css/all.css",
+    "css/all.min.css",
+    "fonts/fa-brands-400.eot",
+    "fonts/fa-brands-400.ttf",
+    "fonts/fa-brands-400.woff",
+    "fonts/fa-brands-400.woff2",
+    "fonts/fa-regular-400.eot",
+    "fonts/fa-regular-400.ttf",
+    "fonts/fa-regular-400.woff",
+    "fonts/fa-regular-400.woff2",
+    "fonts/fa-solid-900.eot",
+    "fonts/fa-solid-900.ttf",
+    "fonts/fa-solid-900.woff",
+    "fonts/fa-solid-900.woff2"
+  ]
+}

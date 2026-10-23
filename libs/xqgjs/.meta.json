@@ -1,0 +1,271 @@
+{
+  "library": "xqgjs",
+  "source": "npm",
+  "versions": {
+    "1.0.3": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqgjs/-/xqgjs-1.0.3.tgz",
+      "integrity": "sha512-B8B2Sr/3GIrxAq2aaW7KHy3g3C+Uqozd99cYkIE0SUx2TsgZUTBB6DP5knSMklod7PODbWK4Gn1C//j3Z5cLeg==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:38.995Z",
+      "files": {
+        "js/xqgjs-esm.js": {
+          "sha256": "9e20df35915787850b6aa5a92c22d2a7d490ce1cd6367f7f631c053638b7dfd9",
+          "size": 28465
+        },
+        "js/xqgjs-esm.min.js": {
+          "sha256": "510e50fb71fbbe4cd16eb0f00abff23e2538ec6d4af12258064579c683565d30",
+          "size": 14605
+        },
+        "js/xqgjs.js": {
+          "sha256": "df3c4b72fdffb0f09f644d31b916ca8f32e9f80725d6193cecd85e73c9105494",
+          "size": 28697
+        },
+        "js/xqgjs.min.js": {
+          "sha256": "c3c329771bbca0e111bf37db5f33c0bfd06883f444a0e8e693f42a37276f620f",
+          "size": 14514
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    },
+    "1.0.4": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqgjs/-/xqgjs-1.0.4.tgz",
+      "integrity": "sha512-cAsLTAUSrOnbHobZccTiGdKNucT96tfPdiJ52N31BrCNisbS4CKTZuU259YZtpgSMn11FiybYtMWNjfXYGau+Q==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:39.374Z",
+      "files": {
+        "loading/css/loading.css": {
+          "sha256": "2992cb84bd33c05b943716cab0a664c75bf669b614345a256d083fc94fd67581",
+          "size": 984
+        },
+        "loading/css/loading.min.css": {
+          "sha256": "6b15fd972a2718ff73b03b70f293e49d39a418c4653b5a173cc431a366ac1ef6",
+          "size": 668
+        },
+        "loading/js/loading.js": {
+          "sha256": "336a7ceb4e212fb5e2b9760fb22e116e15c1bd228eb4f21d9463ae0205a509e1",
+          "size": 832
+        },
+        "loading/js/loading.min.js": {
+          "sha256": "10baaeaae06b835efb1659c2c6bd23f60e3260c0010795da5acfead339428a0d",
+          "size": 469
+        },
+        "mourn/mourn.js": {
+          "sha256": "0a3c08f41ee4c7abbfd9faaf6b835efa25e97b63b502a950f12ebc686d0f891f",
+          "size": 752
+        },
+        "mourn/mourn.min.js": {
+          "sha256": "aea6c7a00063a30adb588852a4b02cbbb7be3d001d3f39e91b085a3c23b9f82c",
+          "size": 323
+        },
+        "xqgjs-esm.js": {
+          "sha256": "8951a7eb8cfaf78fa91a4b7bed7aafbce6143a6031f18c3ef1303daefe68fa20",
+          "size": 28937
+        },
+        "xqgjs-esm.min.js": {
+          "sha256": "095732a8d6b18b02416fbb31075d440b5ebfc7db138a3fc873c8daf6e61744a0",
+          "size": 14865
+        },
+        "xqgjs.js": {
+          "sha256": "0f5a3f7b963920e50c9b90296f50eb14d04b579e01af5a6baa9a74c87c3d111d",
+          "size": 29172
+        },
+        "xqgjs.min.js": {
+          "sha256": "873f37d3fb0ca493711c0a77066581af2b564443c2fa964357ff8fff5be54774",
+          "size": 14752
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    },
+    "1.0.5": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqgjs/-/xqgjs-1.0.5.tgz",
+      "integrity": "sha512-1UjwXntRdpfJKkwI2usoHmG48kJ7Yliz2W7rGUU4mZPJdzhltATfKB6BdioYQ0zFbyYoH6cefD8TRO4e9n6jag==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:39.766Z",
+      "files": {
+        "loading/css/loading.css": {
+          "sha256": "2992cb84bd33c05b943716cab0a664c75bf669b614345a256d083fc94fd67581",
+          "size": 984
+        },
+        "loading/css/loading.min.css": {
+          "sha256": "6b15fd972a2718ff73b03b70f293e49d39a418c4653b5a173cc431a366ac1ef6",
+          "size": 668
+        },
+        "loading/js/loading.js": {
+          "sha256": "336a7ceb4e212fb5e2b9760fb22e116e15c1bd228eb4f21d9463ae0205a509e1",
+          "size": 832
+        },
+        "loading/js/loading.min.js": {
+          "sha256": "10baaeaae06b835efb1659c2c6bd23f60e3260c0010795da5acfead339428a0d",
+          "size": 469
+        },
+        "mourn/mourn.js": {
+          "sha256": "0a3c08f41ee4c7abbfd9faaf6b835efa25e97b63b502a950f12ebc686d0f891f",
+          "size": 752
+        },
+        "mourn/mourn.min.js": {
+          "sha256": "aea6c7a00063a30adb588852a4b02cbbb7be3d001d3f39e91b085a3c23b9f82c",
+          "size": 323
+        },
+        "xqgjs-esm.js": {
+          "sha256": "3d644bdc4383a10f3cdffb1acacfdfb9ff7a192ca0e80c069b7381b8219e84e2",
+          "size": 32589
+        },
+        "xqgjs-esm.min.js": {
+          "sha256": "44c47c5493044b99bf5f1e88e031baea70423e2eb822d84781ca15f34c4bdb45",
+          "size": 16649
+        },
+        "xqgjs.js": {
+          "sha256": "6d28cdce445932492f1f044901061502961a176c101e9c5bf1f4f776808a7bef",
+          "size": 32917
+        },
+        "xqgjs.min.js": {
+          "sha256": "e0261688f9153b445673dcc93d1b7c63bc25ca8b4e232d07f54e6ee9cf584c7c",
+          "size": 16510
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    },
+    "1.1.1": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqgjs/-/xqgjs-1.1.1.tgz",
+      "integrity": "sha512-5XlSKu9Y9E3wEEjZUC7SUzPgqbDmkz1kuEMQ+t+Gj4yTrEF/LWEK0IZ/pbCQhVIakflQXyKDrrxRcAt4EqCEfw==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:40.130Z",
+      "files": {
+        "loading/css/loading.css": {
+          "sha256": "2992cb84bd33c05b943716cab0a664c75bf669b614345a256d083fc94fd67581",
+          "size": 984
+        },
+        "loading/css/loading.min.css": {
+          "sha256": "6b15fd972a2718ff73b03b70f293e49d39a418c4653b5a173cc431a366ac1ef6",
+          "size": 668
+        },
+        "loading/js/loading.js": {
+          "sha256": "737b6dd2b3b943d0e42d9e32fd412760eb20abb9219d89167f73418eaee0176e",
+          "size": 858
+        },
+        "loading/js/loading.min.js": {
+          "sha256": "1f19da5be5c0b96ecb68fbd510b820f783a5c2e20a910cc468095528319d0cc4",
+          "size": 501
+        },
+        "mourn/mourn.js": {
+          "sha256": "0c0559599581984d7c0b45c501b5e68127e225258d2d71247f6111d9bdc7ab19",
+          "size": 1964
+        },
+        "mourn/mourn.min.js": {
+          "sha256": "b73f19725af8cfda3f92f8eb2a54d2f02a8692e8e60915d5bfa6fc36a8c1724c",
+          "size": 1175
+        },
+        "xqgjs-esm.js": {
+          "sha256": "3d644bdc4383a10f3cdffb1acacfdfb9ff7a192ca0e80c069b7381b8219e84e2",
+          "size": 32589
+        },
+        "xqgjs-esm.min.js": {
+          "sha256": "44c47c5493044b99bf5f1e88e031baea70423e2eb822d84781ca15f34c4bdb45",
+          "size": 16649
+        },
+        "xqgjs.js": {
+          "sha256": "6d28cdce445932492f1f044901061502961a176c101e9c5bf1f4f776808a7bef",
+          "size": 32917
+        },
+        "xqgjs.min.js": {
+          "sha256": "e0261688f9153b445673dcc93d1b7c63bc25ca8b4e232d07f54e6ee9cf584c7c",
+          "size": 16510
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    },
+    "2.1.0": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/xqgjs/-/xqgjs-2.1.0.tgz",
+      "integrity": "sha512-7alj0mwp6hQkXiywwJh5Gp3LVupd70NFqlLGkh9tKGkmRlWRr9PzBcMOvcLhPTOqPFkzgQXPeCzHlIU3SKCL9Q==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T08:30:35.006Z",
+      "files": {
+        "loading/css/loading.css": {
+          "sha256": "75802e099f8033773345bf1674361fb4ddd23a7a2602a3eb8655566ea14e664f",
+          "size": 1293
+        },
+        "loading/css/loading.min.css": {
+          "sha256": "b9391c1d79def04fd11d7b19ed4fbe6b63c13b766f7320570bfc8fb18f20b034",
+          "size": 1062
+        },
+        "loading/js/loading.js": {
+          "sha256": "e881996123c0a34acf4b3241bc90944c3d9767d8e80c9990a890e46feee359e8",
+          "size": 4535
+        },
+        "loading/js/loading.min.js": {
+          "sha256": "477a150ce6af021b8a90bfd04691601381e0ef2e39dca6142dcf4f642094d5a1",
+          "size": 2133
+        },
+        "mourn/mourn.js": {
+          "sha256": "8ebe3294a78ad0a57bdf81a0ba0d50c378f53490397a38e0d40bb596b3e0bd98",
+          "size": 4288
+        },
+        "mourn/mourn.min.js": {
+          "sha256": "acc284c10b76eee5a7ffbc4c359de1d456aad8502206dbefdb5124db910b960d",
+          "size": 2080
+        },
+        "xqgjs-esm.js": {
+          "sha256": "c6028a6b0c2af5cf137e605d9b39c6e5b229087250a9baabf51aaf8bcc0bf79c",
+          "size": 42277
+        },
+        "xqgjs-esm.min.js": {
+          "sha256": "e8b807c4b75576c0c5ed48b2b9ece9b5ee3c18e8c54e4ecb19b7d31bcd7e7cdf",
+          "size": 23804
+        },
+        "xqgjs.js": {
+          "sha256": "8eb68a4ffa6aa21e93346d8ad2b55fb554114c29ea7cbd9288188fef7fbefd4a",
+          "size": 45630
+        },
+        "xqgjs.min.js": {
+          "sha256": "256fd3e12e0e2d91fdbc3b683304305fc2cdc1979a36f3e31df2f06df72a05ce",
+          "size": 24105
+        },
+        "LICENSE": {
+          "sha256": "0acdf5407fa7f32c3cc0091d17af2c780f21d2dc39d8abebd2f48e736bb155ba",
+          "size": 1087
+        }
+      }
+    }
+  },
+  "legacyRootFiles": [
+    "xqgjs-esm.js",
+    "xqgjs-esm.min.js",
+    "xqgjs.js",
+    "xqgjs.min.js"
+  ],
+  "legacyRootPaths": [
+    "loading/css/loading.css",
+    "loading/css/loading.min.css",
+    "loading/js/loading.js",
+    "loading/js/loading.min.js",
+    "mourn/mourn.js",
+    "mourn/mourn.min.js",
+    "xqgjs-esm.js",
+    "xqgjs-esm.min.js",
+    "xqgjs.js",
+    "xqgjs.min.js"
+  ],
+  "pkg": "xqgjs"
+}

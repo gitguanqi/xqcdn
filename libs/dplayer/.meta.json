@@ -1,0 +1,28 @@
+{
+  "library": "dplayer",
+  "source": "npm",
+  "versions": {
+    "1.26.0": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/dplayer/-/dplayer-1.26.0.tgz",
+      "integrity": "sha512-uOE0w/WdlX7N9d0ppIEcAYrcnUjY52TMX+MBL4lj9Mj+JMljVuaEc5w88HkZp5Q11VqvN/jxnM8ktx2Dr7/MgA==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:22.030Z",
+      "files": {
+        "js/DPlayer.min.js": {
+          "sha256": "97eeaaadbbb71c67ee958b2d8103fe655c06645a50e43635ddab04c5a20cf309",
+          "size": 160765
+        },
+        "LICENSE": {
+          "sha256": "6296c34fc24aedd4a120213620015a4feb0b16a571f3b3f640ac200e90bfdfae",
+          "size": 1121
+        }
+      }
+    }
+  },
+  "pkg": "dplayer",
+  "legacyRootPaths": [
+    "js/DPlayer.min.js"
+  ]
+}

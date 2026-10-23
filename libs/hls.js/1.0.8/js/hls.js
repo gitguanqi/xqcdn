@@ -17281,7 +17281,7 @@ var Hls = /*#__PURE__*/function () {
   }], [{
     key: "version",
     get: function get() {
-      return "1.0.8-0.canary.7807";
+      return "1.0.8";
     }
   }, {
     key: "Events",

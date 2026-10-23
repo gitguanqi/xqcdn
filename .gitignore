@@ -1,16 +1,27 @@
-.DS_Store
-node_modules
+# 构建产物（GitHub Pages / 本地预览）
+dist/
+dist-test/
+dist-ssr/
+
+# 依赖与本地缓存
+node_modules/
 package-lock.json
 *.local
 *-lock.yaml
-dist-ssr
-dist
+.cache/
 
-# Editor directories and files
-.idea
-.vscode
+# 编辑器目录与文件
+.idea/
+.vscode/
+.workbuddy/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.svn
+*.swp
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.log

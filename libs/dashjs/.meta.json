@@ -1,0 +1,28 @@
+{
+  "library": "dashjs",
+  "source": "npm",
+  "versions": {
+    "3.2.2": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/dashjs/-/dashjs-3.2.2.tgz",
+      "integrity": "sha512-G0BY92l896nhxCNccY1QWlmsBDWfO+K9t4xkcJ/yWeTaGRx9/9XYnwJahvpvAUXU7qIn3VJt7DlbhLtAzTNkzw==",
+      "license": "BSD-3-Clause",
+      "fetchedAt": "2026-10-23T07:14:21.710Z",
+      "files": {
+        "js/dash.all.min.js": {
+          "sha256": "928f12df0418674d428a647e544cd46c29cea982de2b4e8408c03a0394c8f7b0",
+          "size": 650745
+        },
+        "LICENSE": {
+          "sha256": "f7cc4ba24850cc564766c75923d07c3d22fa27f304285f4d25ecffeaec964e28",
+          "size": 1785
+        }
+      }
+    }
+  },
+  "pkg": "dashjs",
+  "legacyRootPaths": [
+    "js/dash.all.min.js"
+  ]
+}

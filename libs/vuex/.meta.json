@@ -1,0 +1,37 @@
+{
+  "library": "vuex",
+  "source": "npm",
+  "versions": {
+    "3.0.1": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/vuex/-/vuex-3.0.1.tgz",
+      "integrity": "sha512-wLoqz0B7DSZtgbWL1ShIBBCjv22GV5U+vcBFox658g6V0s4wZV9P4YjCNyoHSyIBpj1f29JBoNQIqD82cR4O3w==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:36.692Z",
+      "files": {
+        "vuex.js": {
+          "sha256": "9770ab10ca4b365d1abe75b8c8b222092947d077453ed39de68ccc224fb4e79d",
+          "size": 26566
+        },
+        "vuex.min.js": {
+          "sha256": "d5094dd1c902e23973f750d98b13d9c53bfdbd8a5c0664bbb0aec703cc459850",
+          "size": 9584
+        },
+        "LICENSE": {
+          "sha256": "5e0e91974459a5defe390661b893209baa7b623a3baeeea60601f522f1c5d0de",
+          "size": 1080
+        }
+      }
+    }
+  },
+  "pkg": "vuex",
+  "legacyRootFiles": [
+    "vuex.js",
+    "vuex.min.js"
+  ],
+  "legacyRootPaths": [
+    "vuex.js",
+    "vuex.min.js"
+  ]
+}

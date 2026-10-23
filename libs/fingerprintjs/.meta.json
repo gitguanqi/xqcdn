@@ -1,0 +1,37 @@
+{
+  "library": "fingerprintjs",
+  "source": "npm",
+  "versions": {
+    "3.3.0": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/@fingerprintjs/fingerprintjs/-/fingerprintjs-3.3.0.tgz",
+      "integrity": "sha512-2kw2yVrfMKd0YvmYAdNxhGytNhhLvChqNAbBZWMglYVw2J95Jm50ketK5yS1C8SJmqG2nFJgeuWvYXeZEh+b8g==",
+      "license": "MIT",
+      "fetchedAt": "2026-10-23T07:14:24.980Z",
+      "files": {
+        "fp.js": {
+          "sha256": "8ed1791916f74ce60fb454ace629d86f942d0f3b8b0700a065ede2b347ce6418",
+          "size": 117277
+        },
+        "fp.min.js": {
+          "sha256": "561df1b2a900c7564a7c7ce397c38d145d1fd19e9dace210902125bd5b5a8df4",
+          "size": 31715
+        },
+        "LICENSE": {
+          "sha256": "afe7e83416dc332715cbfbee6de9a27bdd6cec30c1ec0796b22f34ce6eb2d206",
+          "size": 1062
+        }
+      }
+    }
+  },
+  "pkg": "@fingerprintjs/fingerprintjs",
+  "legacyRootFiles": [
+    "fp.js",
+    "fp.min.js"
+  ],
+  "legacyRootPaths": [
+    "fp.js",
+    "fp.min.js"
+  ]
+}

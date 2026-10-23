@@ -1,0 +1,106 @@
+{
+  "library": "opensans",
+  "source": "manual",
+  "versions": {
+    "0.0.1": {
+      "origin": "adopted",
+      "files": {
+        "css/opensans.css": {
+          "sha256": "2c7809a0784f0320b404a5aa8bc947a503ccb8401997d998bbced85029ecc6a0",
+          "size": 529
+        },
+        "css/opensans.min.css": {
+          "sha256": "530ec6231aa135a4eb022b1dab99687849a2ea2b40260964beefae7b4e4a3db4",
+          "size": 357
+        },
+        "fonts/OpenSans-Bold.eot": {
+          "sha256": "0134717d316192add249c89b07d75b686b4e178d6e71865449e78368aa95b7ce",
+          "size": 121982
+        },
+        "fonts/OpenSans-Bold.otf": {
+          "sha256": "c048ca6e938b9022242d48c4175bbd4ad93c4360300cf1f3c64392005796c0ee",
+          "size": 151816
+        },
+        "fonts/OpenSans-Bold.svg": {
+          "sha256": "1ef30335dd99fd44d1abc432d2e38da35b50c46810ca2513f3f22e69806abf2a",
+          "size": 1187817
+        },
+        "fonts/OpenSans-Bold.ttf": {
+          "sha256": "a7aa8f4e9cd054f1f18fadb5d8f9f328afa0587d18413c2aa44329841864eb4e",
+          "size": 224592
+        },
+        "fonts/OpenSans-Bold.woff": {
+          "sha256": "4df9abfca64300f114221142c7e4c57c011c5d063a32eb1e5ea1ee26a960fbe4",
+          "size": 70192
+        },
+        "fonts/OpenSans-Bold.woff2": {
+          "sha256": "b05caa17b97b36531cc96256483976ab89399a4a4be630556df3b66c1ce3246f",
+          "size": 52044
+        },
+        "fonts/OpenSans-BoldItalic.ttf": {
+          "sha256": "c349b59a310ab438c3a74116d7ca4ab6be7b69a0712102dd0b80891cf28afa82",
+          "size": 213292
+        },
+        "fonts/OpenSans-ExtraBold.ttf": {
+          "sha256": "febc98bf54e1ad7878f754232b8ec2c960828b136dcd0d0975c0ef84e6d6442a",
+          "size": 222584
+        },
+        "fonts/OpenSans-ExtraBoldItalic.ttf": {
+          "sha256": "fbd655d7749be3449cee609e40a143e638b72fe27b965b9a8d17ef1b93c7118b",
+          "size": 213420
+        },
+        "fonts/OpenSans-Italic.ttf": {
+          "sha256": "81443b69cc910f9f12b1cedd14e4eeff9409d10b94170e0cccb4ff10bbb9b6c6",
+          "size": 212896
+        },
+        "fonts/OpenSans-Light.ttf": {
+          "sha256": "92b57009e4a8d8a14fe8a5be687bafb57de1044ce1ddf13acd4eede2db80e5fe",
+          "size": 222412
+        },
+        "fonts/OpenSans-LightItalic.ttf": {
+          "sha256": "80784e8e57ffea6e25c2f0a8032e90ea61b79703de5745735811bacb8cd92ea0",
+          "size": 213128
+        },
+        "fonts/OpenSans-Regular.ttf": {
+          "sha256": "70c64c6d35163921e7471548ec1c6ffb53255db994937030c53f182f48dd74f2",
+          "size": 217360
+        },
+        "fonts/OpenSans-Semibold.ttf": {
+          "sha256": "78acf22fad58272d5d328db3d67986f0610d9efa439e5ccc5832e34191b0ee78",
+          "size": 221328
+        },
+        "fonts/OpenSans-SemiboldItalic.ttf": {
+          "sha256": "3a979971af79a57024b024f2f48f2749599cd7e347b9d7068d29370b412b2fc1",
+          "size": 212820
+        },
+        "LICENSE": {
+          "sha256": "71d2f828b5c55dec4df84b2282d2c2560b167787bdbfa02447c32ebb6b7561a5",
+          "size": 11358
+        },
+        "NOTICE": {
+          "sha256": "227a666228cf45a301cce132b766dd385c5a0d0a1604baab24e54885daf62da2",
+          "size": 899
+        }
+      }
+    }
+  },
+  "legacyRootPaths": [
+    "css/opensans.css",
+    "css/opensans.min.css",
+    "fonts/OpenSans-Bold.eot",
+    "fonts/OpenSans-Bold.otf",
+    "fonts/OpenSans-Bold.svg",
+    "fonts/OpenSans-Bold.ttf",
+    "fonts/OpenSans-Bold.woff",
+    "fonts/OpenSans-Bold.woff2",
+    "fonts/OpenSans-BoldItalic.ttf",
+    "fonts/OpenSans-ExtraBold.ttf",
+    "fonts/OpenSans-ExtraBoldItalic.ttf",
+    "fonts/OpenSans-Italic.ttf",
+    "fonts/OpenSans-Light.ttf",
+    "fonts/OpenSans-LightItalic.ttf",
+    "fonts/OpenSans-Regular.ttf",
+    "fonts/OpenSans-Semibold.ttf",
+    "fonts/OpenSans-SemiboldItalic.ttf"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "library": "echarts",
+  "source": "npm",
+  "versions": {
+    "5.1.2": {
+      "origin": "npm",
+      "registry": "https://registry.npmjs.org",
+      "tarball": "https://registry.npmjs.org/echarts/-/echarts-5.1.2.tgz",
+      "integrity": "sha512-okUhO4sw22vwZp+rTPNjd/bvTdpug4K4sHNHyrV8NdAncIX9/AarlolFqtJCAYKGFYhUBNjIWu1EznFrSWTFxg==",
+      "license": "Apache-2.0",
+      "fetchedAt": "2026-10-23T07:14:24.528Z",
+      "files": {
+        "echarts.js": {
+          "sha256": "8db53f88910bf94f8a41abaa8882d7e349722710bf3630efef255932ccdff314",
+          "size": 3295463
+        },
+        "echarts.min.js": {
+          "sha256": "4c8d2b21ac68a7ea4394735523a903085be6a71358527547fd232392767f5b46",
+          "size": 987734
+        },
+        "LICENSE": {
+          "sha256": "634293835b43a6dd2094fa39182a3d9a6b9ca43b7fdb9ac354e8037af2a3093a",
+          "size": 11990
+        }
+      }
+    }
+  },
+  "pkg": "echarts",
+  "legacyRootFiles": [
+    "echarts.js",
+    "echarts.min.js"
+  ],
+  "legacyRootPaths": [
+    "echarts.js",
+    "echarts.min.js"
+  ]
+}
