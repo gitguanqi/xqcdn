@@ -11,8 +11,10 @@
  *
  * The generated pages reuse fancyindex/header.html and footer.html, so the
  * chrome (nav, search box, breadcrumbs, footer) stays identical to the nginx
- * deployment. main.js is shared as well: it derives the mount prefix from
- * #nginx-fancyindex-directory, which is filled in at build time.
+ * deployment. The custom theme is fragment-based: header/footer are bare
+ * chrome around nginx's native table, and fancy-index.js enhances it on the
+ * client. #nginx-fancyindex-directory is still filled in at build time for
+ * environments where the progressive enhancement does not run.
  *
  * Usage:
  *   node scripts/build.mjs                       # -> dist/, base "/"
@@ -168,18 +170,33 @@ function readThemeChrome(base) {
     const headerRaw = fs.readFileSync(headerFile, 'utf8');
     const footerRaw = fs.readFileSync(footerFile, 'utf8');
 
-    const headerEnd = headerRaw.indexOf('<!--# endblock -->');
-    const footerStart = footerRaw.indexOf('<!--# block name="default_footer" -->');
-    const footerEnd = footerRaw.indexOf('<!--# endblock -->');
+    /* The custom theme ships header/footer as bare chrome fragments (no
+       <!DOCTYPE> and no SSI markers), progressively enhancing nginx's native
+       table. The legacy theme used a full HTML document with SSI block markers.
+       Detect which one we have and normalise both to a reusable { head, foot }. */
+    const isFragment =
+        !headerRaw.includes('<!--# endblock -->') ||
+        !footerRaw.includes('<!--# block name="default_footer" -->');
 
-    if (headerEnd === -1 || footerStart === -1 || footerEnd === -1) {
-        throw new Error('fancyindex/header.html or footer.html lost its SSI markers; cannot build pages');
+    let head;
+    let foot;
+
+    if (isFragment) {
+        head = headerRaw;
+        foot = footerRaw;
+    } else {
+        const headerEnd = headerRaw.indexOf('<!--# endblock -->');
+        const footerStart = footerRaw.indexOf('<!--# block name="default_footer" -->');
+        const footerEnd = footerRaw.indexOf('<!--# endblock -->');
+
+        if (headerEnd === -1 || footerStart === -1 || footerEnd === -1) {
+            throw new Error('fancyindex/header.html or footer.html lost its SSI markers; cannot build pages');
+        }
+
+        head = headerRaw.slice(0, headerEnd);
+        head = head.replace('<!--# block name="default_index" -->', '').replace(/^\s*\n/, '');
+        foot = footerRaw.slice(footerStart + '<!--# block name="default_footer" -->'.length, footerEnd);
     }
-
-    let head = headerRaw.slice(0, headerEnd);
-    head = head.replace('<!--# block name="default_index" -->', '').replace(/^\s*\n/, '');
-
-    let foot = footerRaw.slice(footerStart + '<!--# block name="default_footer" -->'.length, footerEnd);
 
     /* Root-absolute asset URLs ("/fancyindex/...") must be re-rooted when the
        site is published under a sub path such as /xqcdn/. Anything new that is
@@ -205,7 +222,20 @@ function readThemeChrome(base) {
 
     foot = foot.replace(/src="\/fancyindex\//g, `src="${base}fancyindex/`);
 
-    return { head: head.replace(/\s+$/, ''), foot: foot.replace(/^\s*\n/, '') };
+    return { head: head.replace(/\s+$/, ''), foot: foot.replace(/^\s*\n/, ''), fragment: isFragment };
+}
+
+/* Pulls head-level <link>/<script> tags out of the fragment header so they can
+   be placed inside <head> of the generated document; everything else is body
+   chrome. */
+function extractHeadAssets(html) {
+    const re = /(<link\b[^>]*>\s*|<script\b[^>]*>\s*<\/script>\s*)/g;
+    const tags = [];
+    let match;
+    while ((match = re.exec(html)) !== null) {
+        tags.push(match[0]);
+    }
+    return { html: tags.join(''), re };
 }
 
 function renderBreadcrumb(segments, base) {
@@ -409,6 +439,55 @@ function renderRows(pages, rows, opts) {
     return out.join('\n');
 }
 
+function renderListingBody(relPath, pages, rows, opts) {
+    return [
+        `    <h1 id="nginx-fancyindex-directory" class="d-none">${escapeHtml(relPath)}</h1>`,
+        '    <table id="list" class="table table-sm table-hover">',
+        '      <thead>',
+        '        <tr>',
+        '          <th scope="col">名称</th>',
+        '          <th scope="col">修改时间</th>',
+        '          <th scope="col" class="text-right">大小</th>',
+        '        </tr>',
+        '      </thead>',
+        '      <tbody>',
+        renderRows(pages, rows, opts),
+        '      </tbody>',
+        '    </table>'
+    ].join('\n');
+}
+
+function renderFragmentPage(chrome, relPath, pages, rows, opts, pageTitle) {
+    const { html: headAssets, re } = extractHeadAssets(chrome.head);
+    const bodyOpen = chrome.head.replace(re, '');
+    const bodyClose = chrome.foot;
+    const listing = renderListingBody(relPath, pages, rows, opts);
+
+    const assets = headAssets
+        .split('\n')
+        .map((line) => line.trim())
+        .filter(Boolean)
+        .map((line) => `  ${line}`)
+        .join('\n');
+
+    return [
+        '<!DOCTYPE html>',
+        '<html lang="zh-CN">',
+        '<head>',
+        '  <meta charset="utf-8">',
+        '  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">',
+        `  <title>${escapeHtml(pageTitle)}</title>`,
+        assets,
+        '</head>',
+        '<body>',
+        bodyOpen.replace(/^\s+|\s+$/g, ''),
+        listing,
+        bodyClose.replace(/^\s+|\s+$/g, ''),
+        '</body>',
+        '</html>'
+    ].join('\n');
+}
+
 function writePages(opts, chrome) {
     const dirs = [];
 
@@ -431,30 +510,20 @@ function writePages(opts, chrome) {
         const pageTitle = pages.length === 0 ? title : `${relPath} - ${title}`;
         const crumb = renderBreadcrumb(pages, opts.base);
 
-        const head = chrome.head
-            .replace(/<title>[\s\S]*?<\/title>/, `<title>${escapeHtml(pageTitle)}</title>`)
-            .replace(
-                /(<ol id="breadcrumbs" class="breadcrumb">)[\s\S]*?(<\/ol>)/,
-                `$1${crumb}$2`
-            );
+        let html;
+        if (chrome.fragment) {
+            html = renderFragmentPage(chrome, relPath, pages, rows, opts, pageTitle);
+        } else {
+            const head = chrome.head
+                .replace(/<title>[\s\S]*?<\/title>/, `<title>${escapeHtml(pageTitle)}</title>`)
+                .replace(
+                    /(<ol id="breadcrumbs" class="breadcrumb">)[\s\S]*?(<\/ol>)/,
+                    `$1${crumb}$2`
+                );
+            html = `${head}\n${renderListingBody(relPath, pages, rows, opts)}\n${chrome.foot}\n`;
+        }
 
-        const body = [
-            `    <h1 id="nginx-fancyindex-directory" class="d-none">${escapeHtml(relPath)}</h1>`,
-            '    <table id="list" class="table table-sm table-hover">',
-            '      <thead>',
-            '        <tr>',
-            '          <th scope="col">名称</th>',
-            '          <th scope="col">修改时间</th>',
-            '          <th scope="col" class="text-right">大小</th>',
-            '        </tr>',
-            '      </thead>',
-            '      <tbody>',
-            renderRows(pages, rows, opts),
-            '      </tbody>',
-            '    </table>'
-        ].join('\n');
-
-        if (writeIfChanged(path.join(dir, 'index.html'), `${head}\n${body}\n${chrome.foot}\n`)) {
+        if (writeIfChanged(path.join(dir, 'index.html'), html)) {
             written += 1;
         }
     }

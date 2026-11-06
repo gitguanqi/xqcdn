@@ -1,45 +1,172 @@
-<!--# block name="default_index" -->
-<!DOCTYPE html>
-<html lang="zh-CN">
+<link rel="stylesheet" href="/fancyindex/fancy-index.css?v=1.0.0" />
+<script src="/fancyindex/fancy-index-bootstrap.js?v=1.0.0"></script>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="XQCDN 静态资源库：前端常用 JS/CSS 库的版本化 CDN 路径。">
-  <meta name="author" content="gitguanqi">
-  <link rel="icon" href="/favicon.ico">
-  <title>XQCDN - 静态资源库</title>
-  <link rel="stylesheet" href="/fancyindex/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/fancyindex/css/main.css">
-</head>
+<div class="fi-app" data-fi-app>
+  <a class="fi-skip-link" href="#fi-content">跳到文件列表</a>
 
-<body>
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" id="nav-home" href="/">XQCDN</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
-        aria-controls="navbarContent" aria-expanded="false" aria-label="切换导航">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item"><a class="nav-link" href="https://github.com/gitguanqi/xqcdn/" target="_blank"
-              rel="noopener noreferrer">GitHub</a></li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0" role="search">
-          <div class="form-group">
-            <label class="sr-only" for="search">搜索静态库</label>
-            <input id="search" type="search" class="form-control mr-sm-2" placeholder="搜索静态库..." autocomplete="off"
-              aria-label="搜索静态库">
-          </div>
-          <span id="search-status" class="small text-muted" role="status" aria-live="polite"></span>
-        </form>
+  <header class="fi-hero">
+    <div class="fi-hero__top">
+      <div class="fi-brand">
+        <span class="fi-brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" width="48" height="48" role="img">
+            <path
+              d="M8 14.5A4.5 4.5 0 0 1 12.5 10h8.2l3.5 4h11.3a4.5 4.5 0 0 1 4.5 4.5v14A5.5 5.5 0 0 1 34.5 38h-21A5.5 5.5 0 0 1 8 32.5v-18Z"
+            />
+            <path
+              class="fi-brand__spark"
+              d="m30 21 1.5 4.5L36 27l-4.5 1.5L30 33l-1.5-4.5L24 27l4.5-1.5L30 21Z"
+            />
+          </svg>
+        </span>
+        <span class="fi-brand__copy">
+          <span class="fi-brand__eyebrow">FANCY INDEX</span>
+          <span class="fi-brand__title" data-fi-title>文件浏览</span>
+        </span>
       </div>
-    </nav>
-    <nav aria-label="面包屑" class="mt-5">
-      <ol id="breadcrumbs" class="breadcrumb">
-      </ol>
-    </nav>
-    <!--# endblock -->
-    <!--# include virtual="$request_uri/.directory_index.html" stub="default_index" -->
-    <h1 id="nginx-fancyindex-directory" class="d-none">
+
+      <button
+        class="fi-theme-toggle"
+        type="button"
+        data-fi-theme-toggle
+        aria-label="切换至深色主题"
+        title="切换主题"
+      >
+        <svg
+          class="fi-theme-toggle__icon fi-theme-toggle__icon--sun"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          aria-hidden="true"
+        >
+          <circle cx="12" cy="12" r="3.5" />
+          <path
+            d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"
+          />
+        </svg>
+        <svg
+          class="fi-theme-toggle__icon fi-theme-toggle__icon--moon"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          aria-hidden="true"
+        >
+          <path d="M20.2 15.2A8.5 8.5 0 0 1 8.8 3.8 8.5 8.5 0 1 0 20.2 15.2Z" />
+        </svg>
+      </button>
+    </div>
+
+    <nav class="fi-breadcrumb" aria-label="面包屑导航" data-fi-breadcrumb></nav>
+
+    <div class="fi-hero__summary">
+      <p class="fi-hero__path" data-fi-path>/</p>
+      <p class="fi-hero__meta">
+        <span class="fi-pulse" aria-hidden="true"></span>
+        <span data-fi-result-count>正在读取目录</span>
+      </p>
+    </div>
+  </header>
+
+  <section class="fi-panel" aria-label="目录内容">
+    <div class="fi-toolbar">
+      <label class="fi-search">
+        <span class="fi-sr-only">搜索文件名</span>
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+          <circle cx="11" cy="11" r="6.5" />
+          <path d="m16 16 4 4" />
+        </svg>
+        <input
+          type="search"
+          placeholder="搜索当前目录"
+          autocomplete="off"
+          spellcheck="false"
+          data-fi-search
+        />
+        <kbd class="fi-search__hint" aria-hidden="true">/</kbd>
+      </label>
+
+      <label class="fi-sort">
+        <span>排序</span>
+        <select data-fi-sort>
+          <option value="name-asc">名称 A → Z</option>
+          <option value="name-desc">名称 Z → A</option>
+          <option value="modified-desc">最近修改</option>
+          <option value="modified-asc">最早修改</option>
+          <option value="size-desc">文件最大</option>
+          <option value="size-asc">文件最小</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="fi-filter-row">
+      <div class="fi-filters" role="group" aria-label="按文件类型筛选">
+        <button
+          type="button"
+          class="fi-filter"
+          data-fi-category="all"
+          aria-pressed="true"
+        >
+          全部
+        </button>
+        <button
+          type="button"
+          class="fi-filter"
+          data-fi-category="folder"
+          aria-pressed="false"
+        >
+          文件夹
+        </button>
+        <button
+          type="button"
+          class="fi-filter"
+          data-fi-category="image"
+          aria-pressed="false"
+        >
+          图片
+        </button>
+        <button
+          type="button"
+          class="fi-filter"
+          data-fi-category="document"
+          aria-pressed="false"
+        >
+          文档
+        </button>
+        <button
+          type="button"
+          class="fi-filter"
+          data-fi-category="archive"
+          aria-pressed="false"
+        >
+          压缩包
+        </button>
+        <button
+          type="button"
+          class="fi-filter"
+          data-fi-category="media"
+          aria-pressed="false"
+        >
+          音视频
+        </button>
+        <button
+          type="button"
+          class="fi-filter"
+          data-fi-category="code"
+          aria-pressed="false"
+        >
+          代码
+        </button>
+        <button
+          type="button"
+          class="fi-filter"
+          data-fi-category="other"
+          aria-pressed="false"
+        >
+          其他
+        </button>
+      </div>
+      <p class="fi-live-status" role="status" aria-live="polite" data-fi-status>
+        正在增强目录视图…
+      </p>
+    </div>
+
+    <main id="fi-content" class="fi-content" tabindex="-1">

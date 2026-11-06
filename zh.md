@@ -5,7 +5,7 @@
 版本化的前端静态资源库。所有库按 `库名/版本/文件` 组织，可长期缓存；`libs/` 由脚本同步（npm 官方源为主，个别历史版本走上游 CDN 或手工维护），不再手工拷贝。
 
 - 在线地址：<https://xqgj.cc/xqcdn/libs>
-- 目录浏览：nginx + [fancyindex](https://github.com/llorephie/ngx-fancyindex-theme-bootstrap) 主题（`fancyindex/`）
+- 目录浏览：nginx + 自研 [fancyindex](fancyindex/) 主题（`fancyindex/`）
 - 静态镜像：GitHub Pages（`dist/` 构建产物，支持二级目录）
 
 ## 引用方式
@@ -58,7 +58,7 @@ libs/            版本化静态库（由 scripts/sync.mjs 生成，勿手改）
 libs.manifest.json   同步清单：哪个目录对应哪个 npm 包、哪个版本、取哪些文件
 scripts/         同步 / 生成 / 校验 / 构建脚本（零依赖，Node >= 18）
 deploy/          nginx 配置：fancyindex-app.conf、nginx.conf.example、latest/*.conf
-fancyindex/      nginx 目录列表主题（基于上游 MIT 主题，见 fancyindex/LICENSE）
+fancyindex/      自研 nginx 目录列表主题（原创，见 fancyindex/README.md）
 img/ fonts/      站点零散图片与字体
 soft/            自用工具与 nginx 模块压缩包（附 SHA256SUMS）
 404.html         自包含错误页（零外部依赖）
@@ -248,7 +248,7 @@ node scripts/build.mjs --base /           # 用户站点 https://<user>.github.i
 ## 许可
 
 - 本仓库脚本与自有内容：MIT（见 `LICENSE`）。
-- `fancyindex/` 主题来自 [llorephie/ngx-fancyindex-theme-bootstrap](https://github.com/llorephie/ngx-fancyindex-theme-bootstrap)，MIT，`Copyright (c) 2017 Maxim Martyanov`；原始许可全文见 `fancyindex/LICENSE`，修改说明见 `fancyindex/README.md`。
+- `fancyindex/` 主题为本仓库作者**原创编写**的自定义目录列表主题，不基于任何第三方 fancyindex 主题；随仓库根目录 `LICENSE`（MIT）分发，设计说明见 `fancyindex/README.md`。
 - `libs/` 下各组件的版权与许可归其作者所有，逐版本随包附带 `LICENSE`，汇总见 `THIRD-PARTY-NOTICES.md`。
 
 ## 反馈

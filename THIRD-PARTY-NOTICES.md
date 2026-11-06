@@ -94,8 +94,8 @@ npm 上没有对应版本，改从项目官方 CDN 按文件直取。首次拉�
 
 ## 主题
 
-`fancyindex/` 基于 [llorephie/ngx-fancyindex-theme-bootstrap](https://github.com/llorephie/ngx-fancyindex-theme-bootstrap)，
-MIT License, Copyright (c) 2017 Maxim Martyanov。原始许可全文见 `fancyindex/LICENSE`。
+`fancyindex/` 为本仓库作者**原创编写**的自定义目录列表主题，不基于任何第三方 fancyindex 主题。
+样式与脚本均为自写，无 Bootstrap / jQuery 依赖；随仓库根目录 `LICENSE`（MIT）分发。
 
 ## 其它
 

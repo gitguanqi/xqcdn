@@ -1,18 +1,33 @@
-<!--# block name="default_footer" -->
-  </div>
-  <footer class="footer">
-    <div class="container">
-      <p class="text-muted">&copy; <span id="year"></span> <a href="https://xqgj.cc/">XQCDN</a> · All Rights Reserved.</p>
-      <p class="text-muted">Theme based on <a href="https://github.com/llorephie/ngx-fancyindex-theme-bootstrap"
-          target="_blank" rel="noopener noreferrer">ngx-fancyindex-theme-bootstrap</a> by <a href="https://llorephie.me/"
-          target="_blank" rel="noopener noreferrer">Maxim Llorephie</a></p>
-    </div>
-  </footer>
-  <script src="/fancyindex/js/jquery-3.3.1.slim.min.js"></script>
-  <script src="/fancyindex/js/bootstrap.min.js"></script>
-  <script src="/fancyindex/js/main.js"></script>
-</body>
+    </main>
 
-</html>
-<!--# endblock -->
-<!--# include virtual="$request_uri/.directory_footer.html" stub="default_footer" -->
+    <div class="fi-empty" data-fi-empty hidden>
+      <span class="fi-empty__icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <circle cx="11" cy="11" r="6.5" />
+          <path d="m16 16 4 4M8.5 11h5" />
+        </svg>
+      </span>
+      <h2>没有找到匹配的文件</h2>
+      <p>试试更短的关键词，或切换到其他文件类型。</p>
+      <button type="button" class="fi-button" data-fi-clear>清除筛选条件</button>
+    </div>
+
+    <noscript>
+      <p class="fi-noscript">
+        搜索与筛选需要 JavaScript；目录文件仍可正常访问。
+      </p>
+    </noscript>
+  </section>
+
+  <footer class="fi-footer">
+    <span>Nginx Fancy Index</span>
+    <span class="fi-footer__dot" aria-hidden="true"></span>
+    <span>轻量 · 快速 · 自托管</span>
+  </footer>
+</div>
+
+<script
+  type="module"
+  src="/fancyindex/fancy-index.js?v=1.0.0"
+></script>
+
